@@ -26,4 +26,4 @@ for filename in listfiles('./rules'):
             if ' ' in report:
                 apkname = '\''+apkname+'\''
                 report = '\''+report+ '\''
-            os.system('yara -x androguard='+ '/'.join([sys.argv[1],report]) + ' ' + filename + ' ' +'/'.join([sys.argv[2],apkname])) 
+            os.system('yara --no-warnings -x androguard='+ '/'.join([sys.argv[1],report]) + ' ' + filename + ' ' +'/'.join([sys.argv[2],apkname])) 
