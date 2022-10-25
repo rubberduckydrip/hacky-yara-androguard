@@ -14,9 +14,14 @@ reports = [f for f in os.listdir(sys.argv[1])]
 
 if not os.path.isdir(sys.argv[2]):
     print('Give me apk folder argv[2]')
+    sys.exit()
 apks = [ f for f in os.listdir(sys.argv[2])]
 
-for filename in listfiles('./rules'):
+if not os.path.isdir(sys.argv[3]):
+    print('Give me rules folder argv[3]')
+    sys.exit()
+
+for filename in listfiles('./' + sys.argv[3]):
     match = re.search("\.yar$", filename)
 
     # if match is found
