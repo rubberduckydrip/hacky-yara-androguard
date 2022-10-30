@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="migration_src_workspace_size">4,4</string>
+    <int name="qsb_widget_id" value="2" />
+    <boolean name="pref_add_icon_to_home" value="true" />
+    <int name="migration_src_hotseat_count" value="5" />
+    <boolean name="pref_add_icon_to_home_initialized" value="true" />
+</map>

@@ -1,0 +1,33 @@
+Process: com.android.inputmethod.latin
+PID: 1993
+Flags: 0x38c8be45
+Package: com.android.inputmethod.latin v28 (9)
+Build: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
+System-App: true
+Uptime-Millis: 46334
+Loop-Violation-Number: 2
+Duration-Millis: 988
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1504)
+	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:251)
+	at java.io.File.exists(File.java:815)
+	at android.app.ContextImpl.getDataDir(ContextImpl.java:2253)
+	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:550)
+	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:747)
+	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:400)
+	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:174)
+	at android.preference.PreferenceManager.getDefaultSharedPreferences(PreferenceManager.java:526)
+	at com.android.inputmethod.latin.settings.Settings.onCreate(Settings.java:146)
+	at com.android.inputmethod.latin.settings.Settings.init(Settings.java:136)
+	at com.android.inputmethod.latin.LatinIME.onCreate(LatinIME.java:592)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3532)
+	at android.app.ActivityThread.access$1300(ActivityThread.java:199)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1666)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6669)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+

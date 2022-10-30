@@ -1,0 +1,37 @@
+Process: com.android.gallery3d
+PID: 2815
+Flags: 0x38d8bc45
+Package: com.android.gallery3d v40030 (1.1.40030)
+Build: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
+System-App: true
+Uptime-Millis: 3877477
+Loop-Violation-Number: 10
+Duration-Millis: 15
+
+android.os.strictmode.DiskWriteViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1460)
+	at java.io.UnixFileSystem.createDirectory(UnixFileSystem.java:309)
+	at java.io.File.mkdir(File.java:1325)
+	at java.io.File.mkdirs(File.java:1364)
+	at java.io.File.mkdirs(File.java:1363)
+	at java.io.File.mkdirs(File.java:1363)
+	at android.app.ContextImpl.ensureExternalDirsExistOrFilter(ContextImpl.java:2540)
+	at android.app.ContextImpl.getExternalCacheDirs(ContextImpl.java:719)
+	at android.app.ContextImpl.getExternalCacheDir(ContextImpl.java:711)
+	at android.content.ContextWrapper.getExternalCacheDir(ContextWrapper.java:279)
+	at com.android.gallery3d.app.AbstractGalleryActivity.onStart(AbstractGalleryActivity.java:157)
+	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1391)
+	at android.app.Activity.performStart(Activity.java:7157)
+	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2937)
+	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:180)
+	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:165)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6669)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+

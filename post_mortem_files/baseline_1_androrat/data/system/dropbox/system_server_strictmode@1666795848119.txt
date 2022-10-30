@@ -1,0 +1,23 @@
+Process: unknown
+Build: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1573661
+Loop-Violation-Number: 3
+Duration-Millis: 4
+
+android.os.strictmode.DiskWriteViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1460)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:347)
+	at libcore.io.IoBridge.write(IoBridge.java:526)
+	at java.io.FileOutputStream.write(FileOutputStream.java:381)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:250)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:271)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:216)
+	at com.android.server.am.AppWarnings.writeConfigToFileAmsThread(AppWarnings.java:495)
+	at com.android.server.am.AppWarnings.access$500(AppWarnings.java:50)
+	at com.android.server.am.AppWarnings$ConfigHandler.handleMessage(AppWarnings.java:448)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+

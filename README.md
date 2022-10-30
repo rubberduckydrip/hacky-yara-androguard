@@ -11,9 +11,10 @@ Needed components:
 
 ## How to use it
 
-There is 2 python script; 
+There is 3 python script; 
 
 - create_report.py
+- androguard_scan.py
 - scan.py
   
 `create_report.py` will create apk reports that will be used with yara. You can give folder name that all your apks are staying or file name.
@@ -22,10 +23,14 @@ There is 2 python script;
 
 Script will create reports folder and put reports there.
 
-scan.py takes 3 parameter: report folder, apk folder and yara rule. In yara rules you can use androguard module. You can also use other yara modules if you want to.
+androguard_scan.py takes 3 parameter: report folder, apk folder and yara rule folder. In yara rules you can use androguard module. You can also use other yara modules if you want to.
 
-`scan.py reports apk dropper.yar`
+`androguard_scan.py reports apk rules`
 
 Since androguard module didn't work on my yara python version I used os.system, if you can run it with yarapython library feel free to pr.
+
+scan.py takes 2 parameters: fodler containing file to be scanned and yara rule folder.
+
+`scan.py files_dir rules`
 
 [![asciicast](https://asciinema.org/a/4L0BKvO87RhNcxH62VbChszgP.svg)](https://asciinema.org/a/4L0BKvO87RhNcxH62VbChszgP)

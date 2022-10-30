@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="db_version" value="1300" />
+    <string name="os_version">PSR1.180720.012</string>
+    <string name="icu_version">60.2</string>
+</map>

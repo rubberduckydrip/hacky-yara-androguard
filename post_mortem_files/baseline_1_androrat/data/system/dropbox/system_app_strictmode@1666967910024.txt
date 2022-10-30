@@ -1,0 +1,37 @@
+Process: com.android.inputmethod.latin
+PID: 1973
+Flags: 0x38c8be45
+Package: com.android.inputmethod.latin v28 (9)
+Build: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
+System-App: true
+Uptime-Millis: 73015
+Loop-Violation-Number: 3
+Duration-Millis: 2
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1504)
+	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:251)
+	at java.io.File.exists(File.java:815)
+	at android.app.ContextImpl.getDataDir(ContextImpl.java:2253)
+	at android.app.ContextImpl.getFilesDir(ContextImpl.java:639)
+	at android.content.ContextWrapper.getFilesDir(ContextWrapper.java:239)
+	at com.android.inputmethod.latin.ExpandableBinaryDictionary.getDictFile(ExpandableBinaryDictionary.java:157)
+	at com.android.inputmethod.latin.ExpandableBinaryDictionary.<init>(ExpandableBinaryDictionary.java:147)
+	at com.android.inputmethod.latin.UserBinaryDictionary.<init>(UserBinaryDictionary.java:61)
+	at com.android.inputmethod.latin.UserBinaryDictionary.getDictionary(UserBinaryDictionary.java:98)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.inputmethod.latin.DictionaryFacilitatorImpl.getSubDict(DictionaryFacilitatorImpl.java:262)
+	at com.android.inputmethod.latin.DictionaryFacilitatorImpl.resetDictionaries(DictionaryFacilitatorImpl.java:340)
+	at com.android.inputmethod.latin.LatinIME.resetDictionaryFacilitator(LatinIME.java:709)
+	at com.android.inputmethod.latin.LatinIME.loadSettings(LatinIME.java:651)
+	at com.android.inputmethod.latin.LatinIME.onCreate(LatinIME.java:606)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3532)
+	at android.app.ActivityThread.access$1300(ActivityThread.java:199)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1666)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6669)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+

@@ -1,0 +1,35 @@
+Process: com.android.inputmethod.latin
+PID: 1993
+Flags: 0x38c8be45
+Package: com.android.inputmethod.latin v28 (9)
+Build: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
+System-App: true
+Uptime-Millis: 56162
+Loop-Violation-Number: 2
+Broadcast-Intent-Action: android.intent.action.BOOT_COMPLETED
+Duration-Millis: 4
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1504)
+	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:251)
+	at java.io.File.exists(File.java:815)
+	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:605)
+	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:596)
+	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:552)
+	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:747)
+	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:400)
+	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:174)
+	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:174)
+	at android.preference.PreferenceManager.getDefaultSharedPreferences(PreferenceManager.java:526)
+	at com.android.inputmethod.latin.SystemBroadcastReceiver.toggleAppIcon(SystemBroadcastReceiver.java:151)
+	at com.android.inputmethod.latin.SystemBroadcastReceiver.onReceive(SystemBroadcastReceiver.java:88)
+	at android.app.ActivityThread.handleReceiver(ActivityThread.java:3379)
+	at android.app.ActivityThread.access$1200(ActivityThread.java:199)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1661)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6669)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+

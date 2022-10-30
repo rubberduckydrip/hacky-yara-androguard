@@ -1,0 +1,1270 @@
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys'
+Revision: '0'
+ABI: 'x86_64'
+pid: 1662, tid: 1662, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+Abort message: 'Status.cpp:149] Failed HIDL return status not checked: Status(EX_TRANSACTION_FAILED): 'DEAD_OBJECT: ''
+    rax 0000000000000000  rbx 000000000000067e  rcx 00007b8661866b98  rdx 0000000000000006
+    r8  00007b866131a068  r9  00007b866131a068  r10 00007b866131a068  r11 0000000000000246
+    r12 00007fff7d550cb8  r13 0000000000000000  r14 000000000000067e  r15 00007fff7d550bd8
+    rdi 000000000000067e  rsi 000000000000067e
+    rbp 0000000000000000  rsp 00007fff7d550bc8  rip 00007b8661866b98
+
+backtrace:
+    #00 pc 0000000000026b98  /system/lib64/libc.so (syscall+24)
+    #01 pc 0000000000029775  /system/lib64/libc.so (abort+101)
+    #02 pc 000000000000809a  /system/lib64/libbase.so (android::base::DefaultAborter(char const*)+10)
+    #03 pc 0000000000008cdc  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+716)
+    #04 pc 000000000001cce8  /system/lib64/libhidlbase.so (android::hardware::details::return_status::~return_status()+264)
+    #05 pc 000000000006dd7c  /system/lib64/libsurfaceflinger.so (android::Hwc2::impl::Composer::getActiveConfig(unsigned long, unsigned int*)+124)
+    #06 pc 00000000000789f4  /system/lib64/libsurfaceflinger.so (HWC2::Display::getActiveConfig(std::__1::shared_ptr<HWC2::Display::Config const>*) const+52)
+    #07 pc 000000000007fde1  /system/lib64/libsurfaceflinger.so (android::HWComposer::getActiveConfig(int) const+113)
+    #08 pc 00000000000b1836  /system/lib64/libsurfaceflinger.so (android::SurfaceFlinger::resyncToHardwareVsync(bool)+86)
+    #09 pc 00000000000b1f06  /system/lib64/libsurfaceflinger.so (android::SurfaceFlinger::setPowerModeInternal(android::sp<android::DisplayDevice> const&, int, bool)+406)
+    #10 pc 00000000000c1a03  /system/lib64/libsurfaceflinger.so (_ZZN7android14SurfaceFlinger18initializeDisplaysEvEN24MessageScreenInitialized7handlerEv$1fb1ada6cbd8647ea2f46838c696d723+387)
+    #11 pc 00000000000a120c  /system/lib64/libsurfaceflinger.so (android::MessageBase::handleMessage(android::Message const&)+12)
+    #12 pc 0000000000013dea  /system/lib64/libutils.so (android::Looper::pollInner(int)+378)
+    #13 pc 0000000000013bc9  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+41)
+    #14 pc 00000000000a1619  /system/lib64/libsurfaceflinger.so (android::impl::MessageQueue::waitMessage()+89)
+    #15 pc 00000000000b17db  /system/lib64/libsurfaceflinger.so (android::SurfaceFlinger::run()+27)
+    #16 pc 00000000000031ad  /system/bin/surfaceflinger (main+989)
+    #17 pc 00000000000c278c  /system/lib64/libc.so (__libc_init+92)
+
+stack:
+         00007fff7d550b48  00007b866042f7c0  [anon:libc_malloc]
+         00007fff7d550b50  00007b8660cb9441  /system/lib64/libhidlbase.so
+         00007fff7d550b58  0000000000000095
+         00007fff7d550b60  00007b8660cb944c  /system/lib64/libhidlbase.so
+         00007fff7d550b68  00007b866131122a  /system/lib64/libbase.so (_ZNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EEclEOS7_OS8_OSA_SF_OjSF_+90)
+         00007fff7d550b70  00007b866042f7c0  [anon:libc_malloc]
+         00007fff7d550b78  00007b86618edd05  /system/lib64/libc.so (je_malloc+69)
+         00007fff7d550b80  0000000000000000
+         00007fff7d550b88  00007b8661310e39  /system/lib64/libbase.so (_ZN7android4base10LogMessage7LogLineEPKcjNS0_5LogIdENS0_11LogSeverityES3_S3_+153)
+         00007fff7d550b90  00007fff7d550bc8  [stack]
+         00007fff7d550b98  00007b86618758fc  /system/lib64/libc.so (sigprocmask64+124)
+         00007fff7d550ba0  fffffff87fffffdf
+         00007fff7d550ba8  c55b272f59c01320
+         00007fff7d550bb0  000000000000067e
+         00007fff7d550bb8  000000000000067e
+         00007fff7d550bc0  0000000000000000
+    #00  00007fff7d550bc8  00007b8661869776  /system/lib64/libc.so (abort+102)
+    #01  00007fff7d550bd0  00007b866131a068  /system/lib64/libbase.so
+         ........  ........
+    #02  00007fff7d550c20  00007b866042ae50  [anon:libc_malloc]
+         ........  ........
+    #03  00007fff7d550c30  0000000000000061
+         ........  ........
+    #04  00007fff7d550c90  00007fffffffffff
+         ........  ........
+    #05  00007fff7d550cf0  c55b272f59c01320
+         ........  ........
+    #06  00007fff7d550d90  000000007d550dc1
+         ........  ........
+    #07  00007fff7d550dc0  756f7365526f4e16
+         ........  ........
+    #08  00007fff7d550e40  00007b8660458000  [anon:libc_malloc]
+         ........  ........
+    #09  00007fff7d550e80  0000000000000000
+         ........  ........
+    #10  00007fff7d550ed0  00007b8660429620  [anon:libc_malloc]
+         ........  ........
+    #11  00007fff7d550fc0  00007b86616717a0  /system/lib64/libsurfaceflinger.so
+         ........  ........
+    #12  00007fff7d550fe0  0000000000000000
+         ........  ........
+    #13  00007fff7d551130  00007b8660430d00  [anon:libc_malloc]
+         ........  ........
+    #14  00007fff7d551160  0000000000000000
+         ........  ........
+    #15  00007fff7d551190  0000000000000000
+         ........  ........
+    #16  00007fff7d5511a0  00007b8662146000  [anon:atexit handlers]
+         ........  ........
+    #17  00007fff7d551210  000064bfcf7a3898  /system/bin/surfaceflinger
+         00007fff7d551218  0000000000000000
+         00007fff7d551220  0000000000000000
+         00007fff7d551228  0000000000000000
+         00007fff7d551230  0000000000000000
+         00007fff7d551238  000064bfcf79edb8  /system/bin/surfaceflinger
+         00007fff7d551240  000064bfcf7a3870  /system/bin/surfaceflinger
+         00007fff7d551248  000064bfcf7a3880  /system/bin/surfaceflinger
+         00007fff7d551250  000064bfcf7a3898  /system/bin/surfaceflinger
+         00007fff7d551258  000064bfcf79ed7c  /system/bin/surfaceflinger
+         00007fff7d551260  0000000000000001
+         00007fff7d551268  00007fff7d551bc1  [stack]
+         00007fff7d551270  0000000000000000
+         00007fff7d551278  00007fff7d551bdc  [stack]
+         00007fff7d551280  00007fff7d551c2f  [stack]
+         00007fff7d551288  00007fff7d551c4a  [stack]
+
+memory near rcx (/system/lib64/libc.so):
+    00007b8661866b78 00000000801f0fff d68948f78948f889  ..........H..H..
+    00007b8661866b88 894dc2894dca8948 050f08244c8b4cc8  H..M..M..L.L$...
+    00007b8661866b98 0972fffff0013d48 057427e8c789d8f7  H=....r......'t.
+    00007b8661866ba8 0000441f0f66c300 000025048b48645f  ..f..D.._dH..%..
+    00007b8661866bb8 40c708408b480000 003ab80000000014  ..H.@..@......:.
+    00007b8661866bc8 013d4857050f0000 89d8f70972fffff0  ....WH=....r....
+    00007b8661866bd8 90c3000573f2e8c7 4155415641574155  ...s....UAWAVAUA
+    00007b8661866be8 894868ec83485354 082474894838244c  TSH..hH.L$8H.t$.
+    00007b8661866bf8 14246c8b45fc8949 3024548948ed854d  I..E.l$.M..H.T$0
+    00007b8661866c08 7308246c39450e74 06ebc031ed314507  t.E9l$.s.E1.1...
+    00007b8661866c18 8948e0894ce5014d 4456056f0f662404  M..L..H..$f.o.VD
+    00007b8661866c28 eb482464894c000a 2e66666666666628  ..L.d$H.(ffffff.
+    00007b8661866c38 0000000000841f0f 4024448b48cc0149  ........I..H.D$@
+    00007b8661866c48 48e5894d01c08348 24648b4c08244489  H...M..H.D$.L.d$
+    00007b8661866c58 be5024447f0f6648 246c8b480000002e  Hf..D$P.....H.l$
+    00007b8661866c68 ff36dfe8ef894808 8b414024448948ff  .H....6..H.D$@A.
+
+memory near r8 (/system/lib64/libbase.so):
+    00007b866131a048 0000000000000001 00007b8660428ba0  ..........B`.{..
+    00007b866131a058 0000000000000001 00007b866042ae50  ........P.B`.{..
+    00007b866131a068 0000000000000001 0000000000000000  ................
+    00007b866131a078 0000000000000000 0000000000000000  ................
+    00007b866131a088 0000000000000000 0000000000000000  ................
+    00007b866131a098 0000000000000000 0000000000000000  ................
+    00007b866131a0a8 0000000000000000 0000000000000000  ................
+    00007b866131a0b8 0000000000000000 0000000000000000  ................
+    00007b866131a0c8 0000000000000000 0000000000000000  ................
+    00007b866131a0d8 0000000000000000 0000000000000000  ................
+    00007b866131a0e8 0000000000000000 0000000000000000  ................
+    00007b866131a0f8 0000000000000000 0000000000000000  ................
+    00007b866131a108 0000000000000000 0000000000000000  ................
+    00007b866131a118 0000000000000000 0000000000000000  ................
+    00007b866131a128 0000000000000000 0000000000000000  ................
+    00007b866131a138 0000000000000000 0000000000000000  ................
+
+memory near r9 (/system/lib64/libbase.so):
+    00007b866131a048 0000000000000001 00007b8660428ba0  ..........B`.{..
+    00007b866131a058 0000000000000001 00007b866042ae50  ........P.B`.{..
+    00007b866131a068 0000000000000001 0000000000000000  ................
+    00007b866131a078 0000000000000000 0000000000000000  ................
+    00007b866131a088 0000000000000000 0000000000000000  ................
+    00007b866131a098 0000000000000000 0000000000000000  ................
+    00007b866131a0a8 0000000000000000 0000000000000000  ................
+    00007b866131a0b8 0000000000000000 0000000000000000  ................
+    00007b866131a0c8 0000000000000000 0000000000000000  ................
+    00007b866131a0d8 0000000000000000 0000000000000000  ................
+    00007b866131a0e8 0000000000000000 0000000000000000  ................
+    00007b866131a0f8 0000000000000000 0000000000000000  ................
+    00007b866131a108 0000000000000000 0000000000000000  ................
+    00007b866131a118 0000000000000000 0000000000000000  ................
+    00007b866131a128 0000000000000000 0000000000000000  ................
+    00007b866131a138 0000000000000000 0000000000000000  ................
+
+memory near r10 (/system/lib64/libbase.so):
+    00007b866131a048 0000000000000001 00007b8660428ba0  ..........B`.{..
+    00007b866131a058 0000000000000001 00007b866042ae50  ........P.B`.{..
+    00007b866131a068 0000000000000001 0000000000000000  ................
+    00007b866131a078 0000000000000000 0000000000000000  ................
+    00007b866131a088 0000000000000000 0000000000000000  ................
+    00007b866131a098 0000000000000000 0000000000000000  ................
+    00007b866131a0a8 0000000000000000 0000000000000000  ................
+    00007b866131a0b8 0000000000000000 0000000000000000  ................
+    00007b866131a0c8 0000000000000000 0000000000000000  ................
+    00007b866131a0d8 0000000000000000 0000000000000000  ................
+    00007b866131a0e8 0000000000000000 0000000000000000  ................
+    00007b866131a0f8 0000000000000000 0000000000000000  ................
+    00007b866131a108 0000000000000000 0000000000000000  ................
+    00007b866131a118 0000000000000000 0000000000000000  ................
+    00007b866131a128 0000000000000000 0000000000000000  ................
+    00007b866131a138 0000000000000000 0000000000000000  ................
+
+memory near r12 ([stack]):
+    00007fff7d550c98 00007fff7d550d28 0000000000000031  (.U}....1.......
+    00007fff7d550ca8 000000000000002e 00007b866042ae50  ........P.B`.{..
+    00007fff7d550cb8 00007b8660441dc0 c55b272f59c01320  ..D`.{.. ..Y/'[.
+    00007fff7d550cc8 00007b8660f46530 00007fff7d550d30  0e.`.{..0.U}....
+    00007fff7d550cd8 00007fff7d550d08 0000000000000000  ..U}............
+    00007fff7d550ce8 00007b8661551d7d c55b272f59c01320  }.Ua.{.. ..Y/'[.
+    00007fff7d550cf8 000000067d550d50 00007fff7d550d94  P.U}......U}....
+    00007fff7d550d08 ffffffe0ffffff7f 0000000000000000  ................
+    00007fff7d550d18 0000000000000000 0000000000000000  ................
+    00007fff7d550d28 0000000000000001 00007b866166b620  ........ .fa.{..
+    00007fff7d550d38 00007fff7d550cfc 00007fff7d550d00  ..U}......U}....
+    00007fff7d550d48 00007fff7d550da0 00007fff7d550d30  ..U}....0.U}....
+    00007fff7d550d58 00007b866093bb13 c55b272f59c01320  ...`.{.. ..Y/'[.
+    00007fff7d550d68 c55b272f59c01320 00007b8660427100   ..Y/'[..qB`.{..
+    00007fff7d550d78 00007fff7d550df0 0000000000000002  ..U}............
+    00007fff7d550d88 00007b866155c9f5 000000007d550dc1  ..Ua.{....U}....
+
+memory near r15 ([stack]):
+    00007fff7d550bb8 000000000000067e 0000000000000000  ~...............
+    00007fff7d550bc8 00007b8661869776 00007b866131a068  v..a.{..h.1a.{..
+    00007fff7d550bd8 ffffffffffffffdf c55b272f59c01320  ........ ..Y/'[.
+    00007fff7d550be8 00007b866185d547 00007b8660441dc8  G..a.{....D`.{..
+    00007fff7d550bf8 00007fff7d550cb8 00007b8660441dc8  ..U}......D`.{..
+    00007fff7d550c08 00007b8660428b40 00007b8660441dc0  @.B`.{....D`.{..
+    00007fff7d550c18 00007b866131009b 00007b866042ae50  ..1a.{..P.B`.{..
+    00007fff7d550c28 00007b8661310cdd 0000000000000061  ..1a.{..a.......
+    00007fff7d550c38 0000000000000055 00007b866042f7c0  U.........B`.{..
+    00007fff7d550c48 00007b866042f7c0 c55b272f59c01320  ..B`.{.. ..Y/'[.
+    00007fff7d550c58 00007fff7d550d08 0000000000000000  ..U}............
+    00007fff7d550c68 0000000000000000 00007b86623705f0  ..........7b.{..
+    00007fff7d550c78 00007b8660441dc0 0000000000000000  ..D`.{..........
+    00007fff7d550c88 00007b8660cb4ce9 00007fffffffffff  .L.`.{..........
+    00007fff7d550c98 00007fff7d550d28 0000000000000031  (.U}....1.......
+    00007fff7d550ca8 000000000000002e 00007b866042ae50  ........P.B`.{..
+
+memory near rsp ([stack]):
+    00007fff7d550ba8 c55b272f59c01320 000000000000067e   ..Y/'[.~.......
+    00007fff7d550bb8 000000000000067e 0000000000000000  ~...............
+    00007fff7d550bc8 00007b8661869776 00007b866131a068  v..a.{..h.1a.{..
+    00007fff7d550bd8 ffffffffffffffdf c55b272f59c01320  ........ ..Y/'[.
+    00007fff7d550be8 00007b866185d547 00007b8660441dc8  G..a.{....D`.{..
+    00007fff7d550bf8 00007fff7d550cb8 00007b8660441dc8  ..U}......D`.{..
+    00007fff7d550c08 00007b8660428b40 00007b8660441dc0  @.B`.{....D`.{..
+    00007fff7d550c18 00007b866131009b 00007b866042ae50  ..1a.{..P.B`.{..
+    00007fff7d550c28 00007b8661310cdd 0000000000000061  ..1a.{..a.......
+    00007fff7d550c38 0000000000000055 00007b866042f7c0  U.........B`.{..
+    00007fff7d550c48 00007b866042f7c0 c55b272f59c01320  ..B`.{.. ..Y/'[.
+    00007fff7d550c58 00007fff7d550d08 0000000000000000  ..U}............
+    00007fff7d550c68 0000000000000000 00007b86623705f0  ..........7b.{..
+    00007fff7d550c78 00007b8660441dc0 0000000000000000  ..D`.{..........
+    00007fff7d550c88 00007b8660cb4ce9 00007fffffffffff  .L.`.{..........
+    00007fff7d550c98 00007fff7d550d28 0000000000000031  (.U}....1.......
+
+memory near rip (/system/lib64/libc.so):
+    00007b8661866b78 00000000801f0fff d68948f78948f889  ..........H..H..
+    00007b8661866b88 894dc2894dca8948 050f08244c8b4cc8  H..M..M..L.L$...
+    00007b8661866b98 0972fffff0013d48 057427e8c789d8f7  H=....r......'t.
+    00007b8661866ba8 0000441f0f66c300 000025048b48645f  ..f..D.._dH..%..
+    00007b8661866bb8 40c708408b480000 003ab80000000014  ..H.@..@......:.
+    00007b8661866bc8 013d4857050f0000 89d8f70972fffff0  ....WH=....r....
+    00007b8661866bd8 90c3000573f2e8c7 4155415641574155  ...s....UAWAVAUA
+    00007b8661866be8 894868ec83485354 082474894838244c  TSH..hH.L$8H.t$.
+    00007b8661866bf8 14246c8b45fc8949 3024548948ed854d  I..E.l$.M..H.T$0
+    00007b8661866c08 7308246c39450e74 06ebc031ed314507  t.E9l$.s.E1.1...
+    00007b8661866c18 8948e0894ce5014d 4456056f0f662404  M..L..H..$f.o.VD
+    00007b8661866c28 eb482464894c000a 2e66666666666628  ..L.d$H.(ffffff.
+    00007b8661866c38 0000000000841f0f 4024448b48cc0149  ........I..H.D$@
+    00007b8661866c48 48e5894d01c08348 24648b4c08244489  H...M..H.D$.L.d$
+    00007b8661866c58 be5024447f0f6648 246c8b480000002e  Hf..D$P.....H.l$
+    00007b8661866c68 ff36dfe8ef894808 8b414024448948ff  .H....6..H.D$@A.
+
+memory map (433 entries):
+    000064bf'cf79c000-000064bf'cf7a2fff r-x         0      7000  /system/bin/surfaceflinger (BuildId: 4e2209aeb36b0d4ec7543ce5da85bff2)
+    000064bf'cf7a3000-000064bf'cf7a3fff r--      6000      1000  /system/bin/surfaceflinger
+    000064bf'cf7a4000-000064bf'cf7a5fff rw-         0      2000
+    00007b86'5ed84000-00007b86'5ed84fff ---         0      1000  [anon:thread stack guard]
+    00007b86'5ed85000-00007b86'5ee81fff rw-         0     fd000
+    00007b86'5ee82000-00007b86'5ef4afff rw-         0     c9000  /dev/ashmem/gralloc-buffer (deleted)
+    00007b86'5ef4b000-00007b86'5f013fff rw-         0     c9000  /dev/ashmem/gralloc-buffer (deleted)
+    00007b86'5f014000-00007b86'5f0dcfff -w-         0     c9000  /dev/goldfish_pipe
+    00007b86'5f0dd000-00007b86'5f1a5fff rw-         0     c9000  /dev/ashmem/gralloc-buffer (deleted)
+    00007b86'5f1a6000-00007b86'5f1b0fff r-x         0      b000  /vendor/lib64/hw/gralloc.ranchu.so (BuildId: 275889ee606169a0ac93a1f46982c767)
+    00007b86'5f1b1000-00007b86'5f1b1fff r--      b000      1000  /vendor/lib64/hw/gralloc.ranchu.so
+    00007b86'5f1b2000-00007b86'5f1b2fff rw-      c000      1000  /vendor/lib64/hw/gralloc.ranchu.so
+    00007b86'5f1c5000-00007b86'5f232fff r-x         0     6e000  /system/lib64/vndk-sp-28/libhidltransport.so (BuildId: ef1e4b107a9167067d385150c0295ced) (load bias 0xa000)
+    00007b86'5f233000-00007b86'5f23afff r--     6d000      8000  /system/lib64/vndk-sp-28/libhidltransport.so (load bias 0xa000)
+    00007b86'5f23b000-00007b86'5f23bfff rw-     75000      1000  /system/lib64/vndk-sp-28/libhidltransport.so (load bias 0xa000)
+    00007b86'5f266000-00007b86'5f275fff r-x         0     10000  /system/lib64/vndk-sp-28/libbase.so (BuildId: 50befeab6c4d6ebf45ae966483b047ae)
+    00007b86'5f276000-00007b86'5f276fff ---         0      1000
+    00007b86'5f277000-00007b86'5f277fff r--     10000      1000  /system/lib64/vndk-sp-28/libbase.so
+    00007b86'5f278000-00007b86'5f278fff rw-     11000      1000  /system/lib64/vndk-sp-28/libbase.so
+    00007b86'5f28f000-00007b86'5f290fff r-x         0      2000  /system/lib64/vndk-sp-28/libhardware.so (BuildId: 7c3b83ad9d9339052b0992d088c88267)
+    00007b86'5f291000-00007b86'5f291fff r--      1000      1000  /system/lib64/vndk-sp-28/libhardware.so
+    00007b86'5f292000-00007b86'5f292fff rw-      2000      1000  /system/lib64/vndk-sp-28/libhardware.so
+    00007b86'5f2ce000-00007b86'5f2f2fff r-x         0     25000  /system/lib64/vndk-sp-28/libhidlbase.so (BuildId: d5a5b322f1f0e51b294dc251383f5aeb)
+    00007b86'5f2f3000-00007b86'5f2f4fff r--     24000      2000  /system/lib64/vndk-sp-28/libhidlbase.so
+    00007b86'5f2f5000-00007b86'5f2f5fff rw-     26000      1000  /system/lib64/vndk-sp-28/libhidlbase.so
+    00007b86'5f302000-00007b86'5f32afff r-x         0     29000  /system/lib64/vndk-sp-28/libhwbinder.so (BuildId: 2275738e580074756590fc7b337ddade) (load bias 0x1000)
+    00007b86'5f32b000-00007b86'5f32bfff ---         0      1000
+    00007b86'5f32c000-00007b86'5f32dfff r--     29000      2000  /system/lib64/vndk-sp-28/libhwbinder.so (load bias 0x1000)
+    00007b86'5f32e000-00007b86'5f32efff rw-     2b000      1000  /system/lib64/vndk-sp-28/libhwbinder.so (load bias 0x1000)
+    00007b86'5f350000-00007b86'5f355fff r-x         0      6000  /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so (BuildId: 83db6f0b0cee33c98f8e4e5b7ae1af0f)
+    00007b86'5f356000-00007b86'5f356fff ---         0      1000
+    00007b86'5f357000-00007b86'5f357fff r--      6000      1000  /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so
+    00007b86'5f358000-00007b86'5f358fff rw-      7000      1000  /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so
+    00007b86'5f387000-00007b86'5f39ffff r-x         0     19000  /system/lib64/vndk-sp-28/android.hardware.graphics.mapper@2.0.so (BuildId: 741209a85eef945230ca8137b2cdc96f) (load bias 0x2000)
+    00007b86'5f3a0000-00007b86'5f3a1fff r--     18000      2000  /system/lib64/vndk-sp-28/android.hardware.graphics.mapper@2.0.so (load bias 0x2000)
+    00007b86'5f3a2000-00007b86'5f3a2fff rw-     1a000      1000  /system/lib64/vndk-sp-28/android.hardware.graphics.mapper@2.0.so (load bias 0x2000)
+    00007b86'5f3cd000-00007b86'5f3cdfff r-x         0      1000  /system/lib64/vndk-sp-28/android.hardware.graphics.common@1.0.so (BuildId: 08f2339deb640013cf2cf7479bdf3c05)
+    00007b86'5f3ce000-00007b86'5f3cefff r--         0      1000  /system/lib64/vndk-sp-28/android.hardware.graphics.common@1.0.so (BuildId: 08f2339deb640013cf2cf7479bdf3c05)
+    00007b86'5f3cf000-00007b86'5f3cffff rw-      1000      1000  /system/lib64/vndk-sp-28/android.hardware.graphics.common@1.0.so
+    00007b86'5f400000-00007b86'5f7fffff rw-         0    400000  [anon:libc_malloc]
+    00007b86'5f854000-00007b86'5f854fff ---         0      1000  [anon:thread stack guard]
+    00007b86'5f855000-00007b86'5f951fff rw-         0     fd000
+    00007b86'5f952000-00007b86'5f970fff r-x         0     1f000  /vendor/lib64/egl/libGLESv2_emulation.so (BuildId: a8f12a1871b46315169d947aa80fe177)
+    00007b86'5f971000-00007b86'5f971fff ---         0      1000
+    00007b86'5f972000-00007b86'5f974fff r--     1f000      3000  /vendor/lib64/egl/libGLESv2_emulation.so
+    00007b86'5f975000-00007b86'5f975fff rw-     22000      1000  /vendor/lib64/egl/libGLESv2_emulation.so
+    00007b86'5f995000-00007b86'5f9aafff r-x         0     16000  /vendor/lib64/egl/libGLESv1_CM_emulation.so (BuildId: 5a6a80a9e51fad6a5b94d70da3b256c5)
+    00007b86'5f9ab000-00007b86'5f9abfff ---         0      1000
+    00007b86'5f9ac000-00007b86'5f9adfff r--     16000      2000  /vendor/lib64/egl/libGLESv1_CM_emulation.so
+    00007b86'5f9ae000-00007b86'5f9aefff rw-     18000      1000  /vendor/lib64/egl/libGLESv1_CM_emulation.so
+    00007b86'5f9c6000-00007b86'5fa9afff r-x         0     d5000  /system/lib64/vndk-sp-28/libc++.so (BuildId: cb019ab93151482ce1793d05c1df6eb2) (load bias 0xd000)
+    00007b86'5fa9b000-00007b86'5faa4fff r--     d4000      a000  /system/lib64/vndk-sp-28/libc++.so (load bias 0xd000)
+    00007b86'5faa5000-00007b86'5faa5fff rw-     de000      1000  /system/lib64/vndk-sp-28/libc++.so (load bias 0xd000)
+    00007b86'5faa6000-00007b86'5faa8fff rw-         0      3000  [anon:.bss]
+    00007b86'5fac3000-00007b86'5faf1fff r-x         0     2f000  /vendor/lib64/egl/libEGL_emulation.so (BuildId: c775b01618d0325ece70c36c923bc56c)
+    00007b86'5faf2000-00007b86'5faf3fff r--     2e000      2000  /vendor/lib64/egl/libEGL_emulation.so
+    00007b86'5faf4000-00007b86'5faf4fff rw-     30000      1000  /vendor/lib64/egl/libEGL_emulation.so
+    00007b86'5fb26000-00007b86'5fb36fff r-x         0     11000  /system/lib64/vndk-sp-28/libcutils.so (BuildId: 5d771310a61ebc691b57597a1f991944)
+    00007b86'5fb37000-00007b86'5fb37fff ---         0      1000
+    00007b86'5fb38000-00007b86'5fb39fff r--     11000      2000  /system/lib64/vndk-sp-28/libcutils.so
+    00007b86'5fb3a000-00007b86'5fb3afff rw-     13000      1000  /system/lib64/vndk-sp-28/libcutils.so
+    00007b86'5fb49000-00007b86'5fb4ffff r-x         0      7000  /vendor/lib64/libOpenglSystemCommon.so (BuildId: 006553ae366e4f7330ba93f5185e691b)
+    00007b86'5fb50000-00007b86'5fb50fff r--      6000      1000  /vendor/lib64/libOpenglSystemCommon.so
+    00007b86'5fb51000-00007b86'5fb51fff rw-      7000      1000  /vendor/lib64/libOpenglSystemCommon.so
+    00007b86'5fb82000-00007b86'5fbfafff r-x         0     79000  /vendor/lib64/libGLESv2_enc.so (BuildId: 06fe74ff367f287d53b91e64e23a25fe)
+    00007b86'5fbfb000-00007b86'5fbfcfff r--     78000      2000  /vendor/lib64/libGLESv2_enc.so
+    00007b86'5fbfd000-00007b86'5fbfdfff rw-     7a000      1000  /vendor/lib64/libGLESv2_enc.so
+    00007b86'5fc11000-00007b86'5fc2cfff r-x         0     1c000  /system/lib64/vndk-sp-28/libutils.so (BuildId: c42636c3d86d6d4dee71fe3f9cf7b7f2)
+    00007b86'5fc2d000-00007b86'5fc2dfff ---         0      1000
+    00007b86'5fc2e000-00007b86'5fc2efff r--     1c000      1000  /system/lib64/vndk-sp-28/libutils.so
+    00007b86'5fc2f000-00007b86'5fc2ffff rw-     1d000      1000  /system/lib64/vndk-sp-28/libutils.so
+    00007b86'5fc4d000-00007b86'5fc57fff r-x         0      b000  /vendor/lib64/lib_renderControl_enc.so (BuildId: 77ace4ba561dec016d361412508fea43)
+    00007b86'5fc58000-00007b86'5fc58fff r--      a000      1000  /vendor/lib64/lib_renderControl_enc.so
+    00007b86'5fc59000-00007b86'5fc59fff rw-      b000      1000  /vendor/lib64/lib_renderControl_enc.so
+    00007b86'5fc8d000-00007b86'5fcd5fff r-x         0     49000  /vendor/lib64/libGLESv1_enc.so (BuildId: 3a2c069f8acabe2c5e2810882a280ea3)
+    00007b86'5fcd6000-00007b86'5fcd6fff ---         0      1000
+    00007b86'5fcd7000-00007b86'5fcd7fff r--     49000      1000  /vendor/lib64/libGLESv1_enc.so
+    00007b86'5fcd8000-00007b86'5fcd8fff rw-     4a000      1000  /vendor/lib64/libGLESv1_enc.so
+    00007b86'5fd02000-00007b86'5fd02fff ---         0      1000  [anon:thread stack guard]
+    00007b86'5fd03000-00007b86'5fdfffff rw-         0     fd000
+    00007b86'5fe00000-00007b86'5fe00fff ---         0      1000  [anon:thread stack guard]
+    00007b86'5fe01000-00007b86'5fefdfff rw-         0     fd000
+    00007b86'5fefe000-00007b86'5fefefff ---         0      1000  [anon:thread stack guard]
+    00007b86'5feff000-00007b86'5fffbfff rw-         0     fd000
+    00007b86'5fffc000-00007b86'5fffcfff ---         0      1000  [anon:thread stack guard]
+    00007b86'5fffd000-00007b86'600f9fff rw-         0     fd000
+    00007b86'600fa000-00007b86'600fafff ---         0      1000  [anon:thread stack guard]
+    00007b86'600fb000-00007b86'601f7fff rw-         0     fd000
+    00007b86'603f4000-00007b86'603f6fff r-x         0      3000  /system/lib64/libnetd_client.so (BuildId: 896bbdb3dfdfef7e4e56bcf87be1517d)
+    00007b86'603f7000-00007b86'603f7fff r--      2000      1000  /system/lib64/libnetd_client.so
+    00007b86'603f8000-00007b86'603f8fff rw-      3000      1000  /system/lib64/libnetd_client.so
+    00007b86'60400000-00007b86'607fffff rw-         0    400000  [anon:libc_malloc]
+    00007b86'6081c000-00007b86'6082dfff r-x         0     12000  /system/lib64/libcutils.so (BuildId: c8044cc1d7fffd1b62ee03b7ea30c05b)
+    00007b86'6082e000-00007b86'6082ffff r--     11000      2000  /system/lib64/libcutils.so
+    00007b86'60830000-00007b86'60830fff rw-     13000      1000  /system/lib64/libcutils.so
+    00007b86'6085f000-00007b86'60877fff r-x         0     19000  /system/lib64/android.hardware.power@1.2.so (BuildId: e5717c2a3852966587e426bc22750a37) (load bias 0x2000)
+    00007b86'60878000-00007b86'6087afff r--     18000      3000  /system/lib64/android.hardware.power@1.2.so (load bias 0x2000)
+    00007b86'6087b000-00007b86'6087bfff rw-     1b000      1000  /system/lib64/android.hardware.power@1.2.so (load bias 0x2000)
+    00007b86'6089a000-00007b86'6096efff r-x         0     d5000  /system/lib64/libc++.so (BuildId: 1c26b06e264b4636380bbd604dd436fd) (load bias 0xd000)
+    00007b86'6096f000-00007b86'60978fff r--     d4000      a000  /system/lib64/libc++.so (load bias 0xd000)
+    00007b86'60979000-00007b86'60979fff rw-     de000      1000  /system/lib64/libc++.so (load bias 0xd000)
+    00007b86'6097a000-00007b86'6097cfff rw-         0      3000  [anon:.bss]
+    00007b86'60999000-00007b86'609b3fff r-x         0     1b000  /system/lib64/libbacktrace.so (BuildId: 44e331943e7240ed713b8e8cff1a2bda)
+    00007b86'609b4000-00007b86'609b4fff ---         0      1000
+    00007b86'609b5000-00007b86'609b5fff r--     1b000      1000  /system/lib64/libbacktrace.so
+    00007b86'609b6000-00007b86'609b6fff rw-     1c000      1000  /system/lib64/libbacktrace.so
+    00007b86'609d7000-00007b86'609d8fff r-x         0      2000  /system/lib64/libgraphicsenv.so (BuildId: 5d5c42badd5bf44b13ea59381ece9837)
+    00007b86'609d9000-00007b86'609d9fff r--      1000      1000  /system/lib64/libgraphicsenv.so
+    00007b86'609da000-00007b86'609dafff rw-      2000      1000  /system/lib64/libgraphicsenv.so
+    00007b86'60a25000-00007b86'60a26fff r-x         0      2000  /system/lib64/libsync.so (BuildId: 70e146491f69f59bc873afa0d2243e5a)
+    00007b86'60a27000-00007b86'60a27fff r--      1000      1000  /system/lib64/libsync.so
+    00007b86'60a28000-00007b86'60a28fff rw-      2000      1000  /system/lib64/libsync.so
+    00007b86'60a52000-00007b86'60a6cfff r-x         0     1b000  /system/lib64/android.hardware.graphics.mapper@2.1.so (BuildId: 0c1bcef45dcdb628d6e79abad3d57821) (load bias 0x2000)
+    00007b86'60a6d000-00007b86'60a6ffff r--     1a000      3000  /system/lib64/android.hardware.graphics.mapper@2.1.so (load bias 0x2000)
+    00007b86'60a70000-00007b86'60a70fff rw-     1d000      1000  /system/lib64/android.hardware.graphics.mapper@2.1.so (load bias 0x2000)
+    00007b86'60ab3000-00007b86'60ab5fff r-x         0      3000  /system/lib64/android.hidl.token@1.0-utils.so (BuildId: e1cb92154dd356b6402e9da771225daa)
+    00007b86'60ab6000-00007b86'60ab6fff r--      2000      1000  /system/lib64/android.hidl.token@1.0-utils.so
+    00007b86'60ab7000-00007b86'60ab7fff rw-      3000      1000  /system/lib64/android.hidl.token@1.0-utils.so
+    00007b86'60ac3000-00007b86'60af2fff r-x         0     30000  /system/lib64/android.frameworks.displayservice@1.0.so (BuildId: 7202fc83b4ed0ad233e7f328eb30ebd1) (load bias 0x5000)
+    00007b86'60af3000-00007b86'60af3fff ---         0      1000
+    00007b86'60af4000-00007b86'60af7fff r--     30000      4000  /system/lib64/android.frameworks.displayservice@1.0.so (load bias 0x5000)
+    00007b86'60af8000-00007b86'60af8fff rw-     34000      1000  /system/lib64/android.frameworks.displayservice@1.0.so (load bias 0x5000)
+    00007b86'60b0b000-00007b86'60b33fff r-x         0     29000  /system/lib64/libhwbinder.so (BuildId: 614d8081c68bc6aa236e5a7c4df70725) (load bias 0x1000)
+    00007b86'60b34000-00007b86'60b34fff ---         0      1000
+    00007b86'60b35000-00007b86'60b36fff r--     29000      2000  /system/lib64/libhwbinder.so (load bias 0x1000)
+    00007b86'60b37000-00007b86'60b37fff rw-     2b000      1000  /system/lib64/libhwbinder.so (load bias 0x1000)
+    00007b86'60b53000-00007b86'60b78fff r-x         0     26000  /system/lib64/libvulkan.so (BuildId: ca2a85e3114a815ebf58686ee3d766f7) (load bias 0x2000)
+    00007b86'60b79000-00007b86'60b79fff ---         0      1000
+    00007b86'60b7a000-00007b86'60b7bfff r--     26000      2000  /system/lib64/libvulkan.so (load bias 0x2000)
+    00007b86'60b7c000-00007b86'60b7cfff rw-     28000      1000  /system/lib64/libvulkan.so (load bias 0x2000)
+    00007b86'60b9c000-00007b86'60bb2fff r-x         0     17000  /system/lib64/android.hidl.token@1.0.so (BuildId: fdd97440da9d05ece4a48e7fab5a1bc3) (load bias 0x1000)
+    00007b86'60bb3000-00007b86'60bb3fff ---         0      1000
+    00007b86'60bb4000-00007b86'60bb5fff r--     17000      2000  /system/lib64/android.hidl.token@1.0.so (load bias 0x1000)
+    00007b86'60bb6000-00007b86'60bb6fff rw-     19000      1000  /system/lib64/android.hidl.token@1.0.so (load bias 0x1000)
+    00007b86'60bd2000-00007b86'60beffff r-x         0     1e000  /system/lib64/android.hardware.configstore@1.1.so (BuildId: 39928ce3cab5144d0ac05c6cb0e8644d) (load bias 0x2000)
+    00007b86'60bf0000-00007b86'60bf2fff r--     1d000      3000  /system/lib64/android.hardware.configstore@1.1.so (load bias 0x2000)
+    00007b86'60bf3000-00007b86'60bf3fff rw-     20000      1000  /system/lib64/android.hardware.configstore@1.1.so (load bias 0x2000)
+    00007b86'60c19000-00007b86'60c35fff r-x         0     1d000  /system/lib64/libunwind.so (BuildId: d3f0eafc25e3a6d603ee7777a5ca89f1)
+    00007b86'60c36000-00007b86'60c36fff ---         0      1000
+    00007b86'60c37000-00007b86'60c37fff r--     1d000      1000  /system/lib64/libunwind.so
+    00007b86'60c38000-00007b86'60c38fff rw-     1e000      1000  /system/lib64/libunwind.so
+    00007b86'60c39000-00007b86'60c61fff rw-         0     29000  [anon:.bss]
+    00007b86'60c98000-00007b86'60cbcfff r-x         0     25000  /system/lib64/libhidlbase.so (BuildId: b030017156b6b8e1acbdd09687a7fdd9)
+    00007b86'60cbd000-00007b86'60cbefff r--     24000      2000  /system/lib64/libhidlbase.so
+    00007b86'60cbf000-00007b86'60cbffff rw-     26000      1000  /system/lib64/libhidlbase.so
+    00007b86'60cce000-00007b86'60ce5fff r-x         0     18000  /system/lib64/liblog.so (BuildId: b464cd5d696d02e151186106e927539c)
+    00007b86'60ce6000-00007b86'60ce6fff r--     17000      1000  /system/lib64/liblog.so
+    00007b86'60ce7000-00007b86'60ce7fff rw-     18000      1000  /system/lib64/liblog.so
+    00007b86'60d21000-00007b86'60d22fff r-x         0      2000  /system/lib64/libhardware.so (BuildId: eb0f468412a96f8b1528b9a181f15943)
+    00007b86'60d23000-00007b86'60d23fff r--      1000      1000  /system/lib64/libhardware.so
+    00007b86'60d24000-00007b86'60d24fff rw-      2000      1000  /system/lib64/libhardware.so
+    00007b86'60d4c000-00007b86'60d64fff r-x         0     19000  /system/lib64/android.hardware.graphics.mapper@2.0.so (BuildId: 3a7c96203e1ca03ff04dcab548a8d40e) (load bias 0x2000)
+    00007b86'60d65000-00007b86'60d66fff r--     18000      2000  /system/lib64/android.hardware.graphics.mapper@2.0.so (load bias 0x2000)
+    00007b86'60d67000-00007b86'60d67fff rw-     1a000      1000  /system/lib64/android.hardware.graphics.mapper@2.0.so (load bias 0x2000)
+    00007b86'60db8000-00007b86'60dbafff r-x         0      3000  /system/lib64/libfmq.so (BuildId: e1f4e0abefcb2e0e7d79d81c882ced60)
+    00007b86'60dbb000-00007b86'60dbbfff r--      2000      1000  /system/lib64/libfmq.so
+    00007b86'60dbc000-00007b86'60dbcfff rw-      3000      1000  /system/lib64/libfmq.so
+    00007b86'60dea000-00007b86'60debfff r-x         0      2000  /system/lib64/android.hardware.configstore-utils.so (BuildId: 06e2be0be9db5f447bfb9bdfa9687d25)
+    00007b86'60dec000-00007b86'60decfff r--      1000      1000  /system/lib64/android.hardware.configstore-utils.so
+    00007b86'60ded000-00007b86'60dedfff rw-      2000      1000  /system/lib64/android.hardware.configstore-utils.so
+    00007b86'60e36000-00007b86'60e73fff r-x         0     3e000  /system/lib64/libprotobuf-cpp-lite.so (BuildId: e50eb1ebfd8b645bc9d2aa3c51455c8f)
+    00007b86'60e74000-00007b86'60e74fff ---         0      1000
+    00007b86'60e75000-00007b86'60e76fff r--     3e000      2000  /system/lib64/libprotobuf-cpp-lite.so
+    00007b86'60e77000-00007b86'60e77fff rw-     40000      1000  /system/lib64/libprotobuf-cpp-lite.so
+    00007b86'60e99000-00007b86'60eb4fff r-x         0     1c000  /system/lib64/android.hardware.power@1.3.so (BuildId: 9f51b581933642ed5762730f053bfde3) (load bias 0x2000)
+    00007b86'60eb5000-00007b86'60eb7fff r--     1b000      3000  /system/lib64/android.hardware.power@1.3.so (load bias 0x2000)
+    00007b86'60eb8000-00007b86'60eb8fff rw-     1e000      1000  /system/lib64/android.hardware.power@1.3.so (load bias 0x2000)
+    00007b86'60ec9000-00007b86'60ee4fff r-x         0     1c000  /system/lib64/libutils.so (BuildId: 9d06108a674b6dec70a3853e967bfdcd)
+    00007b86'60ee5000-00007b86'60ee5fff ---         0      1000
+    00007b86'60ee6000-00007b86'60ee6fff r--     1c000      1000  /system/lib64/libutils.so
+    00007b86'60ee7000-00007b86'60ee7fff rw-     1d000      1000  /system/lib64/libutils.so
+    00007b86'60f15000-00007b86'60f64fff r-x         0     50000  /system/lib64/android.hardware.graphics.composer@2.1.so (BuildId: 8e655b2517918023ac5773dfb11712a9) (load bias 0x7000)
+    00007b86'60f65000-00007b86'60f65fff ---         0      1000
+    00007b86'60f66000-00007b86'60f6afff r--     50000      5000  /system/lib64/android.hardware.graphics.composer@2.1.so (load bias 0x7000)
+    00007b86'60f6b000-00007b86'60f6bfff rw-     55000      1000  /system/lib64/android.hardware.graphics.composer@2.1.so (load bias 0x7000)
+    00007b86'60f85000-00007b86'60f9cfff r-x         0     18000  /system/lib64/android.hardware.power@1.1.so (BuildId: 9fca2f8f8db9a48187a0597591553a3c) (load bias 0x2000)
+    00007b86'60f9d000-00007b86'60f9dfff ---         0      1000
+    00007b86'60f9e000-00007b86'60f9ffff r--     18000      2000  /system/lib64/android.hardware.power@1.1.so (load bias 0x2000)
+    00007b86'60fa0000-00007b86'60fa0fff rw-     1a000      1000  /system/lib64/android.hardware.power@1.1.so (load bias 0x2000)
+    00007b86'60fde000-00007b86'60ff5fff r-x         0     18000  /system/lib64/libz.so (BuildId: 7949981cbc1b454bbeb8c3c45e97b11e)
+    00007b86'60ff6000-00007b86'60ff6fff ---         0      1000
+    00007b86'60ff7000-00007b86'60ff7fff r--     18000      1000  /system/lib64/libz.so
+    00007b86'60ff8000-00007b86'60ff8fff rw-     19000      1000  /system/lib64/libz.so
+    00007b86'61025000-00007b86'6102ffff r-x         0      b000  /system/lib64/libziparchive.so (BuildId: a24741137c8365604d032b442a4e2cb2)
+    00007b86'61030000-00007b86'61030fff r--      a000      1000  /system/lib64/libziparchive.so
+    00007b86'61031000-00007b86'61031fff rw-      b000      1000  /system/lib64/libziparchive.so
+    00007b86'61061000-00007b86'61061fff r-x         0      1000  /system/lib64/android.hardware.graphics.common@1.1.so (BuildId: 5c9515bae76d549ea37f77c5bfe7d0c0)
+    00007b86'61062000-00007b86'61062fff r--         0      1000  /system/lib64/android.hardware.graphics.common@1.1.so (BuildId: 5c9515bae76d549ea37f77c5bfe7d0c0)
+    00007b86'61063000-00007b86'61063fff rw-      1000      1000  /system/lib64/android.hardware.graphics.common@1.1.so
+    00007b86'6109a000-00007b86'610aafff r-x         0     11000  /system/lib64/libtimestats_proto.so (BuildId: 5f8444063897cced9f6bc264ecbaa7c1)
+    00007b86'610ab000-00007b86'610abfff r--     10000      1000  /system/lib64/libtimestats_proto.so
+    00007b86'610ac000-00007b86'610acfff rw-     11000      1000  /system/lib64/libtimestats_proto.so
+    00007b86'610ce000-00007b86'610cefff r-x         0      1000  /system/lib64/android.hardware.graphics.common@1.0.so (BuildId: 0a3ae633aed79ae2312fc2169ef38ba8)
+    00007b86'610cf000-00007b86'610cffff r--         0      1000  /system/lib64/android.hardware.graphics.common@1.0.so (BuildId: 0a3ae633aed79ae2312fc2169ef38ba8)
+    00007b86'610d0000-00007b86'610d0fff rw-      1000      1000  /system/lib64/android.hardware.graphics.common@1.0.so
+    00007b86'6110b000-00007b86'61121fff r-x         0     17000  /system/lib64/android.hardware.power@1.0.so (BuildId: 4c51751af042c7eab1e40c885a4705c5) (load bias 0x1000)
+    00007b86'61122000-00007b86'61122fff ---         0      1000
+    00007b86'61123000-00007b86'61124fff r--     17000      2000  /system/lib64/android.hardware.power@1.0.so (load bias 0x1000)
+    00007b86'61125000-00007b86'61125fff rw-     19000      1000  /system/lib64/android.hardware.power@1.0.so (load bias 0x1000)
+    00007b86'61154000-00007b86'61174fff r-x         0     21000  /system/lib64/android.frameworks.vr.composer@1.0.so (BuildId: 64d26011fc8e9d7157f3342b9fdd3cd7) (load bias 0x3000)
+    00007b86'61175000-00007b86'61175fff ---         0      1000
+    00007b86'61176000-00007b86'61178fff r--     21000      3000  /system/lib64/android.frameworks.vr.composer@1.0.so (load bias 0x3000)
+    00007b86'61179000-00007b86'61179fff rw-     24000      1000  /system/lib64/android.frameworks.vr.composer@1.0.so (load bias 0x3000)
+    00007b86'61195000-00007b86'612d3fff r-x         0    13f000  /system/lib64/libcrypto.so (BuildId: 70e64fc0cefd4533f8505a62c25dbe76)
+    00007b86'612d4000-00007b86'612d4fff ---         0      1000
+    00007b86'612d5000-00007b86'612e5fff r--    13f000     11000  /system/lib64/libcrypto.so
+    00007b86'612e6000-00007b86'612e6fff rw-    150000      1000  /system/lib64/libcrypto.so
+    00007b86'612e7000-00007b86'612e7fff rw-         0      1000  [anon:.bss]
+    00007b86'61308000-00007b86'61317fff r-x         0     10000  /system/lib64/libbase.so (BuildId: ae26ab32ea26fc2fcab73007135aebc7)
+    00007b86'61318000-00007b86'61318fff ---         0      1000
+    00007b86'61319000-00007b86'61319fff r--     10000      1000  /system/lib64/libbase.so
+    00007b86'6131a000-00007b86'6131afff rw-     11000      1000  /system/lib64/libbase.so
+    00007b86'61357000-00007b86'6136cfff r-x         0     16000  /system/lib64/android.hardware.graphics.allocator@2.0.so (BuildId: a5f82e43dc538910a6f52fa989519678) (load bias 0x1000)
+    00007b86'6136d000-00007b86'6136dfff ---         0      1000
+    00007b86'6136e000-00007b86'6136ffff r--     16000      2000  /system/lib64/android.hardware.graphics.allocator@2.0.so (load bias 0x1000)
+    00007b86'61370000-00007b86'61370fff rw-     18000      1000  /system/lib64/android.hardware.graphics.allocator@2.0.so (load bias 0x1000)
+    00007b86'6139b000-00007b86'613dbfff r-x         0     41000  /system/lib64/android.hardware.graphics.composer@2.2.so (BuildId: 23b4472e2267cad5aa0adafd039fce55) (load bias 0x6000)
+    00007b86'613dc000-00007b86'613dcfff ---         0      1000
+    00007b86'613dd000-00007b86'613e1fff r--     41000      5000  /system/lib64/android.hardware.graphics.composer@2.2.so (load bias 0x6000)
+    00007b86'613e2000-00007b86'613e2fff rw-     46000      1000  /system/lib64/android.hardware.graphics.composer@2.2.so (load bias 0x6000)
+    00007b86'61413000-00007b86'6147afff r-x         0     68000  /system/lib64/libpdx_default_transport.so (BuildId: dc003eaf84bfba22ed58ef4e0e97c393) (load bias 0x1000)
+    00007b86'6147b000-00007b86'6147bfff ---         0      1000
+    00007b86'6147c000-00007b86'6147dfff r--     68000      2000  /system/lib64/libpdx_default_transport.so (load bias 0x1000)
+    00007b86'6147e000-00007b86'6147efff rw-     6a000      1000  /system/lib64/libpdx_default_transport.so (load bias 0x1000)
+    00007b86'6147f000-00007b86'6147ffff rw-         0      1000  [anon:.bss]
+    00007b86'61488000-00007b86'614c5fff r-x         0     3e000  /system/lib64/libdexfile.so (BuildId: 9fe9ae01ff5fccdf328e32fa67d25170) (load bias 0x2000)
+    00007b86'614c6000-00007b86'614c7fff r--     3d000      2000  /system/lib64/libdexfile.so (load bias 0x2000)
+    00007b86'614c8000-00007b86'614c8fff rw-     3f000      1000  /system/lib64/libdexfile.so (load bias 0x2000)
+    00007b86'61500000-00007b86'61667fff r-x         0    168000  /system/lib64/libsurfaceflinger.so (BuildId: d21487be465399526197413ae8545ede) (load bias 0x1c000)
+    00007b86'61668000-00007b86'61668fff ---         0      1000
+    00007b86'61669000-00007b86'6167bfff r--    168000     13000  /system/lib64/libsurfaceflinger.so (load bias 0x1c000)
+    00007b86'6167c000-00007b86'6167cfff rw-    17b000      1000  /system/lib64/libsurfaceflinger.so (load bias 0x1c000)
+    00007b86'6167d000-00007b86'6167dfff rw-         0      1000  [anon:.bss]
+    00007b86'616a7000-00007b86'616acfff r-x         0      6000  /system/lib64/libutilscallstack.so (BuildId: 5e282316d7e114c66207143627007c1f)
+    00007b86'616ad000-00007b86'616adfff r--      5000      1000  /system/lib64/libutilscallstack.so
+    00007b86'616ae000-00007b86'616aefff rw-      6000      1000  /system/lib64/libutilscallstack.so
+    00007b86'616d6000-00007b86'616effff r-x         0     1a000  /system/lib64/libGLESv2.so (BuildId: c91f00bc67c8e9b5879680001d7ac597)
+    00007b86'616f0000-00007b86'616f0fff r--     19000      1000  /system/lib64/libGLESv2.so
+    00007b86'616f1000-00007b86'616f1fff rw-     1a000      1000  /system/lib64/libGLESv2.so
+    00007b86'61709000-00007b86'61757fff r-x         0     4f000  /system/lib64/libunwindstack.so (BuildId: ba11c1c1fcae77389b54af276395cff1) (load bias 0x5000)
+    00007b86'61758000-00007b86'61758fff ---         0      1000
+    00007b86'61759000-00007b86'6175ffff r--     4f000      7000  /system/lib64/libunwindstack.so (load bias 0x5000)
+    00007b86'61760000-00007b86'61760fff rw-     56000      1000  /system/lib64/libunwindstack.so (load bias 0x5000)
+    00007b86'61789000-00007b86'617f6fff r-x         0     6e000  /system/lib64/libhidltransport.so (BuildId: b6088f20f4615fabb9c3661e9169be8d) (load bias 0xa000)
+    00007b86'617f7000-00007b86'617fefff r--     6d000      8000  /system/lib64/libhidltransport.so (load bias 0xa000)
+    00007b86'617ff000-00007b86'617fffff rw-     75000      1000  /system/lib64/libhidltransport.so (load bias 0xa000)
+    00007b86'6180e000-00007b86'6183afff r-x         0     2d000  /system/lib64/liblayers_proto.so (BuildId: 492fa80e8d429a49ea8bf4bed6aefeed) (load bias 0x1000)
+    00007b86'6183b000-00007b86'6183cfff r--     2c000      2000  /system/lib64/liblayers_proto.so (load bias 0x1000)
+    00007b86'6183d000-00007b86'6183dfff rw-     2e000      1000  /system/lib64/liblayers_proto.so (load bias 0x1000)
+    00007b86'61840000-00007b86'61929fff r-x         0     ea000  /system/lib64/libc.so (BuildId: 70c0bef1f8b2d414312145553219d07a)
+    00007b86'6192a000-00007b86'6192afff ---         0      1000
+    00007b86'6192b000-00007b86'61930fff r--     ea000      6000  /system/lib64/libc.so
+    00007b86'61931000-00007b86'61932fff rw-     f0000      2000  /system/lib64/libc.so
+    00007b86'61933000-00007b86'61933fff rw-         0      1000  [anon:.bss]
+    00007b86'61934000-00007b86'61934fff r--         0      1000  [anon:.bss]
+    00007b86'61935000-00007b86'6193cfff rw-         0      8000  [anon:.bss]
+    00007b86'61944000-00007b86'6194bfff r-x         0      8000  /system/lib64/libdisplayservicehidl.so (BuildId: 53c770950a29372d5315684b97d63c89)
+    00007b86'6194c000-00007b86'6194cfff r--      7000      1000  /system/lib64/libdisplayservicehidl.so
+    00007b86'6194d000-00007b86'6194dfff rw-      8000      1000  /system/lib64/libdisplayservicehidl.so
+    00007b86'619bb000-00007b86'619bbfff r-x         0      1000  /system/lib64/libvndksupport.so (BuildId: af1756df4a256c74ddd1511e5494e526)
+    00007b86'619bc000-00007b86'619bcfff r--         0      1000  /system/lib64/libvndksupport.so (BuildId: af1756df4a256c74ddd1511e5494e526)
+    00007b86'619bd000-00007b86'619bdfff rw-      1000      1000  /system/lib64/libvndksupport.so
+    00007b86'619d5000-00007b86'619f9fff r-x         0     25000  /system/lib64/libui.so (BuildId: eabc8a01f90d4ff48f6d8ac7eebb4be2)
+    00007b86'619fa000-00007b86'619fbfff r--     24000      2000  /system/lib64/libui.so
+    00007b86'619fc000-00007b86'619fcfff rw-     26000      1000  /system/lib64/libui.so
+    00007b86'61a1c000-00007b86'61aa4fff r-x         0     89000  /system/lib64/libbinder.so (BuildId: 6f8ef7411e3cb3e8b0e540ada18d0302) (load bias 0x15000)
+    00007b86'61aa5000-00007b86'61ab4fff r--     88000     10000  /system/lib64/libbinder.so (load bias 0x15000)
+    00007b86'61ab5000-00007b86'61ab5fff rw-     98000      1000  /system/lib64/libbinder.so (load bias 0x15000)
+    00007b86'61acc000-00007b86'61ad4fff r-x         0      9000  /system/lib64/libGLESv1_CM.so (BuildId: 7e907f08061d57235ea7d23b342bbbd5)
+    00007b86'61ad5000-00007b86'61ad5fff ---         0      1000
+    00007b86'61ad6000-00007b86'61ad6fff r--      9000      1000  /system/lib64/libGLESv1_CM.so
+    00007b86'61ad7000-00007b86'61ad7fff rw-      a000      1000  /system/lib64/libGLESv1_CM.so
+    00007b86'61b08000-00007b86'61b2dfff r-x         0     26000  /system/lib64/libEGL.so (BuildId: fd3a7863529a58cbfca0b0135d626723) (load bias 0x8000)
+    00007b86'61b2e000-00007b86'61b2efff ---         0      1000
+    00007b86'61b2f000-00007b86'61b32fff r--     26000      4000  /system/lib64/libEGL.so (load bias 0x8000)
+    00007b86'61b33000-00007b86'61b33fff rw-     2a000      1000  /system/lib64/libEGL.so (load bias 0x8000)
+    00007b86'61b34000-00007b86'61b3afff rw-         0      7000  [anon:.bss]
+    00007b86'61b4f000-00007b86'61b74fff r-x         0     26000  /system/lib64/liblzma.so (BuildId: 2228c1a24dc6363d9db71ebe5fa7f905)
+    00007b86'61b75000-00007b86'61b75fff r--     25000      1000  /system/lib64/liblzma.so
+    00007b86'61b76000-00007b86'61b76fff rw-     26000      1000  /system/lib64/liblzma.so
+    00007b86'61b77000-00007b86'61b7cfff rw-         0      6000  [anon:.bss]
+    00007b86'61ba8000-00007b86'61be7fff r-x         0     40000  /system/lib64/android.hardware.graphics.bufferqueue@1.0.so (BuildId: cc83b06f7945b7bdd7206d49d537e5d2) (load bias 0x5000)
+    00007b86'61be8000-00007b86'61be8fff ---         0      1000
+    00007b86'61be9000-00007b86'61becfff r--     40000      4000  /system/lib64/android.hardware.graphics.bufferqueue@1.0.so (load bias 0x5000)
+    00007b86'61bed000-00007b86'61bedfff rw-     44000      1000  /system/lib64/android.hardware.graphics.bufferqueue@1.0.so (load bias 0x5000)
+    00007b86'61c11000-00007b86'61c11fff r-x         0      1000  /system/lib64/android.hardware.media@1.0.so (BuildId: 0c6e2cac8aa58d1c68881fa96be61910)
+    00007b86'61c12000-00007b86'61c12fff r--         0      1000  /system/lib64/android.hardware.media@1.0.so (BuildId: 0c6e2cac8aa58d1c68881fa96be61910)
+    00007b86'61c13000-00007b86'61c13fff rw-      1000      1000  /system/lib64/android.hardware.media@1.0.so
+    00007b86'61c4d000-00007b86'61c69fff r-x         0     1d000  /system/lib64/libbufferhubqueue.so (BuildId: f6d50ae828ca065bc7bc8210b88fba7f)
+    00007b86'61c6a000-00007b86'61c6afff ---         0      1000
+    00007b86'61c6b000-00007b86'61c6bfff r--     1d000      1000  /system/lib64/libbufferhubqueue.so
+    00007b86'61c6c000-00007b86'61c6cfff rw-     1e000      1000  /system/lib64/libbufferhubqueue.so
+    00007b86'61c80000-00007b86'61c83fff r-x         0      4000  /system/lib64/libnativewindow.so (BuildId: 89b3901129e10da963bcf5d381959039)
+    00007b86'61c84000-00007b86'61c84fff r--      3000      1000  /system/lib64/libnativewindow.so
+    00007b86'61c85000-00007b86'61c85fff rw-      4000      1000  /system/lib64/libnativewindow.so
+    00007b86'61ce4000-00007b86'61d31fff r-x         0     4e000  /system/lib64/libm.so (BuildId: 27659e9db4f4b4d271c06a6d79c81cba)
+    00007b86'61d32000-00007b86'61d32fff r--     4d000      1000  /system/lib64/libm.so
+    00007b86'61d33000-00007b86'61d33fff rw-     4e000      1000  /system/lib64/libm.so
+    00007b86'61d5b000-00007b86'61d5cfff r-x         0      2000  /system/lib64/libdl.so (BuildId: 32a6676d68702632466ce517d9c8e3df)
+    00007b86'61d5d000-00007b86'61d5dfff r--      1000      1000  /system/lib64/libdl.so
+    00007b86'61d5e000-00007b86'61d5efff rw-         0      1000  [anon:.bss]
+    00007b86'61d8d000-00007b86'61db0fff r-x         0     24000  /system/lib64/android.hardware.configstore@1.0.so (BuildId: 7d903a1dba94336c434f170d60e76da6) (load bias 0x2000)
+    00007b86'61db1000-00007b86'61db1fff ---         0      1000
+    00007b86'61db2000-00007b86'61db4fff r--     24000      3000  /system/lib64/android.hardware.configstore@1.0.so (load bias 0x2000)
+    00007b86'61db5000-00007b86'61db5fff rw-     27000      1000  /system/lib64/android.hardware.configstore@1.0.so (load bias 0x2000)
+    00007b86'61dd5000-00007b86'61e67fff r-x         0     93000  /system/lib64/libgui.so (BuildId: 7dbb24d9380ff9974062aaa129f4720a) (load bias 0x1c000)
+    00007b86'61e68000-00007b86'61e7afff r--     92000     13000  /system/lib64/libgui.so (load bias 0x1c000)
+    00007b86'61e7b000-00007b86'61e7bfff rw-     a5000      1000  /system/lib64/libgui.so (load bias 0x1c000)
+    00007b86'61ea1000-00007b86'61ea1fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61ea2000-00007b86'61ea3fff rw-         0      2000  [anon:linker_alloc]
+    00007b86'61eac000-00007b86'61eacfff r--         0      1000  [anon:linker_alloc]
+    00007b86'61ead000-00007b86'61eadfff rw-         0      1000  [anon:linker_alloc]
+    00007b86'61ee4000-00007b86'61ee4fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61f06000-00007b86'61f06fff rw-         0      1000  [anon:linker_alloc]
+    00007b86'61f0b000-00007b86'61f0bfff rw-         0      1000  [anon:linker_alloc_vector]
+    00007b86'61f0d000-00007b86'61f0dfff r--         0      1000  [anon:linker_alloc]
+    00007b86'61f33000-00007b86'61f33fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61f43000-00007b86'61f43fff rw-         0      1000  [anon:linker_alloc_small_objects]
+    00007b86'61f44000-00007b86'61f44fff rw-         0      1000  [anon:linker_alloc]
+    00007b86'61f51000-00007b86'61f51fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61f6a000-00007b86'61f6afff rw-         0      1000  [anon:linker_alloc]
+    00007b86'61f78000-00007b86'61f78fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61f95000-00007b86'61f95fff rw-         0      1000  [anon:linker_alloc]
+    00007b86'61fb6000-00007b86'61fb6fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61fc0000-00007b86'61fc0fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61fc7000-00007b86'61fc7fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61fd4000-00007b86'61fd4fff rw-         0      1000  [anon:linker_alloc]
+    00007b86'61fe2000-00007b86'61fe2fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61fe5000-00007b86'61fe5fff ---         0      1000  [anon:thread signal stack guard]
+    00007b86'61fe6000-00007b86'61fe9fff rw-         0      4000  [anon:thread signal stack]
+    00007b86'61fea000-00007b86'61feafff ---         0      1000  [anon:thread signal stack guard]
+    00007b86'61feb000-00007b86'61feefff rw-         0      4000  [anon:thread signal stack]
+    00007b86'61fef000-00007b86'61feffff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'61ff0000-00007b86'61ff2fff rw-         0      3000  [anon:bionic TLS]
+    00007b86'61ff3000-00007b86'61ff3fff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'61ff4000-00007b86'61ff4fff r--         0      1000  [anon:linker_alloc]
+    00007b86'61ff6000-00007b86'62015fff r--         0     20000  /dev/__properties__/u:object_r:qemu_prop:s0
+    00007b86'62016000-00007b86'62016fff rw-         0      1000  [anon:linker_alloc]
+    00007b86'62017000-00007b86'62017fff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'62018000-00007b86'6201afff rw-         0      3000  [anon:bionic TLS]
+    00007b86'6201b000-00007b86'6201bfff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'6201c000-00007b86'6201cfff r--         0      1000  [anon:linker_alloc]
+    00007b86'62020000-00007b86'62020fff ---         0      1000  [anon:thread signal stack guard]
+    00007b86'62021000-00007b86'62024fff rw-         0      4000  [anon:thread signal stack]
+    00007b86'62025000-00007b86'62025fff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'62026000-00007b86'62028fff rw-         0      3000  [anon:bionic TLS]
+    00007b86'62029000-00007b86'62029fff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'6202a000-00007b86'62049fff r--         0     20000  /dev/__properties__/u:object_r:exported3_default_prop:s0
+    00007b86'6204a000-00007b86'6204afff rw-         0      1000  [anon:linker_alloc]
+    00007b86'6204d000-00007b86'6204dfff ---         0      1000  [anon:thread signal stack guard]
+    00007b86'6204e000-00007b86'62051fff rw-         0      4000  [anon:thread signal stack]
+    00007b86'62052000-00007b86'62071fff r--         0     20000  /dev/__properties__/u:object_r:default_prop:s0
+    00007b86'62072000-00007b86'62072fff r--         0      1000  [anon:linker_alloc]
+    00007b86'62076000-00007b86'62076fff ---         0      1000  [anon:thread signal stack guard]
+    00007b86'62077000-00007b86'6207afff rw-         0      4000  [anon:thread signal stack]
+    00007b86'6207b000-00007b86'6207bfff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'6207c000-00007b86'6207efff rw-         0      3000  [anon:bionic TLS]
+    00007b86'6207f000-00007b86'6207ffff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'62080000-00007b86'62080fff ---         0      1000  [anon:thread signal stack guard]
+    00007b86'62081000-00007b86'62084fff rw-         0      4000  [anon:thread signal stack]
+    00007b86'62085000-00007b86'620a4fff r--         0     20000  /dev/__properties__/u:object_r:log_tag_prop:s0
+    00007b86'620a5000-00007b86'620c4fff r--         0     20000  /dev/__properties__/u:object_r:logd_prop:s0
+    00007b86'620c5000-00007b86'620c5fff rw-         0      1000  [anon:linker_alloc]
+    00007b86'620c6000-00007b86'620c6fff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'620c7000-00007b86'620c9fff rw-         0      3000  [anon:bionic TLS]
+    00007b86'620ca000-00007b86'620cafff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'620cb000-00007b86'620cbfff ---         0      1000  [anon:thread signal stack guard]
+    00007b86'620cc000-00007b86'620cffff rw-         0      4000  [anon:thread signal stack]
+    00007b86'620d0000-00007b86'620d0fff r--         0      1000  [anon:linker_alloc]
+    00007b86'620d5000-00007b86'620d5fff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'620d6000-00007b86'620d8fff rw-         0      3000  [anon:bionic TLS]
+    00007b86'620d9000-00007b86'620dafff ---         0      2000  [anon:bionic TLS guard]
+    00007b86'620db000-00007b86'620ddfff rw-         0      3000  [anon:bionic TLS]
+    00007b86'620de000-00007b86'620defff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'620df000-00007b86'620fefff r--         0     20000  /dev/__properties__/u:object_r:debug_prop:s0
+    00007b86'620ff000-00007b86'620fffff rw-         0      1000  [anon:linker_alloc]
+    00007b86'62103000-00007b86'62122fff r--         0     20000  /dev/__properties__/u:object_r:exported_default_prop:s0
+    00007b86'62123000-00007b86'62142fff r--         0     20000  /dev/__properties__/u:object_r:hwservicemanager_prop:s0
+    00007b86'62143000-00007b86'62143fff r--         0      1000  [anon:linker_alloc]
+    00007b86'62144000-00007b86'62144fff rw-         0      1000
+    00007b86'62145000-00007b86'62145fff r--         0      1000  [anon:linker_alloc]
+    00007b86'62146000-00007b86'62146fff r--         0      1000  [anon:atexit handlers]
+    00007b86'62147000-00007b86'62166fff r--         0     20000  /dev/__properties__/u:object_r:exported2_default_prop:s0
+    00007b86'62167000-00007b86'62167fff rw-         0      1000  [anon:linker_alloc]
+    00007b86'62168000-00007b86'62187fff r--         0     20000  /dev/__properties__/properties_serial
+    00007b86'62188000-00007b86'6218efff r--         0      7000  /dev/__properties__/property_info
+    00007b86'6218f000-00007b86'6218ffff rw-         0      1000  [anon:linker_alloc_vector]
+    00007b86'62190000-00007b86'62190fff rw-         0      1000  [anon:linker_alloc_small_objects]
+    00007b86'62191000-00007b86'62191fff rw-         0      1000  [anon:System property context nodes]
+    00007b86'62192000-00007b86'62192fff rw-         0      1000  [anon:linker_alloc_vector]
+    00007b86'62193000-00007b86'62195fff rw-         0      3000  [anon:linker_alloc_small_objects]
+    00007b86'62196000-00007b86'62196fff rw-         0      1000  [anon:linker_alloc]
+    00007b86'62197000-00007b86'62197fff rw-         0      1000  [anon:linker_alloc_small_objects]
+    00007b86'62198000-00007b86'62198fff rw-         0      1000  [anon:arc4random data]
+    00007b86'62199000-00007b86'62199fff r--         0      1000  [anon:linker_alloc]
+    00007b86'6219a000-00007b86'6219afff rw-         0      1000  [anon:linker_alloc_small_objects]
+    00007b86'6219b000-00007b86'6219bfff rw-         0      1000  [anon:linker_alloc_vector]
+    00007b86'6219c000-00007b86'6219cfff rw-         0      1000  [anon:linker_alloc_small_objects]
+    00007b86'6219d000-00007b86'6219dfff rw-         0      1000  [anon:linker_alloc_vector]
+    00007b86'6219e000-00007b86'6219efff rw-         0      1000  [anon:linker_alloc_small_objects]
+    00007b86'6219f000-00007b86'621befff r--         0     20000  /dev/__properties__/u:object_r:exported_default_prop:s0
+    00007b86'621bf000-00007b86'621defff r--         0     20000  /dev/__properties__/u:object_r:debug_prop:s0
+    00007b86'621df000-00007b86'621dffff r--         0      1000  [anon:linker_alloc]
+    00007b86'621e0000-00007b86'621e1fff rw-         0      2000  [anon:linker_alloc_small_objects]
+    00007b86'621e2000-00007b86'621e2fff r--         0      1000  [anon:linker_alloc]
+    00007b86'621e3000-00007b86'621e3fff ---         0      1000
+    00007b86'621e4000-00007b86'621e4fff rw-         0      1000
+    00007b86'621e5000-00007b86'621e5fff ---         0      1000
+    00007b86'621e6000-00007b86'62205fff r--         0     20000  /dev/__properties__/properties_serial
+    00007b86'62206000-00007b86'62206fff rw-         0      1000  [anon:System property context nodes]
+    00007b86'62207000-00007b86'6220dfff r--         0      7000  /dev/__properties__/property_info
+    00007b86'6220e000-00007b86'6220efff r--         0      1000  [anon:linker_alloc]
+    00007b86'6220f000-00007b86'6220ffff rw-         0      1000  [anon:linker_alloc_vector]
+    00007b86'62210000-00007b86'62210fff rw-         0      1000  [anon:linker_alloc_small_objects]
+    00007b86'62211000-00007b86'62211fff rw-         0      1000  [anon:linker_alloc_vector]
+    00007b86'62212000-00007b86'62212fff rw-         0      1000  [anon:linker_alloc_small_objects]
+    00007b86'62213000-00007b86'62213fff r--         0      1000  [anon:atexit handlers]
+    00007b86'62214000-00007b86'62214fff ---         0      1000  [anon:thread signal stack guard]
+    00007b86'62215000-00007b86'62218fff rw-         0      4000  [anon:thread signal stack]
+    00007b86'62219000-00007b86'62219fff rw-         0      1000  [anon:arc4random data]
+    00007b86'6221a000-00007b86'6221afff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'6221b000-00007b86'6221dfff rw-         0      3000  [anon:bionic TLS]
+    00007b86'6221e000-00007b86'6221efff ---         0      1000  [anon:bionic TLS guard]
+    00007b86'6221f000-00007b86'6235ffff r-x         0    141000  /system/bin/linker64 (BuildId: 26b7e37338cf51d1e52f65c49bd6ad33)
+    00007b86'62360000-00007b86'6236afff r--    140000      b000  /system/bin/linker64
+    00007b86'6236b000-00007b86'6236bfff rw-    14b000      1000  /system/bin/linker64
+    00007b86'6236c000-00007b86'6236efff rw-         0      3000
+    00007b86'6236f000-00007b86'6236ffff r--         0      1000
+    00007b86'62370000-00007b86'62376fff rw-         0      7000
+    00007fff'7d531000-00007fff'7d551fff rw-         0     21000  [stack]
+    00007fff'7d593000-00007fff'7d595fff r--         0      3000  [vvar]
+    00007fff'7d596000-00007fff'7d597fff r-x         0      2000  [vdso] (BuildId: 61ec2b231ed31b1d81a0cdf5e208f70ca2626ea0)
+    ffffffff'ff600000-ffffffff'ff600fff r-x         0      1000  [vsyscall]
+--------- tail end of log main
+10-26 14:24:44.160  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::startGraphicsAllocatorService retrieved: 0
+10-26 14:24:44.160  1662  1662 I SurfaceFlinger: Using HWComposer service: 'default'
+10-26 14:24:44.160  1662  1662 I SurfaceFlinger: SurfaceFlinger is starting
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::vsyncEventPhaseOffsetNs retrieved: 1000000 (default)
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::vsyncSfEventPhaseOffsetNs retrieved: 1000000 (default)
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasSyncFramework retrieved: 1
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::presentTimeOffsetFromVSyncNs retrieved: 0
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::useHwcForRGBtoYUV retrieved: 0
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxVirtualDisplaySize retrieved: 0 (default)
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::useVrFlinger retrieved: 0 (default)
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxFrameBufferAcquiredBuffers retrieved: 3
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+10-26 14:24:44.162  1662  1662 I ConfigStore: android::hardware::configstore::V1_1::ISurfaceFlingerConfigs::primaryDisplayOrientation retrieved: ORIENTATION_0 (default)
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: Enabling HWC virtual displays
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: Disabling Triple Buffering
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: Treble testing override: 'false'
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: Phase offest NS: 1000000
+10-26 14:24:44.162  1662  1662 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+10-26 14:24:44.297  1662  1662 E vndksupport: Could not load /vendor/lib64/egl/libGLES_emulation.so from sphal namespace: dlopen failed: library "/vendor/lib64/egl/libGLES_emulation.so" not found.
+10-26 14:24:44.297  1662  1662 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_emulation.so): unknown
+10-26 14:24:44.299  1662  1662 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-26 14:24:44.299  1662  1662 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-26 14:24:44.306  1662  1662 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-26 14:24:44.311  1662  1662 D         : HostConnection::get() New Host Connection established 0x7b866042d960, tid 1662
+10-26 14:24:44.315  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+10-26 14:24:44.315  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: EGL information:
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: vendor    : Android
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: version   : 1.4 Android META-EGL
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_native_client_buffer EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_frame_timestamps EGL_EXT_surface_SMPTE2086_metadata EGL_EXT_surface_CTA861_3_metadata EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable 
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: Client API: OpenGL_ES
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x2
+10-26 14:24:44.317  1662  1662 D EGL_emulation: eglCreateContext: 0x7b8660446820: maj 3 min 0 rcv 3
+10-26 14:24:44.318  1662  1662 D EGL_emulation: eglMakeCurrent: 0x7b8660446820: ver 3 0 (tinfo 0x7b866042c680)
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: OpenGL ES informations:
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: vendor    : Google (Google Inc.)
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: renderer  : Android Emulator OpenGL ES Translator (Google SwiftShader)
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: version   : OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rg10-26 14:24:44.320  1662  1662 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+10-26 14:24:44.329  1662  1662 E HWComposer: getSupportedPerFrameMetadata: getSupportedPerFrameMetadata failed for display 0: Unsupported (8)
+10-26 14:24:44.330  1662  1662 D EGL_emulation: eglMakeCurrent: 0x7b8660446820: ver 3 0 (tinfo 0x7b866042c680)
+10-26 14:24:44.411  1662  1662 D SurfaceFlinger: shader cache generated - 24 shaders in 80.845367 ms
+10-26 14:24:44.412  1662  1662 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7b8660458000
+10-26 14:24:44.413  1662  1662 E HWComposer: setPowerMode: setPowerMode(On) failed for display 0: NoResources (6)
+10-26 14:24:44.413  1662  1662 F HidlStatus: Status.cpp:149] Failed HIDL return status not checked: Status(EX_TRANSACTION_FAILED): 'DEAD_OBJECT: '
+10-26 14:24:45.041  1662  1687 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+10-26 14:24:45.330  1662  1686 W SurfaceFlinger: Timed out waiting for hw vsync; faking it
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+pid: 1662, tid: 1683, name: Binder:1662_1  >>> /system/bin/surfaceflinger <<<
+    rax fffffffffffffe00  rbx 0000000000000000  rcx 00007b86618be317  rdx 00007b86601f7380
+    r8  0000000000000000  r9  0000000000000000  r10 0000000000000000  r11 0000000000000206
+    r12 00007b8660474000  r13 0000000000000100  r14 00007b86601f7380  r15 00007b8660474110
+    rdi 0000000000000007  rsi 00000000c0306201
+    rbp 00000000fffffff7  rsp 00007b86601f7288  rip 00007b86618be317
+
+backtrace:
+    #00 pc 000000000007e317  /system/lib64/libc.so (__ioctl+7)
+    #01 pc 0000000000030cde  /system/lib64/libc.so (ioctl+206)
+    #02 pc 000000000005b40e  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+270)
+    #03 pc 000000000005b5f0  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+16)
+    #04 pc 000000000005bdd1  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+49)
+    #05 pc 0000000000082277  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+23)
+    #06 pc 000000000000f79a  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+314)
+    #07 pc 0000000000092bab  /system/lib64/libc.so (__pthread_start(void*)+27)
+    #08 pc 000000000002af2d  /system/lib64/libc.so (__start_thread+61)
+
+stack:
+         00007b86601f7208  00007b86601f7478  <anonymous:00007b86600fb000>
+         00007b86601f7210  00007b86601f7460  <anonymous:00007b86600fb000>
+         00007b86601f7218  0000000000000000
+         00007b86601f7220  00007b86601f7248  <anonymous:00007b86600fb000>
+         00007b86601f7228  00007b8660ed531e  /system/lib64/libutils.so (_ZNK7android12SharedBuffer7releaseEj+46)
+         00007b86601f7230  00007b8660446500  [anon:libc_malloc]
+         00007b86601f7238  00007b8661a88666  /system/lib64/libbinder.so (_ZN7android12ProcessState17spawnPooledThreadEb+246)
+         00007b86601f7240  00007b8660446500  [anon:libc_malloc]
+         00007b86601f7248  00007b8660428e58  [anon:libc_malloc]
+         00007b86601f7250  c55b272f59c01320
+         00007b86601f7258  00007b8660474000  [anon:libc_malloc]
+         00007b86601f7260  0000000000000000
+         00007b86601f7268  0000000000000001
+         00007b86601f7270  00000000ffffff92
+         00007b86601f7278  00007b8661a6280c  /system/lib64/libbinder.so (_ZN7android14IPCThreadState14executeCommandEi+204)
+         00007b86601f7280  fffffffffffffffc
+    #00  00007b86601f7288  00007b8661870cdf  /system/lib64/libc.so (ioctl+207)
+    #01  00007b86601f7290  0000000000000004
+         ........  ........
+    #02  00007b86601f7370  00007b866044d400  [anon:libc_malloc]
+         ........  ........
+    #03  00007b86601f73f0  00007b8660474000  [anon:libc_malloc]
+         ........  ........
+    #04  00007b86601f7410  00007b8660474000  [anon:libc_malloc]
+         ........  ........
+    #05  00007b86601f7440  00007b8660446140  [anon:libc_malloc]
+         ........  ........
+    #06  00007b86601f7450  00007b8660427300  [anon:libc_malloc]
+         ........  ........
+    #07  00007b86601f74c0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         ........  ........
+    #08  00007b86601f74d0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         00007b86601f74d8  00007b8662370548  <anonymous:00007b8662370000>
+         00007b86601f74e0  000000000000067e
+         00007b86601f74e8  00007b86618669b6  /system/lib64/libc.so (__bionic_clone+54)
+         00007b86601f74f0  00007b8662370548  <anonymous:00007b8662370000>
+         00007b86601f74f8  00007b86600f94f0  <anonymous:00007b865fffd000>
+         00007b86601f7500  0000067e00000693
+         00007b86601f7508  0000000000000001
+         00007b86601f7510  00007b86600fa000  [anon:thread stack guard]
+         00007b86601f7518  00000000000fd4f0
+         00007b86601f7520  0000000000001000
+         00007b86601f7528  0000000000000000
+         00007b86601f7530  0000000000000007
+         00007b86601f7538  00007b86618edd05  /system/lib64/libc.so (je_malloc+69)
+         00007b86601f7540  0000000000000003
+         00007b86601f7548  0000000000000000
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+pid: 1662, tid: 1684, name: DispSync  >>> /system/bin/surfaceflinger <<<
+    rax fffffffffffffe00  rbx 0000000000000000  rcx 00007b8661866b98  rdx 0000000000000006
+    r8  0000000000000000  r9  00000000ffffffff  r10 0000000000000000  r11 0000000000000246
+    r12 00007b86600f9598  r13 0000000000000002  r14 0000000000000006  r15 00007b8660471110
+    rdi 00007b8660471110  rsi 0000000000000089
+    rbp 0000000000000089  rsp 00007b86600f92f8  rip 00007b8661866b98
+
+backtrace:
+    #00 pc 0000000000026b98  /system/lib64/libc.so (syscall+24)
+    #01 pc 0000000000029cd5  /system/lib64/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+133)
+    #02 pc 000000000009219d  /system/lib64/libc.so (pthread_cond_wait+45)
+    #03 pc 000000000008be01  /system/lib64/libsurfaceflinger.so (android::DispSyncThread::threadLoop()+497)
+    #04 pc 000000000000f79a  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+314)
+    #05 pc 0000000000092bab  /system/lib64/libc.so (__pthread_start(void*)+27)
+    #06 pc 000000000002af2d  /system/lib64/libc.so (__start_thread+61)
+
+stack:
+         00007b86600f9278  0000000000000000
+         00007b86600f9280  0000000000000001
+         00007b86600f9288  0000000000000000
+         00007b86600f9290  c55b272f59c01320
+         00007b86600f9298  00007b8660823f12  /system/lib64/libcutils.so (_ZL8snprintfPcU17pass_object_size1mPKcz+162)
+         00007b86600f92a0  0000000000000000
+         00007b86600f92a8  0000000000000000
+         00007b86600f92b0  0000000000000000
+         00007b86600f92b8  0000000000000000
+         00007b86600f92c0  0000000000000000
+         00007b86600f92c8  0000000000000000
+         00007b86600f92d0  0000000000000000
+         00007b86600f92d8  0000000000000000
+         00007b86600f92e0  00000000ffffffff
+         00007b86600f92e8  0000000000000000
+         00007b86600f92f0  0000000000000000
+    #00  00007b86600f92f8  00007b8661869cd6  /system/lib64/libc.so (_Z15__futex_wait_exPVvbibPK8timespec+134)
+    #01  00007b86600f9300  00000000ffffffff
+         ........  ........
+    #02  00007b86600f9360  0000000000000000
+         ........  ........
+    #03  00007b86600f9390  00007b86604710e8  [anon:libc_malloc]
+         ........  ........
+    #04  00007b86600f9450  00007b8660427280  [anon:libc_malloc]
+         ........  ........
+    #05  00007b86600f94c0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         ........  ........
+    #06  00007b86600f94d0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         00007b86600f94d8  00007b8662370548  <anonymous:00007b8662370000>
+         00007b86600f94e0  000000000000067e
+         00007b86600f94e8  00007b86618669b6  /system/lib64/libc.so (__bionic_clone+54)
+         00007b86600f94f0  00007b86601f74f0  <anonymous:00007b86600fb000>
+         00007b86600f94f8  00007b865fffb4f0  <anonymous:00007b865feff000>
+         00007b86600f9500  0000067e00000694
+         00007b86600f9508  00007b8600000001
+         00007b86600f9510  00007b865fffc000  [anon:thread stack guard]
+         00007b86600f9518  00000000000fd4f0
+         00007b86600f9520  0000000000001000
+         00007b86600f9528  0000000000000000
+         00007b86600f9530  0000000000000006
+         00007b86600f9538  0000000000000000
+         00007b86600f9540  0000000000000003
+         00007b86600f9548  0000000000000000
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+pid: 1662, tid: 1685, name: appEventThread  >>> /system/bin/surfaceflinger <<<
+    rax fffffffffffffe00  rbx 0000000000000000  rcx 00007b8661866b98  rdx 0000000000000004
+    r8  0000000000000000  r9  c55b272fffffffff  r10 0000000000000000  r11 0000000000000246
+    r12 00007b865fffb598  r13 0000000000000000  r14 0000000000000004  r15 00007b8660471230
+    rdi 00007b8660471230  rsi 0000000000000089
+    rbp 0000000000000089  rsp 00007b865fffb2d8  rip 00007b8661866b98
+
+backtrace:
+    #00 pc 0000000000026b98  /system/lib64/libc.so (syscall+24)
+    #01 pc 0000000000029cd5  /system/lib64/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+133)
+    #02 pc 000000000009219d  /system/lib64/libc.so (pthread_cond_wait+45)
+    #03 pc 000000000006963e  /system/lib64/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+14)
+    #04 pc 000000000008e19b  /system/lib64/libsurfaceflinger.so (android::impl::EventThread::threadMain()+907)
+    #05 pc 000000000008fc56  /system/lib64/libsurfaceflinger.so (_ZNSt3__114__thread_proxyINS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN7android4impl11EventThreadEFvvEPS9_EEEEEPvSE_+54)
+    #06 pc 0000000000092bab  /system/lib64/libc.so (__pthread_start(void*)+27)
+    #07 pc 000000000002af2d  /system/lib64/libc.so (__start_thread+61)
+
+stack:
+         00007b865fffb258  00007b8660412528  [anon:libc_malloc]
+         00007b865fffb260  00007b8660427680  [anon:libc_malloc]
+         00007b865fffb268  0000000000000008
+         00007b865fffb270  00007b865fffb2c0  <anonymous:00007b865feff000>
+         00007b865fffb278  00007b8660427688  [anon:libc_malloc]
+         00007b865fffb280  00007b8660412400  [anon:libc_malloc]
+         00007b865fffb288  00007b86618fe61a  /system/lib64/libc.so (je_tcache_alloc_small_hard+26)
+         00007b865fffb290  0000000000000001
+         00007b865fffb298  00007b8660427680  [anon:libc_malloc]
+         00007b865fffb2a0  00007b8660427718  [anon:libc_malloc]
+         00007b865fffb2a8  00007b866193c984  [anon:.bss]
+         00007b865fffb2b0  00007b8660427500  [anon:libc_malloc]
+         00007b865fffb2b8  00007b8660427688  [anon:libc_malloc]
+         00007b865fffb2c0  0000000000000000
+         00007b865fffb2c8  00007b86618f2681  /system/lib64/libc.so (je_free+113)
+         00007b865fffb2d0  00007b865fffb4f0  <anonymous:00007b865feff000>
+    #00  00007b865fffb2d8  00007b8661869cd6  /system/lib64/libc.so (_Z15__futex_wait_exPVvbibPK8timespec+134)
+    #01  00007b865fffb2e0  c55b272fffffffff
+         ........  ........
+    #02  00007b865fffb340  0000000000000001
+         ........  ........
+    #03  00007b865fffb370  0000000000000001
+         ........  ........
+    #04  00007b865fffb380  00007b8660471230  [anon:libc_malloc]
+         ........  ........
+    #05  00007b865fffb4a0  c55b272f59c01320
+         ........  ........
+    #06  00007b865fffb4c0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         ........  ........
+    #07  00007b865fffb4d0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         00007b865fffb4d8  00007b8662370548  <anonymous:00007b8662370000>
+         00007b865fffb4e0  000000000000067e
+         00007b865fffb4e8  00007b86618669b6  /system/lib64/libc.so (__bionic_clone+54)
+         00007b865fffb4f0  00007b86600f94f0  <anonymous:00007b865fffd000>
+         00007b865fffb4f8  00007b865fefd4f0  <anonymous:00007b865fe01000>
+         00007b865fffb500  0000067e00000695
+         00007b865fffb508  00007fff00000000
+         00007b865fffb510  00007b865fefe000  [anon:thread stack guard]
+         00007b865fffb518  00000000000fd4f0
+         00007b865fffb520  0000000000001000
+         00007b865fffb528  0000000000000000
+         00007b865fffb530  0000000000000030
+         00007b865fffb538  c55b272f59c01320
+         00007b865fffb540  0000000000000000
+         00007b865fffb548  0000000000000000
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+pid: 1662, tid: 1686, name: sfEventThread  >>> /system/bin/surfaceflinger <<<
+    rax fffffffffffffe00  rbx 0000000000000000  rcx 00007b8661866b98  rdx 0000000000000008
+    r8  0000000000000000  r9  00007b86ffffffff  r10 0000000000000000  r11 0000000000000246
+    r12 00007b865fefd598  r13 0000000000000000  r14 0000000000000008  r15 00007b86604713b0
+    rdi 00007b86604713b0  rsi 0000000000000089
+    rbp 0000000000000089  rsp 00007b865fefd2d8  rip 00007b8661866b98
+
+backtrace:
+    #00 pc 0000000000026b98  /system/lib64/libc.so (syscall+24)
+    #01 pc 0000000000029cd5  /system/lib64/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+133)
+    #02 pc 000000000009219d  /system/lib64/libc.so (pthread_cond_wait+45)
+    #03 pc 000000000006963e  /system/lib64/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+14)
+    #04 pc 000000000008e19b  /system/lib64/libsurfaceflinger.so (android::impl::EventThread::threadMain()+907)
+    #05 pc 000000000008fc56  /system/lib64/libsurfaceflinger.so (_ZNSt3__114__thread_proxyINS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN7android4impl11EventThreadEFvvEPS9_EEEEEPvSE_+54)
+    #06 pc 0000000000092bab  /system/lib64/libc.so (__pthread_start(void*)+27)
+    #07 pc 000000000002af2d  /system/lib64/libc.so (__start_thread+61)
+
+stack:
+         00007b865fefd258  00007b8660427908  [anon:libc_malloc]
+         00007b865fefd260  00007b86604f5000  [anon:libc_malloc]
+         00007b865fefd268  00007b86618fe61a  /system/lib64/libc.so (je_tcache_alloc_small_hard+26)
+         00007b865fefd270  0000000000000080
+         00007b865fefd278  00007b86604f50a8  [anon:libc_malloc]
+         00007b865fefd280  0000000000000004
+         00007b865fefd288  00007b86618edffa  /system/lib64/libc.so (je_malloc+826)
+         00007b865fefd290  0000000000000000
+         00007b865fefd298  000000006359432c
+         00007b865fefd2a0  0000000013b23001
+         00007b865fefd2a8  000000000000000a
+         00007b865fefd2b0  00007b86618bdfd8  /system/lib64/libc.so (__set_errno_internal+8)
+         00007b865fefd2b8  00007b865fefd2e0  <anonymous:00007b865fe01000>
+         00007b865fefd2c0  0000000000000001
+         00007b865fefd2c8  00007b8660427900  [anon:libc_malloc]
+         00007b865fefd2d0  00007b8660471300  [anon:libc_malloc]
+    #00  00007b865fefd2d8  00007b8661869cd6  /system/lib64/libc.so (_Z15__futex_wait_exPVvbibPK8timespec+134)
+    #01  00007b865fefd2e0  00007b86ffffffff
+         ........  ........
+    #02  00007b865fefd340  0000000000000001
+         ........  ........
+    #03  00007b865fefd370  0000000000000001
+         ........  ........
+    #04  00007b865fefd380  00007b86604713b0  [anon:libc_malloc]
+         ........  ........
+    #05  00007b865fefd4a0  c55b272f59c01320
+         ........  ........
+    #06  00007b865fefd4c0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         ........  ........
+    #07  00007b865fefd4d0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         00007b865fefd4d8  00007b8662370548  <anonymous:00007b8662370000>
+         00007b865fefd4e0  000000000000067e
+         00007b865fefd4e8  00007b86618669b6  /system/lib64/libc.so (__bionic_clone+54)
+         00007b865fefd4f0  00007b865fffb4f0  <anonymous:00007b865feff000>
+         00007b865fefd4f8  00007b865fdff4f0  <anonymous:00007b865fd03000>
+         00007b865fefd500  0000067e00000696
+         00007b865fefd508  3631003000000000
+         00007b865fefd510  00007b865fe00000  [anon:thread stack guard]
+         00007b865fefd518  00000000000fd4f0
+         00007b865fefd520  0000000000001000
+         00007b865fefd528  0000000000000000
+         00007b865fefd530  0000000000000030
+         00007b865fefd538  c55b272f59c01320
+         00007b865fefd540  0000000000000000
+         00007b865fefd548  0000000000000000
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+pid: 1662, tid: 1687, name: Binder:1662_2  >>> /system/bin/surfaceflinger <<<
+    rax fffffffffffffe00  rbx 0000000000000000  rcx 00007b8661866b98  rdx 0000000000000002
+    r8  0000000000000000  r9  00007b86ffffffff  r10 0000000000000000  r11 0000000000000246
+    r12 00007b865fdff598  r13 0000000000000000  r14 0000000000000002  r15 00007b866044ee30
+    rdi 00007b866044ee30  rsi 0000000000000089
+    rbp 0000000000000089  rsp 00007b865fdff008  rip 00007b8661866b98
+
+backtrace:
+    #00 pc 0000000000026b98  /system/lib64/libc.so (syscall+24)
+    #01 pc 0000000000029cd5  /system/lib64/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+133)
+    #02 pc 000000000009219d  /system/lib64/libc.so (pthread_cond_wait+45)
+    #03 pc 00000000000b0cba  /system/lib64/libsurfaceflinger.so (android::SurfaceFlinger::postMessageSync(android::sp<android::MessageBase> const&, long, unsigned int)+74)
+    #04 pc 000000000006757b  /system/lib64/libsurfaceflinger.so (android::Client::createSurface(android::String8 const&, unsigned int, unsigned int, int, unsigned int, android::sp<android::IBinder> const&, int, int, android::sp<android::IBinder>*, android::sp<android::IGraphicBufferProducer>*)+587)
+    #05 pc 000000000007e069  /system/lib64/libgui.so (_ZN7android15SafeBnInterfaceINS_22ISurfaceComposerClientEE9callLocalIMS1_FiRKNS_7String8EjjijRKNS_2spINS_7IBinderEEEiiPS9_PNS7_INS_22IGraphicBufferProducerEEEEEEiRKNS_6ParcelEPSI_T_+217)
+    #06 pc 000000000006723e  /system/lib64/libsurfaceflinger.so (android::Client::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+110)
+    #07 pc 000000000004f76e  /system/lib64/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+94)
+    #08 pc 000000000005b975  /system/lib64/libbinder.so (android::IPCThreadState::executeCommand(int)+565)
+    #09 pc 000000000005b67f  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+159)
+    #10 pc 000000000005bdd1  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+49)
+    #11 pc 0000000000082277  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+23)
+    #12 pc 000000000000f79a  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+314)
+    #13 pc 0000000000092bab  /system/lib64/libc.so (__pthread_start(void*)+27)
+    #14 pc 000000000002af2d  /system/lib64/libc.so (__start_thread+61)
+
+stack:
+         00007b865fdfef88  0000000000000000
+         00007b865fdfef90  0000000000000000
+         00007b865fdfef98  00007b8660eda62b  /system/lib64/libutils.so (_ZN7android10VectorImpl5_growEmm+283)
+         00007b865fdfefa0  ffffffffffffffb5
+         00007b865fdfefa8  00007b866044e120  [anon:libc_malloc]
+         00007b865fdfefb0  00007b865fdff078  <anonymous:00007b865fd03000>
+         00007b865fdfefb8  00007b8660ede3b6  /system/lib64/libutils.so (_ZNK7android6VectorINS_6Looper15MessageEnvelopeEE8do_splatEPvPKvm+70)
+         00007b865fdfefc0  00007b866044e120  [anon:libc_malloc]
+         00007b865fdfefc8  0000000000000001
+         00007b865fdfefd0  0000000000000000
+         00007b865fdfefd8  00007b8660eda99f  /system/lib64/libutils.so (_ZN7android10VectorImpl8insertAtEPKvmm+79)
+         00007b865fdfefe0  0000000000000000
+         00007b865fdfefe8  00007b865fdff078  <anonymous:00007b865fd03000>
+         00007b865fdfeff0  00007b866044e0f8  [anon:libc_malloc]
+         00007b865fdfeff8  00007b866044e0e0  [anon:libc_malloc]
+         00007b865fdff000  00007b865fdff001  <anonymous:00007b865fd03000>
+    #00  00007b865fdff008  00007b8661869cd6  /system/lib64/libc.so (_Z15__futex_wait_exPVvbibPK8timespec+134)
+    #01  00007b865fdff010  00007b86ffffffff
+         ........  ........
+    #02  00007b865fdff070  0000000000000001
+         ........  ........
+    #03  00007b865fdff0a0  00007b866166aac0  /system/lib64/libsurfaceflinger.so
+         ........  ........
+    #04  00007b865fdff0d0  0000028000000140
+         ........  ........
+    #05  00007b865fdff130  00007b865fdff178  <anonymous:00007b865fd03000>
+         ........  ........
+    #06  00007b865fdff1e0  0000000000000000
+         ........  ........
+    #07  00007b865fdff240  00007b8661669f70  /system/lib64/libsurfaceflinger.so
+         ........  ........
+    #08  00007b865fdff280  00007b8660474700  [anon:libc_malloc]
+         ........  ........
+    #09  00007b865fdff3f0  00007b8660474700  [anon:libc_malloc]
+         ........  ........
+    #10  00007b865fdff410  00007b8660474700  [anon:libc_malloc]
+         ........  ........
+    #11  00007b865fdff440  00007b8660446500  [anon:libc_malloc]
+         ........  ........
+    #12  00007b865fdff450  00007b8660427380  [anon:libc_malloc]
+         ........  ........
+    #13  00007b865fdff4c0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         ........  ........
+    #14  00007b865fdff4d0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         00007b865fdff4d8  00007b86601f74f0  <anonymous:00007b86600fb000>
+         00007b865fdff4e0  0000000000000693
+         00007b865fdff4e8  00007b86618669b6  /system/lib64/libc.so (__bionic_clone+54)
+         00007b865fdff4f0  00007b865fefd4f0  <anonymous:00007b865fe01000>
+         00007b865fdff4f8  00007b865f9514f0  <anonymous:00007b865f855000>
+         00007b865fdff500  0000067e00000697
+         00007b865fdff508  00007b8600000001
+         00007b865fdff510  00007b865fd02000  [anon:thread stack guard]
+         00007b865fdff518  00000000000fd4f0
+         00007b865fdff520  0000000000001000
+         00007b865fdff528  0000000000000000
+         00007b865fdff530  0000000000000009
+         00007b865fdff538  00007b86618edffa  /system/lib64/libc.so (je_malloc+826)
+         00007b865fdff540  0000000000000003
+         00007b865fdff548  0000000000000000
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+pid: 1662, tid: 1695, name: HwBinder:1662_1  >>> /system/bin/surfaceflinger <<<
+    rax fffffffffffffe00  rbx 00007b866044c400  rcx 00007b86618be317  rdx 00007b865f951378
+    r8  00007b8660441140  r9  0000000000000000  r10 0000000000000000  r11 0000000000000206
+    r12 00007b866044c538  r13 00007b865f951378  r14 00007b866044c4b0  r15 0000000000000000
+    rdi 0000000000000003  rsi 00000000c0306201
+    rbp 0000000000000000  rsp 00007b865f951288  rip 00007b86618be317
+
+backtrace:
+    #00 pc 000000000007e317  /system/lib64/libc.so (__ioctl+7)
+    #01 pc 0000000000030cde  /system/lib64/libc.so (ioctl+206)
+    #02 pc 000000000001d963  /system/lib64/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+243)
+    #03 pc 00000000000146bf  /system/lib64/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+15)
+    #04 pc 0000000000014a27  /system/lib64/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+295)
+    #05 pc 000000000001c957  /system/lib64/libhwbinder.so (android::hardware::PoolThread::threadLoop()+23)
+    #06 pc 000000000000f79a  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+314)
+    #07 pc 0000000000092bab  /system/lib64/libc.so (__pthread_start(void*)+27)
+    #08 pc 000000000002af2d  /system/lib64/libc.so (__start_thread+61)
+
+stack:
+         00007b865f951208  00007b8660600140  [anon:libc_malloc]
+         00007b865f951210  00007b8660601f18  [anon:libc_malloc]
+         00007b865f951218  0000000000000104
+         00007b865f951220  00007b8660600140  [anon:libc_malloc]
+         00007b865f951228  00007b8660400000  [anon:libc_malloc]
+         00007b865f951230  000000000000001c
+         00007b865f951238  00007b86618df767  /system/lib64/libc.so (arena_run_split_remove+375)
+         00007b865f951240  0000000000000000
+         00007b865f951248  00007b8660446b40  [anon:libc_malloc]
+         00007b865f951250  0000000000000000
+         00007b865f951258  0000000000001000
+         00007b865f951260  0000000000000001
+         00007b865f951268  00007b8660427b80  [anon:libc_malloc]
+         00007b865f951270  00007b8660446b60  [anon:libc_malloc]
+         00007b865f951278  00007b866193c984  [anon:.bss]
+         00007b865f951280  00007b86604295c0  [anon:libc_malloc]
+    #00  00007b865f951288  00007b8661870cdf  /system/lib64/libc.so (ioctl+207)
+    #01  00007b865f951290  00007b8660446bc8  [anon:libc_malloc]
+         ........  ........
+    #02  00007b865f951370  00007b866044c410  [anon:libc_malloc]
+         ........  ........
+    #03  00007b865f9513e0  0000000000000004
+         ........  ........
+    #04  00007b865f951400  00007b866044c400  [anon:libc_malloc]
+         ........  ........
+    #05  00007b865f951440  00007b8660446be0  [anon:libc_malloc]
+         ........  ........
+    #06  00007b865f951450  00007b8660427b80  [anon:libc_malloc]
+         ........  ........
+    #07  00007b865f9514c0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         ........  ........
+    #08  00007b865f9514d0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         00007b865f9514d8  00007b8662370548  <anonymous:00007b8662370000>
+         00007b865f9514e0  000000000000067e
+         00007b865f9514e8  00007b86618669b6  /system/lib64/libc.so (__bionic_clone+54)
+         00007b865f9514f0  00007b865fdff4f0  <anonymous:00007b865fd03000>
+         00007b865f9514f8  00007b865ee814f0  <anonymous:00007b865ed85000>
+         00007b865f951500  0000067e0000069f
+         00007b865f951508  00007fff00000001
+         00007b865f951510  00007b865f854000  [anon:thread stack guard]
+         00007b865f951518  00000000000fd4f0
+         00007b865f951520  0000000000001000
+         00007b865f951528  0000000000000000
+         00007b865f951530  0000000000000038
+         00007b865f951538  00007b86618edd05  /system/lib64/libc.so (je_malloc+69)
+         00007b865f951540  0000000000000003
+         00007b865f951548  0000000000000000
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+pid: 1662, tid: 1696, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+    rax fffffffffffffe00  rbx 0000000000000000  rcx 00007b8661866b98  rdx 0000000000000000
+    r8  0000000000000000  r9  00000000ffffffff  r10 0000000000000000  r11 0000000000000246
+    r12 00007b865ee81598  r13 0000000000000000  r14 0000000000000000  r15 00007b8660446e90
+    rdi 00007b8660446e90  rsi 0000000000000089
+    rbp 0000000000000089  rsp 00007b865ee813a8  rip 00007b8661866b98
+
+backtrace:
+    #00 pc 0000000000026b98  /system/lib64/libc.so (syscall+24)
+    #01 pc 0000000000029cd5  /system/lib64/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+133)
+    #02 pc 000000000009219d  /system/lib64/libc.so (pthread_cond_wait+45)
+    #03 pc 000000000006963e  /system/lib64/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+14)
+    #04 pc 000000000008d77a  /system/lib64/libsurfaceflinger.so (android::impl::EventControlThread::threadMain()+122)
+    #05 pc 000000000008d936  /system/lib64/libsurfaceflinger.so (_ZNSt3__114__thread_proxyINS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN7android4impl18EventControlThreadEFvvEPS9_EEEEEPvSE_+54)
+    #06 pc 0000000000092bab  /system/lib64/libc.so (__pthread_start(void*)+27)
+    #07 pc 000000000002af2d  /system/lib64/libc.so (__start_thread+61)
+
+stack:
+         00007b865ee81328  0000000000000000
+         00007b865ee81330  0000000000000000
+         00007b865ee81338  0000000000000000
+         00007b865ee81340  0000000000000000
+         00007b865ee81348  0000000000000000
+         00007b865ee81350  00007b86620df108  /dev/__properties__/u:object_r:debug_prop:s0
+         00007b865ee81358  00007b865ee813d8  <anonymous:00007b865ed85000>
+         00007b865ee81360  0000000000000000
+         00007b865ee81368  0000000000000000
+         00007b865ee81370  0000000001000000
+         00007b865ee81378  00007b866186a5b1  /system/lib64/libc.so (_Z16bionic_trace_endv+113)
+         00007b865ee81380  00007b8660441a00  [anon:libc_malloc]
+         00007b865ee81388  0000000000000002
+         00007b865ee81390  0000000000000000
+         00007b865ee81398  00007b8660830050  /system/lib64/libcutils.so
+         00007b865ee813a0  0000000000000000
+    #00  00007b865ee813a8  00007b8661869cd6  /system/lib64/libc.so (_Z15__futex_wait_exPVvbibPK8timespec+134)
+    #01  00007b865ee813b0  00000000ffffffff
+         ........  ........
+    #02  00007b865ee81410  0000000000000000
+         ........  ........
+    #03  00007b865ee81440  0000000000000000
+         ........  ........
+    #04  00007b865ee81450  00007b8660446e68  [anon:libc_malloc]
+         ........  ........
+    #05  00007b865ee814a0  c55b272f59c01320
+         ........  ........
+    #06  00007b865ee814c0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         ........  ........
+    #07  00007b865ee814d0  00007b86618d2b90  /system/lib64/libc.so (_ZL15__pthread_startPv)
+         00007b865ee814d8  00007b8662370548  <anonymous:00007b8662370000>
+         00007b865ee814e0  000000000000067e
+         00007b865ee814e8  00007b86618669b6  /system/lib64/libc.so (__bionic_clone+54)
+         00007b865ee814f0  00007b865f9514f0  <anonymous:00007b865f855000>
+         00007b865ee814f8  0000000000000000
+         00007b865ee81500  0000067e000006a0
+         00007b865ee81508  0000000000000000
+         00007b865ee81510  00007b865ed84000  [anon:thread stack guard]
+         00007b865ee81518  00000000000fd4f0
+         00007b865ee81520  0000000000001000
+         00007b865ee81528  0000000000000000
+         00007b865ee81530  0000000000000030
+         00007b865ee81538  c55b272f59c01320
+         00007b865ee81540  0000000000000000
+         00007b865ee81548  0000000000000000
+
+open files:
+    fd 0: /dev/null
+    fd 1: /dev/null
+    fd 2: /dev/null
+    fd 3: /dev/hwbinder
+    fd 4: /sys/kernel/debug/tracing/trace_marker
+    fd 5: socket:[7901]
+    fd 6: /dev/pmsg0
+    fd 7: /dev/binder
+    fd 8: anon_inode:[eventfd]
+    fd 9: anon_inode:[eventpoll]
+    fd 10: socket:[7914]
+    fd 11: socket:[7915]
+    fd 12: /dev/goldfish_pipe
+    fd 13: /dev/goldfish_pipe
+    fd 15: /dev/ashmem
+    fd 16: /dev/goldfish_pipe
+    fd 17: /dev/ashmem
+    fd 18: /dev/ashmem
+--------- log main
+10-26 14:24:44.160  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::startGraphicsAllocatorService retrieved: 0
+10-26 14:24:44.160  1662  1662 I SurfaceFlinger: Using HWComposer service: 'default'
+10-26 14:24:44.160  1662  1662 I SurfaceFlinger: SurfaceFlinger is starting
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::vsyncEventPhaseOffsetNs retrieved: 1000000 (default)
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::vsyncSfEventPhaseOffsetNs retrieved: 1000000 (default)
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasSyncFramework retrieved: 1
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::presentTimeOffsetFromVSyncNs retrieved: 0
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::useHwcForRGBtoYUV retrieved: 0
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxVirtualDisplaySize retrieved: 0 (default)
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::useVrFlinger retrieved: 0 (default)
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxFrameBufferAcquiredBuffers retrieved: 3
+10-26 14:24:44.161  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+10-26 14:24:44.162  1662  1662 I ConfigStore: android::hardware::configstore::V1_1::ISurfaceFlingerConfigs::primaryDisplayOrientation retrieved: ORIENTATION_0 (default)
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: Enabling HWC virtual displays
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: Disabling Triple Buffering
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: Treble testing override: 'false'
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+10-26 14:24:44.162  1662  1662 I SurfaceFlinger: Phase offest NS: 1000000
+10-26 14:24:44.162  1662  1662 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+10-26 14:24:44.297  1662  1662 E vndksupport: Could not load /vendor/lib64/egl/libGLES_emulation.so from sphal namespace: dlopen failed: library "/vendor/lib64/egl/libGLES_emulation.so" not found.
+10-26 14:24:44.297  1662  1662 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_emulation.so): unknown
+10-26 14:24:44.299  1662  1662 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-26 14:24:44.299  1662  1662 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-26 14:24:44.306  1662  1662 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-26 14:24:44.311  1662  1662 D         : HostConnection::get() New Host Connection established 0x7b866042d960, tid 1662
+10-26 14:24:44.315  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+10-26 14:24:44.315  1662  1662 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: EGL information:
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: vendor    : Android
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: version   : 1.4 Android META-EGL
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_native_client_buffer EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_frame_timestamps EGL_EXT_surface_SMPTE2086_metadata EGL_EXT_surface_CTA861_3_metadata EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable 
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: Client API: OpenGL_ES
+10-26 14:24:44.316  1662  1662 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x2
+10-26 14:24:44.317  1662  1662 D EGL_emulation: eglCreateContext: 0x7b8660446820: maj 3 min 0 rcv 3
+10-26 14:24:44.318  1662  1662 D EGL_emulation: eglMakeCurrent: 0x7b8660446820: ver 3 0 (tinfo 0x7b866042c680)
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: OpenGL ES informations:
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: vendor    : Google (Google Inc.)
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: renderer  : Android Emulator OpenGL ES Translator (Google SwiftShader)
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: version   : OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rg10-26 14:24:44.320  1662  1662 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+10-26 14:24:44.320  1662  1662 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+10-26 14:24:44.329  1662  1662 E HWComposer: getSupportedPerFrameMetadata: getSupportedPerFrameMetadata failed for display 0: Unsupported (8)
+10-26 14:24:44.330  1662  1662 D EGL_emulation: eglMakeCurrent: 0x7b8660446820: ver 3 0 (tinfo 0x7b866042c680)
+10-26 14:24:44.411  1662  1662 D SurfaceFlinger: shader cache generated - 24 shaders in 80.845367 ms
+10-26 14:24:44.412  1662  1662 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7b8660458000
+10-26 14:24:44.413  1662  1662 E HWComposer: setPowerMode: setPowerMode(On) failed for display 0: NoResources (6)
+10-26 14:24:44.413  1662  1662 F HidlStatus: Status.cpp:149] Failed HIDL return status not checked: Status(EX_TRANSACTION_FAILED): 'DEAD_OBJECT: '
+10-26 14:24:45.041  1662  1687 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+10-26 14:24:45.330  1662  1686 W SurfaceFlinger: Timed out waiting for hw vsync; faking it

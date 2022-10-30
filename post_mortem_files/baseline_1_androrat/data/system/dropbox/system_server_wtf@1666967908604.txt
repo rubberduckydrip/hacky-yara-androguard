@@ -1,0 +1,12 @@
+Process: system_server
+Subject: SystemServerTiming
+Build: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
+
+android.util.Log$TerribleFailure: SystemServer init took too long. uptimeMillis=71390
+	at android.util.Log.wtf(Log.java:299)
+	at android.util.Slog.wtf(Slog.java:82)
+	at com.android.server.SystemServer.run(SystemServer.java:448)
+	at com.android.server.SystemServer.main(SystemServer.java:294)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:838)
