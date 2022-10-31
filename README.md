@@ -5,10 +5,6 @@ https://github.com/Koodous/androguard-yara
 
 Androguard module works with reports. Normally koodous provides analysis report that you can download, But if your sample didn't analyzed on koodous you need to create report. Using androguard's python library I generate a report file. Not all components included but included components are important ones. Like permission, apk_name etc.. If you can add more components to report that missing, feel free to pr.
 
-Needed components:
-
-- [url](https://github.com/Koodous/androguard-yara/blob/master/androguard.c#L544) , 
-
 ## How to use it
 
 There is 3 python script; 
@@ -32,5 +28,14 @@ Since androguard module didn't work on my yara python version I used os.system, 
 scan.py takes 2 parameters: fodler containing file to be scanned and yara rule folder.
 
 `scan.py files_dir rules`
+
+## Directories
+rules: yara rules either written or obtained from various places on the web
+
+apks: the apks of the apps (needed for androguard_scan.py)
+
+reports: androguard reports generated with generate_reports.py (needed for androguard_scan.py)
+
+dynamic_files: all files obtaiend using MobSF analysis. Each analysed app contains a directory with its package name containing the files copied from ~/.MobSF/Downloads (Filenames start with app hash)
 
 [![asciicast](https://asciinema.org/a/4L0BKvO87RhNcxH62VbChszgP.svg)](https://asciinema.org/a/4L0BKvO87RhNcxH62VbChszgP)
