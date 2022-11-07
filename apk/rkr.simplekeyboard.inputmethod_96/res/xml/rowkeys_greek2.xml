@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <switch>
+        <case latin:showExtraChars="true">
+            <Key latin:additionalMoreKeys="\\@" latin:keyHintLabel="\@" latin:keySpec="α" latin:moreKeys="ά" />
+            <Key latin:additionalMoreKeys="\#" latin:keyHintLabel="\#" latin:keySpec="σ" />
+            <Key latin:additionalMoreKeys="€" latin:keyHintLabel="€" latin:keySpec="δ" />
+            <Key latin:additionalMoreKeys="%" latin:keyHintLabel="%" latin:keySpec="φ" />
+            <Key latin:additionalMoreKeys="&amp;" latin:keyHintLabel="&amp;" latin:keySpec="γ" />
+            <Key latin:additionalMoreKeys="-" latin:keyHintLabel="-" latin:keySpec="η" latin:moreKeys="ή" />
+            <Key latin:additionalMoreKeys="+" latin:keyHintLabel="+" latin:keySpec="ξ" />
+            <Key latin:additionalMoreKeys="(" latin:keyHintLabel="(" latin:keySpec="κ" />
+            <Key latin:additionalMoreKeys=")" latin:keyHintLabel=")" latin:keySpec="λ" />
+        </case>
+        <default>
+            <Key latin:keySpec="α" latin:moreKeys="ά" />
+            <Key latin:keySpec="σ" />
+            <Key latin:keySpec="δ" />
+            <Key latin:keySpec="φ" />
+            <Key latin:keySpec="γ" />
+            <Key latin:keySpec="η" latin:moreKeys="ή" />
+            <Key latin:keySpec="ξ" />
+            <Key latin:keySpec="κ" />
+            <Key latin:keySpec="λ" />
+        </default>
+    </switch>
+</merge>

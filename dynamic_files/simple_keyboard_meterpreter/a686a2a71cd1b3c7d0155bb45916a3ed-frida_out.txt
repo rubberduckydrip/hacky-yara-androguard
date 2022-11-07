@@ -1,0 +1,2057 @@
+Loaded Frida Script - root_bypass
+Loaded Frida Script - debugger_check_bypass
+Loaded Frida Script - ssl_pinning_bypass
+Loaded Frida Script - api_monitor
+[SSL Pinning Bypass] okhttp CertificatePinner not found
+[SSL Pinning Bypass] okhttp3 CertificatePinner not found
+[SSL Pinning Bypass] DataTheorem trustkit not found
+[SSL Pinning Bypass] Appcelerator PinningTrustManager not found
+[SSL Pinning Bypass] Apache Cordova SSLCertificateChecker not found
+[SSL Pinning Bypass] Wultra CertStore.validateFingerprint not found
+[SSL Pinning Bypass] Xutils not found
+[SSL Pinning Bypass] httpclientandroidlib not found
+[SSL Pinning Bypass] Cronet not found
+[SSL Pinning Bypass] certificatetransparency.CTInterceptorBuilder not found
+[API Monitor] Cannot find org.apache.http.impl.client.AbstractHttpClient.execute
+[API Monitor] Cannot find com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream
+[*] sun.invoke.util.Wrapper
+[*] java.lang.annotation.ElementType
+[*] android.text.TextLine
+[*] android.icu.impl.CacheValue
+[*] java.util.stream.StreamShape
+[*] sun.security.x509.NetscapeCertTypeExtension$MapEntry
+[*] javax.crypto.Cipher$NeedToSet
+[*] java.nio.file.LinkOption
+[*] android.text.style.ParagraphStyle
+[*] android.database.sqlite.SQLiteConnectionPool$AcquiredConnectionStatus
+[*] sun.security.util.DisabledAlgorithmConstraints$Constraint$Operator
+[*] android.icu.lang.UScript$ScriptUsage
+[*] java.util.Formatter$BigDecimalLayoutForm
+[*] java.nio.file.StandardOpenOption
+[*] java.lang.reflect.Parameter
+[*] java.lang.Character
+[*] java.lang.Object
+[*] com.android.i18n.phonenumbers.PhoneNumberUtil$PhoneNumberType
+[*] android.view.accessibility.CaptioningManager$CaptionStyle
+[*] java.lang.ThreadGroup
+[*] android.icu.util.Currency$CurrencyUsage
+[*] java.util.Locale$Category
+[*] java.time.format.TextStyle
+[*] android.graphics.Paint$Align
+[*] java.net.Proxy$Type
+[*] java.lang.invoke.VarHandle$AccessType
+[*] com.android.internal.telephony.Call$SrvccState
+[*] android.os.Parcel
+[*] com.android.internal.telephony.uicc.SIMRecords$GetSpnFsmState
+[*] java.util.concurrent.ConcurrentHashMap$CounterCell
+[*] android.graphics.Bitmap$Config
+[*] android.bluetooth.BluetoothSocket$SocketState
+[*] android.icu.text.DateFormatSymbols$CalendarDataSink$AliasType
+[*] android.icu.text.RelativeDateTimeFormatter$Direction
+[*] android.graphics.Path$Op
+[*] java.lang.annotation.RetentionPolicy
+[*] com.android.org.bouncycastle.asn1.ASN1ObjectIdentifier
+[*] com.android.org.conscrypt.OpenSSLX509CertPath$Encoding
+[*] android.icu.text.NumberFormat$Field
+[*] java.security.cert.PKIXRevocationChecker$Option
+[*] android.net.NetworkInfo$DetailedState
+[*] com.android.internal.telephony.DctConstants$State
+[*] sun.security.jca.ServiceId
+[*] android.icu.impl.number.Padder$PadPosition
+[*] com.android.internal.telephony.PhoneConstants$State
+[*] android.icu.text.DateFormat$BooleanAttribute
+[*] java.time.temporal.IsoFields$Field
+[*] java.util.stream.StreamOpFlag$Type
+[*] android.hardware.camera2.params.StreamConfigurationDuration
+[*] java.lang.invoke.MethodHandle
+[*] android.icu.text.IDNA$Error
+[*] android.webkit.WebSettings$PluginState
+[*] android.graphics.Region$Op
+[*] android.graphics.PorterDuff$Mode
+[*] android.icu.number.NumberFormatter$UnitWidth
+[*] android.graphics.Rect
+[*] android.icu.text.TimeZoneNames$NameType
+[*] com.android.internal.telephony.SmsConstants$MessageClass
+[*] android.hardware.camera2.params.Face
+[*] javax.net.ssl.SSLEngineResult$Status
+[*] com.android.internal.telephony.uicc.IccCardStatus$PinState
+[*] android.graphics.ColorSpace$Model
+[*] android.icu.text.DateTimePatternGenerator$DTPGflags
+[*] com.android.internal.os.BatterySipper$DrainType
+[*] java.util.ArrayList
+[*] android.util.Size
+[*] android.icu.text.LocaleDisplayNames$DialectHandling
+[*] android.net.wifi.SupplicantState
+[*] com.android.org.conscrypt.SSLUtils$SessionType
+[*] android.graphics.Interpolator$Result
+[*] java.util.Enumeration
+[*] android.icu.impl.Trie2$ValueWidth
+[*] java.lang.reflect.Method
+[*] java.security.Provider
+[*] com.android.org.conscrypt.OpenSSLSignature$EngineType
+[*] android.net.LocalSocketAddress$Namespace
+[*] android.text.method.TextKeyListener
+[*] java.io.File
+[*] java.util.Comparators$NaturalOrderComparator
+[*] java.io.IOException
+[*] android.util.Rational
+[*] java.util.stream.Collector$Characteristics
+[*] android.icu.number.NumberFormatter$SignDisplay
+[*] android.icu.text.AlphabeticIndex$Bucket$LabelType
+[*] java.security.CryptoPrimitive
+[*] android.icu.text.PluralRules$SampleType
+[*] android.graphics.Point
+[*] android.icu.text.RelativeDateTimeFormatter$RelativeDateTimeUnit
+[*] java.lang.reflect.Field
+[*] android.text.TextUtils$TruncateAt
+[*] android.icu.number.NumberFormatter$DecimalSeparatorDisplay
+[*] android.icu.text.ListFormatter$Style
+[*] java.util.Locale$FilteringMode
+[*] android.icu.text.DisplayContext$Type
+[*] com.android.internal.telephony.Connection$PostDialState
+[*] com.android.okhttp.CipherSuite
+[*] android.os.BatteryStats$IntToString
+[*] android.webkit.WebSettings$LayoutAlgorithm
+[*] java.lang.String
+[*] android.text.method.QwertyKeyListener
+[*] java.util.stream.MatchOps$MatchKind
+[*] com.android.internal.telephony.CommandsInterface$RadioState
+[*] com.android.internal.telephony.dataconnection.DcTracker$RetryFailures
+[*] android.hardware.camera2.params.HighSpeedVideoConfiguration
+[*] com.android.internal.telephony.dataconnection.DataConnectionReasons$DataDisallowedReasonType
+[*] java.lang.Class
+[*] android.graphics.Matrix$ScaleToFit
+[*] android.graphics.Paint$Cap
+[*] android.icu.text.RelativeDateTimeFormatter$Style
+[*] java.time.zone.ZoneOffsetTransitionRule
+[*] java.net.Authenticator$RequestorType
+[*] java.time.LocalDateTime
+[*] org.kxml2.io.KXmlParser$ValueContext
+[*] javax.net.ssl.TrustManager
+[*] android.icu.util.BytesTrie$Result
+[*] android.icu.text.MeasureFormat$FormatWidth
+[*] java.lang.annotation.Annotation
+[*] android.icu.impl.coll.CollationRuleParser$Position
+[*] android.graphics.Path$FillType
+[*] android.icu.impl.ICUCurrencyDisplayInfoProvider$ICUCurrencyDisplayInfo$CurrencySink$EntrypointTable
+[*] android.graphics.PathDashPathEffect$Style
+[*] android.hardware.camera2.params.StreamConfiguration
+[*] com.android.internal.app.ResolverActivity$ActionTitle
+[*] java.lang.Short
+[*] sun.util.logging.PlatformLogger$Level
+[*] com.android.okhttp.TlsVersion
+[*] android.net.NetworkRequest$Type
+[*] java.time.format.DateTimeFormatterBuilder$SettingsParser
+[*] com.android.i18n.phonenumbers.PhoneNumberUtil$ValidationResult
+[*] android.icu.impl.ICUResourceBundle$OpenType
+[*] javax.net.ssl.SSLEngineResult$HandshakeStatus
+[*] android.icu.text.CompactDecimalFormat$CompactStyle
+[*] android.util.JsonToken
+[*] com.android.internal.telephony.dataconnection.DataConnection$SetupResult
+[*] com.android.internal.telephony.dataconnection.DataConnectionReasons$DataAllowedReasonType
+[*] com.android.internal.telephony.PhoneConstants$DataState
+[*] java.lang.Thread
+[*] android.os.BatteryStats$BitDescription
+[*] java.util.concurrent.ConcurrentHashMap$Segment
+[*] android.icu.util.UResourceBundle$RootType
+[*] java.time.LocalTime
+[*] android.hardware.camera2.params.MeteringRectangle
+[*] libcore.io.IoTracker$Mode
+[*] java.util.concurrent.ForkJoinTask$ExceptionNode
+[*] android.graphics.ColorSpace$Adaptation
+[*] java.nio.file.attribute.FileAttribute
+[*] android.text.Layout$Alignment
+[*] dalvik.system.DexPathList$NativeLibraryElement
+[*] java.lang.invoke.VarHandle$AccessMode
+[*] android.telephony.TelephonyManager$MultiSimVariants
+[*] sun.security.provider.certpath.OCSPResponse$ResponseStatus
+[*] java.lang.ref.WeakReference
+[*] android.graphics.Canvas$EdgeType
+[*] android.icu.util.TimeZone$SystemTimeZoneType
+[*] java.io.File$PathStatus
+[*] com.android.internal.telephony.uicc.IccCardApplicationStatus$PersoSubState
+[*] com.android.org.conscrypt.OpenSSLCipher$Padding
+[*] java.lang.CharSequence
+[*] android.text.InputFilter
+[*] com.android.internal.telephony.uicc.IccCardApplicationStatus$AppType
+[*] sun.security.pkcs.SignerInfo
+[*] javax.crypto.Cipher$InitType
+[*] android.util.Pair
+[*] android.graphics.Paint$Style
+[*] java.lang.reflect.Constructor
+[*] sun.security.util.ObjectIdentifier
+[*] java.lang.Class
+[*] com.android.internal.telephony.dataconnection.DcFailCause
+[*] java.text.DateFormat$Field
+[*] java.lang.Throwable
+[*] com.android.internal.telephony.CommandException$Error
+[*] android.icu.impl.StandardPlural
+[*] org.json.JSONStringer$Scope
+[*] java.lang.reflect.TypeVariable
+[*] android.icu.text.DateFormatSymbols$CapitalizationContextUsage
+[*] android.net.IpConfiguration$ProxySettings
+[*] dalvik.system.DexPathList$Element
+[*] java.lang.Byte
+[*] android.net.LinkProperties$ProvisioningChange
+[*] java.io.ObjectStreamField
+[*] android.util.JsonScope
+[*] android.icu.text.PluralRules$Operand
+[*] android.util.Xml$Encoding
+[*] android.icu.text.PluralRules$PluralType
+[*] android.webkit.ConsoleMessage$MessageLevel
+[*] android.icu.text.RelativeDateTimeFormatter$RelDateTimeDataSink$DateTimeUnit
+[*] com.android.okhttp.Protocol
+[*] java.lang.Byte
+[*] java.util.HashMap$Node
+[*] org.apache.xpath.objects.XObject
+[*] java.security.cert.CRLReason
+[*] java.lang.Package
+[*] android.view.Display$Mode
+[*] android.icu.text.RelativeDateTimeFormatter$RelativeUnit
+[*] java.nio.file.AccessMode
+[*] android.graphics.Path$Direction
+[*] sun.security.provider.certpath.OCSP$RevocationStatus$CertStatus
+[*] java.math.MathContext
+[*] java.lang.StackTraceElement
+[*] com.android.i18n.phonenumbers.NumberParseException$ErrorType
+[*] java.lang.reflect.AccessibleObject
+[*] java.util.WeakHashMap$Entry
+[*] android.media.MediaCodecInfo$Feature
+[*] android.widget.TextView$BufferType
+[*] android.icu.impl.CacheValue$Strength
+[*] java.lang.Thread$State
+[*] android.icu.impl.LocaleDisplayNamesImpl$DataTableType
+[*] sun.misc.FDBigInteger
+[*] android.graphics.Bitmap$CompressFormat
+[*] java.time.zone.ZoneOffsetTransitionRule$TimeDefinition
+[*] sun.security.jca.ProviderConfig
+[*] android.icu.impl.TimeZoneNamesImpl$ZNames$NameTypeIndex
+[*] com.android.i18n.phonenumbers.PhoneNumberUtil$PhoneNumberFormat
+[*] android.widget.ImageView$ScaleType
+[*] android.icu.impl.LocaleDisplayNamesImpl$CapitalizationContextUsage
+[*] libcore.reflect.AnnotationMember
+[*] android.icu.impl.CurrencyData$CurrencySpacingInfo$SpacingType
+[*] com.android.okhttp.HttpUrl$Builder$ParseResult
+[*] java.lang.String
+[*] java.lang.invoke.MethodType
+[*] java.net.StandardProtocolFamily
+[*] android.util.DataUnit
+[*] java.lang.Integer
+[*] java.util.concurrent.ConcurrentHashMap$Node
+[*] com.android.internal.telephony.uicc.IccCardStatus$CardState
+[*] com.android.i18n.phonenumbers.PhoneNumberMatcher$State
+[*] android.icu.text.RelativeDateTimeFormatter$AbsoluteUnit
+[*] android.icu.text.Normalizer2$Mode
+[*] java.time.format.SignStyle
+[*] java.text.DateFormat
+[*] com.android.org.conscrypt.OpenSSLCipher$Mode
+[*] java.math.RoundingMode
+[*] java.text.Normalizer$Form
+[*] java.lang.Comparable
+[*] android.net.IpConfiguration$IpAssignment
+[*] android.net.NetworkInfo$State
+[*] android.icu.text.DisplayContext
+[*] com.android.internal.telephony.uicc.IccCardApplicationStatus$AppState
+[*] com.android.i18n.phonenumbers.Phonenumber$PhoneNumber$CountryCodeSource
+[*] java.util.Hashtable$HashtableEntry
+[*] java.nio.ByteBuffer
+[*] android.icu.impl.CurrencyData$CurrencySpacingInfo$SpacingPattern
+[*] android.graphics.Paint$Join
+[*] com.android.internal.telephony.IccCardConstants$State
+[*] java.time.format.ResolverStyle
+[*] com.android.internal.telephony.PhoneInternalInterface$DataActivityState
+[*] java.lang.Enum
+[*] java.time.DayOfWeek
+[*] java.util.stream.StreamOpFlag
+[*] android.graphics.Shader$TileMode
+[*] android.icu.util.ULocale$Category
+[*] android.text.method.TextKeyListener$Capitalize
+[*] libcore.reflect.AnnotationMember$DefaultValues
+[*] java.util.Locale
+[*] sun.misc.FormattedFloatingDecimal$Form
+[*] android.content.res.ApkAssets
+[*] sun.security.provider.certpath.RevocationChecker$Mode
+[*] android.graphics.ColorSpace$Named
+[*] com.android.internal.telephony.DctConstants$Activity
+[*] com.android.internal.telephony.uicc.UsimServiceTable$UsimService
+[*] java.lang.reflect.Type
+[*] java.lang.Long
+[*] java.time.Month
+[*] android.util.Range
+[*] java.util.logging.Handler
+[*] org.apache.xml.dtm.ref.ExtendedType
+[*] android.hardware.camera2.params.OisSample
+[*] com.android.i18n.phonenumbers.PhoneNumberUtil$Leniency
+[*] android.os.AsyncTask$Status
+[*] android.hardware.display.WifiDisplay
+[*] android.graphics.drawable.GradientDrawable$Orientation
+[*] java.lang.Long
+[*] java.util.concurrent.TimeUnit
+[*] android.app.VoiceInteractor$Request
+[*] android.graphics.BlurMaskFilter$Blur
+[*] java.lang.Character$UnicodeBlock
+[*] android.icu.util.Calendar$CalType
+[*] android.webkit.WebSettings$ZoomDensity
+[*] java.lang.annotation.Annotation
+[*] com.android.internal.telephony.Call$State
+[*] android.security.KeyStore$State
+[*] android.media.AudioGain
+[*] java.math.BigInteger
+[*] android.content.pm.PackageParser$NewPermissionInfo
+[*] android.graphics.ColorSpace
+[*] java.time.temporal.ChronoUnit
+[*] java.lang.Runnable
+[*] android.icu.text.DateFormat$Field
+[*] android.graphics.drawable.LayerDrawable$ChildDrawable
+[*] android.os.ParcelUuid
+[*] java.time.format.DateTimeFormatterBuilder$DateTimePrinterParser
+[*] android.icu.text.UnicodeSet
+[*] android.media.ExifInterface$ExifTag
+[*] android.text.FontConfig$Alias
+[*] android.icu.impl.UCharacterProperty$IntProperty
+[*] java.time.temporal.IsoFields$Unit
+[*] android.hardware.soundtrigger.SoundTrigger$Keyphrase
+[*] android.media.ImageWriter$WriterSurfaceImage$SurfacePlane
+[*] android.graphics.FontFamily
+[*] java.math.BigDecimal
+[*] android.content.pm.PackageParser$SplitPermissionInfo
+[*] android.hardware.soundtrigger.SoundTrigger$ConfidenceLevel
+[*] java.util.HashMap
+[*] android.graphics.Typeface
+[*] android.icu.impl.UCharacterProperty$BinaryProperty
+[*] java.util.prefs.AbstractPreferences
+[*] android.content.res.XmlBlock
+[*] android.media.ExifInterface$ExifTag
+[*] android.text.FontConfig$Font
+[*] android.icu.util.ULocale
+[*] java.time.temporal.TemporalUnit
+[*] libcore.io.ClassPathURLStreamHandler
+[*] java.io.FileDescriptor
+[*] android.graphics.fonts.FontVariationAxis
+[*] android.util.LongSparseArray
+[*] android.text.FontConfig$Family
+[*] java.time.temporal.ChronoField
+[*] android.hardware.soundtrigger.SoundTrigger$KeyphraseRecognitionExtra
+[*] android.content.pm.PackageSharedLibraryUpdater
+[*] sun.util.calendar.Era
+[*] java.util.concurrent.ForkJoinTask
+[*] com.android.okhttp.ConnectionSpec
+[*] android.media.ImageReader$SurfaceImage$SurfacePlane
+[*] java.lang.ThreadLocal$ThreadLocalMap$Entry
+[*] android.system.StructCapUserData
+[*] android.graphics.Bitmap
+[*] android.graphics.drawable.Drawable
+[*] android.animation.Animator
+[*] android.os.MessageQueue$IdleHandler
+[*] com.android.internal.policy.PhoneWindow$PanelFeatureState
+[*] android.content.pm.ActivityInfo
+[*] android.content.pm.PathPermission
+[*] android.animation.Keyframe$FloatKeyframe
+[*] android.graphics.drawable.AdaptiveIconDrawable$ChildDrawable
+[*] java.lang.ProcessBuilder$Redirect
+[*] android.content.pm.Signature
+[*] android.os.PatternMatcher
+[*] android.content.res.Configuration
+[*] android.content.pm.ConfigurationInfo
+[*] android.text.PrecomputedText$ParagraphInfo
+[*] android.view.Choreographer$CallbackQueue
+[*] android.content.pm.FeatureInfo
+[*] javax.net.ssl.KeyManager
+[*] android.content.pm.InstrumentationInfo
+[*] android.system.StructPollfd
+[*] android.view.View
+[*] android.accounts.Account
+[*] android.animation.Keyframe$IntKeyframe
+[*] android.view.HandlerActionQueue$HandlerAction
+[*] android.content.pm.PermissionInfo
+[*] android.content.pm.FeatureGroupInfo
+[*] android.content.pm.ServiceInfo
+[*] android.animation.PropertyValuesHolder
+[*] java.net.InetAddress
+[*] android.text.Layout$Directions
+[*] android.content.pm.ProviderInfo
+[*] android.app.LoaderManagerImpl
+[*] java.security.cert.X509Certificate
+[*] [String Compare] capturing all string comparisons
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@298bc18
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@298bc18
+[*] [String Catch] [0] PauseActivityItem{finished=false,userLeaving=true,configChanges=0,dontReport=false}
+[*] [String Catch] [0] Resolving lifecycle state: PauseActivityItem{finished=false,userLeaving=true,configChanges=0,dontReport=false}
+[*] [String Compare] android.app.servertransaction.ResumeActivityItem == android.app.servertransaction.ResumeActivityItem ? true
+[*] [String Compare] android.app.servertransaction.LaunchActivityItem == android.app.servertransaction.LaunchActivityItem ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] WindowVisibilityItem{showWindow=true}
+[*] [String Catch] [0] Resolving callback: WindowVisibilityItem{showWindow=true}
+[*] [String Catch] [0] android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] handleWindowVisibility: no activity for token android.os.BinderProxy@a3da16b
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity
+[*] [String Catch] [0] Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity }
+[*] [String Catch] [0] ActivityInfo{72e84c8 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity}
+[*] [String Catch] [0] en_US
+[*] [String Catch] [0] [en_US]
+[*] [String Catch] [0] Rect(0, 0 - 0, 0)
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] { mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined}
+[*] [String Catch] [0] {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5}
+[*] [String Catch] [0] en_US
+[*] [String Catch] [0] [en_US]
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] { mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard}
+[*] [String Catch] [0] {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5}
+[*] [String Catch] [0] LaunchActivityItem{intent=Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity },ident=266602269,info=ActivityInfo{72e84c8 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5},referrer=null,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,profilerInfo=null}
+[*] [String Catch] [0] Resolving callback: LaunchActivityItem{intent=Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity },ident=266602269,info=ActivityInfo{72e84c8 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5},referrer=null,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,profilerInfo=null}
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] android.os.SystemProperties.get(Native Method)
+[*] [String Catch] [0] android.app.ActivityThread.createBaseContextForActivity(ActivityThread.java:3005)
+[*] [String Catch] [0] android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2827)
+[*] [String Catch] [0] android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3048)
+[*] [String Catch] [0] android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)
+[*] [String Catch] [0] android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)
+[*] [String Catch] [0] android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)
+[*] [String Catch] [0] android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)
+[*] [String Catch] [0] android.os.Handler.dispatchMessage(Handler.java:106)
+[*] [String Catch] [0] android.os.Looper.loop(Looper.java:193)
+[*] [String Catch] [0] android.app.ActivityThread.main(ActivityThread.java:6669)
+[*] [String Catch] [0] java.lang.reflect.Method.invoke(Native Method)
+[*] [String Catch] [0] com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+[*] [String Catch] [0] com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] DecorView[]
+[*] [String Compare] com.android.internal.widget.ActionBarOverlayLayout == com.android.internal.widget.ActionBarOverlayLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] com.android.internal.widget.ActionBarContainer == com.android.internal.widget.ActionBarContainer ? true
+[*] [String Compare] Toolbar == Toolbar ? true
+[*] [String Compare] com.android.internal.widget.ActionBarContextView == com.android.internal.widget.ActionBarContextView ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] ListView == ListView ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Catch] [0] Binary XML file line #73
+[*] [String Catch] [0] Binary XML file line #73: You must supply a layout_width attribute.
+[*] [String Compare] android.preference.PreferenceFrameLayout == android.preference.PreferenceFrameLayout ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] Navigate up == Navigate up ? true
+[*] [String Catch] [0] android:fragment:0
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod_preferences
+[*] [String Compare] qwerty == qwerty ? true
+[*] [String Catch] [0] English (US)
+[*] [String Catch] [0] English (US)
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Catch] [0] /data/user/0/rkr.simplekeyboard.inputmethod/shared_prefs
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod_preferences.xml
+[*] [String Catch] [0] /data/user/0/rkr.simplekeyboard.inputmethod/shared_prefs/rkr.simplekeyboard.inputmethod_preferences.xml
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] ListView == ListView ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Catch] [0] ResumeActivityItem{procState=-1,updateProcState=false,isForward=true}
+[*] [String Catch] [0] Resolving lifecycle state: ResumeActivityItem{procState=-1,updateProcState=false,isForward=true}
+[*] [String Catch] [0] Transitioning to state: 2
+[*] [String Compare] com.android.inputmethod.latin == rkr.simplekeyboard.inputmethod ? false
+[*] [String Catch] [0] DecorView[]
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] ViewStub == ViewStub ? true
+[*] [String Compare] com.android.internal.widget.AlertDialogLayout == com.android.internal.widget.AlertDialogLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Catch] [0] Binary XML file line #26
+[*] [String Catch] [0] Binary XML file line #26: You must supply a layout_width attribute.
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] ImageView == ImageView ? true
+[*] [String Compare] com.android.internal.widget.DialogTitle == com.android.internal.widget.DialogTitle ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] ScrollView == ScrollView ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] ScrollView == ScrollView ? true
+[*] [String Compare] com.android.internal.widget.ButtonBarLayout == com.android.internal.widget.ButtonBarLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] ViewRootImpl[SettingsActivity]
+[*] [String Catch] [0] aq:native-post-ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:native-pre-ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:pending:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] qwerty == qwerty ? true
+[*] [String Catch] [0] English (US)
+[*] [String Catch] [0] English (US)
+[*] [String Compare] English (US) == English (US) ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] ViewRootImpl[SettingsActivity]
+[*] [String Catch] [0] aq:native-post-ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:native-pre-ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:pending:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] long_press_timeout == long_press_timeout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@298bc18
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@298bc18
+[*] [String Catch] [0] StopActivityItem{showWindow=false,configChanges=0}
+[*] [String Catch] [0] Resolving lifecycle state: StopActivityItem{showWindow=false,configChanges=0}
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 51680): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 34112): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 45084): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 56416): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] settings
+[*] [String Compare] settings == settings ? true
+[*] [String Compare] android.util.MemoryIntArray == android.util.MemoryIntArray ? true
+[*] [String Compare] android.os.ParcelFileDescriptor == android.os.ParcelFileDescriptor ? true
+[*] [String Compare] _track_generation == _track_generation ? true
+[*] [String Compare] _generation_index == _generation_index ? true
+[*] [String Compare] _generation == _generation ? true
+[*] [String Compare] android.app.servertransaction.PauseActivityItem == android.app.servertransaction.PauseActivityItem ? true
+[*] [String Catch] [0] android.app.Activity.startActivity(Native Method)
+[*] [String Catch] [0] android.app.Activity.startActivity(Activity.java:4873)
+[*] [String Catch] [0] android.app.Activity.startActivity(Native Method)
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity$a.onClick(Unknown Source:14)
+[*] [String Catch] [0] com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:172)
+[*] [String Catch] [0] android.os.Handler.dispatchMessage(Handler.java:106)
+[*] [String Catch] [0] android.os.Looper.loop(Looper.java:193)
+[*] [String Catch] [0] android.app.ActivityThread.main(ActivityThread.java:6669)
+[*] [String Catch] [0] java.lang.reflect.Method.invoke(Native Method)
+[*] [String Catch] [0] com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+[*] [String Catch] [0] com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+[*] [String Catch] [0] android.app.Activity.startActivity(Native Method)
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity$a.onClick(Unknown Source:14)
+[*] [String Catch] [0] com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:172)
+[*] [String Catch] [0] android.os.Handler.dispatchMessage(Handler.java:106)
+[*] [String Catch] [0] android.os.Looper.loop(Looper.java:193)
+[*] [String Catch] [0] android.app.ActivityThread.main(ActivityThread.java:6669)
+[*] [String Catch] [0] java.lang.reflect.Method.invoke(Native Method)
+[*] [String Catch] [0] com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+[*] [String Catch] [0] com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] PauseActivityItem{finished=false,userLeaving=true,configChanges=0,dontReport=false}
+[*] [String Catch] [0] Resolving lifecycle state: PauseActivityItem{finished=false,userLeaving=true,configChanges=0,dontReport=false}
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 38678): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.app.servertransaction.StopActivityItem == android.app.servertransaction.StopActivityItem ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] StopActivityItem{showWindow=false,configChanges=0}
+[*] [String Catch] [0] Resolving lifecycle state: StopActivityItem{showWindow=false,configChanges=0}
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 47214): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 57362): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 40206): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] android.app.servertransaction.ResumeActivityItem == android.app.servertransaction.ResumeActivityItem ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] ResumeActivityItem{procState=2,updateProcState=true,isForward=false}
+[*] [String Catch] [0] Resolving lifecycle state: ResumeActivityItem{procState=2,updateProcState=true,isForward=false}
+[*] [String Catch] [0] Transitioning to state: 7
+[*] [String Catch] [0] Transitioning to state: 2
+[*] [String Compare] com.android.inputmethod.latin == rkr.simplekeyboard.inputmethod ? false
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] qwerty == qwerty ? true
+[*] [String Catch] [0] English (US)
+[*] [String Catch] [0] English (US)
+[*] [String Compare] English (US) == English (US) ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 50596): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 33444): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 44482): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 55446): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 38052): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] android.app.servertransaction.PauseActivityItem == android.app.servertransaction.PauseActivityItem ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] PauseActivityItem{finished=false,userLeaving=true,configChanges=0,dontReport=false}
+[*] [String Catch] [0] Resolving lifecycle state: PauseActivityItem{finished=false,userLeaving=true,configChanges=0,dontReport=false}
+[*] [String Compare] android.app.servertransaction.WindowVisibilityItem == android.app.servertransaction.WindowVisibilityItem ? true
+[*] [String Compare] android.app.servertransaction.ResumeActivityItem == android.app.servertransaction.ResumeActivityItem ? true
+[*] [String Compare] android.app.servertransaction.LaunchActivityItem == android.app.servertransaction.LaunchActivityItem ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@f172683
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@f172683
+[*] [String Catch] [0] WindowVisibilityItem{showWindow=true}
+[*] [String Catch] [0] Resolving callback: WindowVisibilityItem{showWindow=true}
+[*] [String Catch] [0] android.os.BinderProxy@f172683
+[*] [String Catch] [0] handleWindowVisibility: no activity for token android.os.BinderProxy@f172683
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@f172683
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@f172683
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity
+[*] [String Catch] [0] Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity }
+[*] [String Catch] [0] ActivityInfo{6e98000 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity}
+[*] [String Catch] [0] en_US
+[*] [String Catch] [0] [en_US]
+[*] [String Catch] [0] Rect(0, 0 - 0, 0)
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] { mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined}
+[*] [String Catch] [0] {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5}
+[*] [String Catch] [0] en_US
+[*] [String Catch] [0] [en_US]
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] { mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard}
+[*] [String Catch] [0] {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5}
+[*] [String Catch] [0] LaunchActivityItem{intent=Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity },ident=43498145,info=ActivityInfo{6e98000 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5},referrer=null,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,profilerInfo=null}
+[*] [String Catch] [0] Resolving callback: LaunchActivityItem{intent=Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity },ident=43498145,info=ActivityInfo{6e98000 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5},referrer=null,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,profilerInfo=null}
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] android.os.SystemProperties.get(Native Method)
+[*] [String Catch] [0] android.app.ActivityThread.createBaseContextForActivity(ActivityThread.java:3005)
+[*] [String Catch] [0] android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2827)
+[*] [String Catch] [0] android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3048)
+[*] [String Catch] [0] android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)
+[*] [String Catch] [0] android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)
+[*] [String Catch] [0] android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)
+[*] [String Catch] [0] android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)
+[*] [String Catch] [0] android.os.Handler.dispatchMessage(Handler.java:106)
+[*] [String Catch] [0] android.os.Looper.loop(Looper.java:193)
+[*] [String Catch] [0] android.app.ActivityThread.main(ActivityThread.java:6669)
+[*] [String Catch] [0] java.lang.reflect.Method.invoke(Native Method)
+[*] [String Catch] [0] com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+[*] [String Catch] [0] com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] DecorView[]
+[*] [String Compare] com.android.internal.widget.ActionBarOverlayLayout == com.android.internal.widget.ActionBarOverlayLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] com.android.internal.widget.ActionBarContainer == com.android.internal.widget.ActionBarContainer ? true
+[*] [String Compare] Toolbar == Toolbar ? true
+[*] [String Compare] com.android.internal.widget.ActionBarContextView == com.android.internal.widget.ActionBarContextView ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] ListView == ListView ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Catch] [0] Binary XML file line #73
+[*] [String Catch] [0] Binary XML file line #73: You must supply a layout_width attribute.
+[*] [String Compare] android.preference.PreferenceFrameLayout == android.preference.PreferenceFrameLayout ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] Navigate up == Navigate up ? true
+[*] [String Catch] [0] android:fragment:0
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod_preferences
+[*] [String Compare] qwerty == qwerty ? true
+[*] [String Catch] [0] English (US)
+[*] [String Catch] [0] English (US)
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Catch] [0] /data/user/0/rkr.simplekeyboard.inputmethod/shared_prefs
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod_preferences.xml
+[*] [String Catch] [0] /data/user/0/rkr.simplekeyboard.inputmethod/shared_prefs/rkr.simplekeyboard.inputmethod_preferences.xml
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] ListView == ListView ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Catch] [0] ResumeActivityItem{procState=-1,updateProcState=false,isForward=true}
+[*] [String Catch] [0] Resolving lifecycle state: ResumeActivityItem{procState=-1,updateProcState=false,isForward=true}
+[*] [String Catch] [0] Transitioning to state: 2
+[*] [String Compare] com.android.inputmethod.latin == rkr.simplekeyboard.inputmethod ? false
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] qwerty == qwerty ? true
+[*] [String Catch] [0] English (US)
+[*] [String Catch] [0] English (US)
+[*] [String Compare] English (US) == English (US) ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] ViewRootImpl[SettingsActivity]
+[*] [String Catch] [0] aq:native-post-ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:native-pre-ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:pending:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] long_press_timeout == long_press_timeout ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.app.servertransaction.StopActivityItem == android.app.servertransaction.StopActivityItem ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@a3da16b
+[*] [String Catch] [0] StopActivityItem{showWindow=false,configChanges=0}
+[*] [String Catch] [0] Resolving lifecycle state: StopActivityItem{showWindow=false,configChanges=0}
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 48506): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 58940): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 41626): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 52050): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 34398): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 44852): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 55682): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 37782): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 48280): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] android.app.servertransaction.PauseActivityItem == android.app.servertransaction.PauseActivityItem ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@f172683
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@f172683
+[*] [String Catch] [0] PauseActivityItem{finished=false,userLeaving=true,configChanges=0,dontReport=false}
+[*] [String Catch] [0] Resolving lifecycle state: PauseActivityItem{finished=false,userLeaving=true,configChanges=0,dontReport=false}
+[*] [String Compare] android.app.servertransaction.WindowVisibilityItem == android.app.servertransaction.WindowVisibilityItem ? true
+[*] [String Compare] android.app.servertransaction.ResumeActivityItem == android.app.servertransaction.ResumeActivityItem ? true
+[*] [String Compare] android.app.servertransaction.LaunchActivityItem == android.app.servertransaction.LaunchActivityItem ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@c1e90ab
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@c1e90ab
+[*] [String Catch] [0] WindowVisibilityItem{showWindow=true}
+[*] [String Catch] [0] Resolving callback: WindowVisibilityItem{showWindow=true}
+[*] [String Catch] [0] android.os.BinderProxy@c1e90ab
+[*] [String Catch] [0] handleWindowVisibility: no activity for token android.os.BinderProxy@c1e90ab
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@c1e90ab
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@c1e90ab
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity
+[*] [String Catch] [0] Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity }
+[*] [String Catch] [0] ActivityInfo{859e308 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity}
+[*] [String Catch] [0] en_US
+[*] [String Catch] [0] [en_US]
+[*] [String Catch] [0] Rect(0, 0 - 0, 0)
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] { mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined}
+[*] [String Catch] [0] {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5}
+[*] [String Catch] [0] en_US
+[*] [String Catch] [0] [en_US]
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] Rect(0, 0 - 320, 640)
+[*] [String Catch] [0] { mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard}
+[*] [String Catch] [0] {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5}
+[*] [String Catch] [0] LaunchActivityItem{intent=Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity },ident=220351735,info=ActivityInfo{859e308 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5},referrer=null,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,profilerInfo=null}
+[*] [String Catch] [0] Resolving callback: LaunchActivityItem{intent=Intent { flg=0x10000000 cmp=rkr.simplekeyboard.inputmethod/.latin.settings.SettingsActivity },ident=220351735,info=ActivityInfo{859e308 rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=undefined} s.5},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger -keyb/v/h tball/v winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mWindowingMode=fullscreen mActivityType=standard} s.5},referrer=null,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,profilerInfo=null}
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] android.os.SystemProperties.get(Native Method)
+[*] [String Catch] [0] android.app.ActivityThread.createBaseContextForActivity(ActivityThread.java:3005)
+[*] [String Catch] [0] android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2827)
+[*] [String Catch] [0] android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3048)
+[*] [String Catch] [0] android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)
+[*] [String Catch] [0] android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)
+[*] [String Catch] [0] android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)
+[*] [String Catch] [0] android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)
+[*] [String Catch] [0] android.os.Handler.dispatchMessage(Handler.java:106)
+[*] [String Catch] [0] android.os.Looper.loop(Looper.java:193)
+[*] [String Catch] [0] android.app.ActivityThread.main(ActivityThread.java:6669)
+[*] [String Catch] [0] java.lang.reflect.Method.invoke(Native Method)
+[*] [String Catch] [0] com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+[*] [String Catch] [0] com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] DecorView[]
+[*] [String Compare] com.android.internal.widget.ActionBarOverlayLayout == com.android.internal.widget.ActionBarOverlayLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] com.android.internal.widget.ActionBarContainer == com.android.internal.widget.ActionBarContainer ? true
+[*] [String Compare] Toolbar == Toolbar ? true
+[*] [String Compare] com.android.internal.widget.ActionBarContextView == com.android.internal.widget.ActionBarContextView ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] ListView == ListView ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Catch] [0] Binary XML file line #73
+[*] [String Catch] [0] Binary XML file line #73: You must supply a layout_width attribute.
+[*] [String Compare] android.preference.PreferenceFrameLayout == android.preference.PreferenceFrameLayout ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] :android:show_fragment == :android:show_fragment ? true
+[*] [String Compare] :android:no_headers == :android:no_headers ? true
+[*] [String Compare] Navigate up == Navigate up ? true
+[*] [String Catch] [0] android:fragment:0
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod_preferences
+[*] [String Compare] qwerty == qwerty ? true
+[*] [String Catch] [0] English (US)
+[*] [String Catch] [0] English (US)
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Catch] [0] /data/user/0/rkr.simplekeyboard.inputmethod/shared_prefs
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod_preferences.xml
+[*] [String Catch] [0] /data/user/0/rkr.simplekeyboard.inputmethod/shared_prefs/rkr.simplekeyboard.inputmethod_preferences.xml
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] PreferenceScreen == PreferenceScreen ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] FrameLayout == FrameLayout ? true
+[*] [String Compare] ListView == ListView ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] Button == Button ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Catch] [0] ResumeActivityItem{procState=-1,updateProcState=false,isForward=true}
+[*] [String Catch] [0] Resolving lifecycle state: ResumeActivityItem{procState=-1,updateProcState=false,isForward=true}
+[*] [String Catch] [0] Transitioning to state: 2
+[*] [String Compare] com.android.inputmethod.latin == rkr.simplekeyboard.inputmethod ? false
+[*] [String Compare] rkr.simplekeyboard.inputmethod == rkr.simplekeyboard.inputmethod ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] sans-serif-medium == sans-serif-medium ? true
+[*] [String Compare] qwerty == qwerty ? true
+[*] [String Catch] [0] English (US)
+[*] [String Catch] [0] English (US)
+[*] [String Compare] English (US) == English (US) ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] ViewRootImpl[SettingsActivity]
+[*] [String Catch] [0] aq:native-post-ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:native-pre-ime:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Catch] [0] aq:pending:rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] long_press_timeout == long_press_timeout ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] com.android.internal.widget.PreferenceImageView == com.android.internal.widget.PreferenceImageView ? true
+[*] [String Compare] RelativeLayout == RelativeLayout ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] TextView == TextView ? true
+[*] [String Compare] sans-serif == sans-serif ? true
+[*] [String Compare] LinearLayout == LinearLayout ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.app.servertransaction.StopActivityItem == android.app.servertransaction.StopActivityItem ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] android.app.ActivityThread@4bbe3fb
+[*] [String Catch] [0] android.os.BinderProxy@f172683
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@4bbe3fb, token: android.os.BinderProxy@f172683
+[*] [String Catch] [0] StopActivityItem{showWindow=false,configChanges=0}
+[*] [String Catch] [0] Resolving lifecycle state: StopActivityItem{showWindow=false,configChanges=0}
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.content.res.Configuration == android.content.res.Configuration ? true
+[*] [String Compare] android.os.LocaleList == android.os.LocaleList ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.app.WindowConfiguration == android.app.WindowConfiguration ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Compare] android.graphics.Rect == android.graphics.Rect ? true
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 54546): connect failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] line.separator == line.separator ? true
+[*] [String Compare] line.separator == line.separator ? true
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@d5907c2
+[*] [String Catch] [0] 8
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@15199d3
+[*] [String Catch] [0] 8
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@8cef910
+[*] [String Catch] [0] 8
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@2631c09
+[*] [String Catch] [0] 8
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@eb3de0e
+[*] [String Catch] [0] 0
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@d5907c2
+[*] [String Catch] [0] 24
+[*] [String Catch] [0] 24.94
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@15199d3
+[*] [String Catch] [0] 60
+[*] [String Catch] [0] 62.34
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@8cef910
+[*] [String Catch] [0] 60
+[*] [String Catch] [0] 62.34
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@2631c09
+[*] [String Catch] [0] 60
+[*] [String Catch] [0] 62.34
+[*] [String Catch] [0] rkr.simplekeyboard.inputmethod/rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity/android.view.ViewRootImpl@eb3de0e
+[*] [String Catch] [0] 60
+[*] [String Catch] [0] 68.16
+[*] [String Catch] [0] 5
+[*] [String Catch] [0] 264
+[*] [String Catch] [0] 280.13
+[*] [String Compare] line.separator == line.separator ? true
+[*] [String Catch] [0] android.view.inputmethod.InputMethodManager@d12002f
+[*] [String Catch] [0] Input method client state for android.view.inputmethod.InputMethodManager@d12002f:
+[*] [String Catch] [0] com.android.internal.view.IInputMethodManager$Stub$Proxy@12963c
+[*] [String Catch] [0]   mService=com.android.internal.view.IInputMethodManager$Stub$Proxy@12963c
+[*] [String Catch] [0] Looper (main, tid 2) {186fc5}
+[*] [String Catch] [0]   mMainLooper=Looper (main, tid 2) {186fc5}
+[*] [String Catch] [0] android.view.inputmethod.BaseInputConnection@3d3cd1a
+[*] [String Catch] [0] ControlledInputConnectionWrapper{connection=android.view.inputmethod.BaseInputConnection@3d3cd1a finished=false mParentInputMethodManager.mActive=true}
+[*] [String Catch] [0]   mIInputContext=ControlledInputConnectionWrapper{connection=android.view.inputmethod.BaseInputConnection@3d3cd1a finished=false mParentInputMethodManager.mActive=true}
+[*] [String Catch] [0]   mActive=true mRestartOnNextWindowFocus=false mBindSequence=6 mCurId=com.android.inputmethod.latin/.LatinIME
+[*] [String Catch] [0]   mFullscreenMode=false
+[*] [String Catch] [0] com.android.internal.view.IInputMethodSession$Stub$Proxy@5c8704b
+[*] [String Catch] [0]   mCurMethod=com.android.internal.view.IInputMethodSession$Stub$Proxy@5c8704b
+[*] [String Catch] [0] DecorView@d90da28[SettingsActivity]
+[*] [String Catch] [0]   mCurRootView=DecorView@d90da28[SettingsActivity]
+[*] [String Catch] [0] android.widget.ListView{c154341 VFED.VC.. .F...... 0,0-320,560 #102000a android:id/list}
+[*] [String Catch] [0]   mServedView=android.widget.ListView{c154341 VFED.VC.. .F...... 0,0-320,560 #102000a android:id/list}
+[*] [String Catch] [0] android.widget.ListView{c154341 VFED.VC.. .F...... 0,0-320,560 #102000a android:id/list}
+[*] [String Catch] [0]   mNextServedView=android.widget.ListView{c154341 VFED.VC.. .F...... 0,0-320,560 #102000a android:id/list}
+[*] [String Catch] [0]   mServedConnecting=false
+[*] [String Catch] [0]     inputType=0x0 imeOptions=0x0 privateImeOptions=null
+[*] [String Catch] [0]     actionLabel=null actionId=0
+[*] [String Catch] [0]     initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+[*] [String Catch] [0]     hintText=null label=null
+[*] [String Catch] [0]     packageName=rkr.simplekeyboard.inputmethod fieldId=16908298 fieldName=null
+[*] [String Catch] [0]     extras=null
+[*] [String Catch] [0]     hintLocales=null
+[*] [String Catch] [0]     contentMimeTypes=null
+[*] [String Catch] [0]   mServedInputConnectionWrapper=null
+[*] [String Catch] [0]   mCompletions=null
+[*] [String Catch] [0] Rect(0, 0 - 0, 0)
+[*] [String Catch] [0]   mCursorRect=Rect(0, 0 - 0, 0)
+[*] [String Catch] [0]   mCursorSelStart=0 mCursorSelEnd=0 mCursorCandStart=0 mCursorCandEnd=0
+[*] [String Catch] [0]   mNextUserActionNotificationSequenceNumber=4 mLastSentUserActionNotificationSequenceNumber=-1
+[*] [String Compare] line.separator == line.separator ? true
+[*] [String Catch] [0]              
+[*] [String Catch] [0]      Pss
+[*] [String Catch] [0]      Pss
+[*] [String Catch] [0]   Shared
+[*] [String Catch] [0]  Private
+[*] [String Catch] [0]   Shared
+[*] [String Catch] [0]  Private
+[*] [String Catch] [0]  SwapPss
+[*] [String Catch] [0]     Heap
+[*] [String Catch] [0]     Heap
+[*] [String Catch] [0]     Heap
+[*] [String Catch] [0]                    Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+[*] [String Catch] [0]              
+[*] [String Catch] [0]    Total
+[*] [String Catch] [0]    Clean
+[*] [String Catch] [0]    Dirty
+[*] [String Catch] [0]    Dirty
+[*] [String Catch] [0]    Clean
+[*] [String Catch] [0]    Clean
+[*] [String Catch] [0]    Dirty
+[*] [String Catch] [0]     Size
+[*] [String Catch] [0]    Alloc
+[*] [String Catch] [0]     Free
+[*] [String Catch] [0]                  Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+[*] [String Catch] [0]              
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]                 ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+[*] [String Catch] [0]   Native Heap
+[*] [String Catch] [0]     6987
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]     2304
+[*] [String Catch] [0]     6896
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]    14336
+[*] [String Catch] [0]    13217
+[*] [String Catch] [0]     1118
+[*] [String Catch] [0]   Native Heap     6987        0     2304     6896        0        0        0    14336    13217     1118
+[*] [String Catch] [0]   Dalvik Heap
+[*] [String Catch] [0]     2086
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]     1892
+[*] [String Catch] [0]     2032
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]     4506
+[*] [String Catch] [0]     2253
+[*] [String Catch] [0]     2253
+[*] [String Catch] [0]   Dalvik Heap     2086        0     1892     2032        0        0        0     4506     2253     2253
+[*] [String Catch] [0]  Dalvik Other
+[*] [String Catch] [0]      204
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       32
+[*] [String Catch] [0]      204
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]  Dalvik Other      204        0       32      204        0        0        0                           
+[*] [String Catch] [0]         Stack
+[*] [String Catch] [0]       64
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]       64
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         Stack       64        0        4       64        0        0        0                           
+[*] [String Catch] [0]        Ashmem
+[*] [String Catch] [0]        5
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       16
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]        Ashmem        5        0       16        0        4        0        0                           
+[*] [String Catch] [0]     Other dev
+[*] [String Catch] [0]       16
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]      136
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       16
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     Other dev       16        0      136        0        0       16        0                           
+[*] [String Catch] [0]      .so mmap
+[*] [String Catch] [0]     5179
+[*] [String Catch] [0]      648
+[*] [String Catch] [0]     4404
+[*] [String Catch] [0]      212
+[*] [String Catch] [0]    29652
+[*] [String Catch] [0]      648
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]      .so mmap     5179      648     4404      212    29652      648        0                           
+[*] [String Catch] [0]     .apk mmap
+[*] [String Catch] [0]     1033
+[*] [String Catch] [0]       72
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]    20600
+[*] [String Catch] [0]       72
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     .apk mmap     1033       72        0        0    20600       72        0                           
+[*] [String Catch] [0]     .ttf mmap
+[*] [String Catch] [0]       94
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]      376
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     .ttf mmap       94        0        0        0      376        0        0                           
+[*] [String Catch] [0]     .dex mmap
+[*] [String Catch] [0]     1752
+[*] [String Catch] [0]      368
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        8
+[*] [String Catch] [0]    18636
+[*] [String Catch] [0]      368
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     .dex mmap     1752      368        0        8    18636      368        0                           
+[*] [String Catch] [0]     .oat mmap
+[*] [String Catch] [0]     1699
+[*] [String Catch] [0]       16
+[*] [String Catch] [0]       60
+[*] [String Catch] [0]      252
+[*] [String Catch] [0]    18372
+[*] [String Catch] [0]       16
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     .oat mmap     1699       16       60      252    18372       16        0                           
+[*] [String Catch] [0]     .art mmap
+[*] [String Catch] [0]     1759
+[*] [String Catch] [0]        8
+[*] [String Catch] [0]     1344
+[*] [String Catch] [0]     1120
+[*] [String Catch] [0]    15876
+[*] [String Catch] [0]        8
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     .art mmap     1759        8     1344     1120    15876        8        0                           
+[*] [String Catch] [0]    Other mmap
+[*] [String Catch] [0]       80
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       48
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]     1028
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]    Other mmap       80        0       48        4     1028        0        0                           
+[*] [String Catch] [0]       Unknown
+[*] [String Catch] [0]     7800
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]      604
+[*] [String Catch] [0]     7684
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]       Unknown     7800        0      604     7684        0        0        0                           
+[*] [String Catch] [0]         TOTAL
+[*] [String Catch] [0]    28758
+[*] [String Catch] [0]     1112
+[*] [String Catch] [0]    10844
+[*] [String Catch] [0]    18476
+[*] [String Catch] [0]   104544
+[*] [String Catch] [0]     1128
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]    18842
+[*] [String Catch] [0]    15470
+[*] [String Catch] [0]     3371
+[*] [String Catch] [0]         TOTAL    28758     1112    10844    18476   104544     1128        0    18842    15470     3371
+[*] [String Catch] [0]         .Heap
+[*] [String Catch] [0]     1588
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]     1588
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         .Heap     1588        0        0     1588        0        0        0                           
+[*] [String Catch] [0]          .LOS
+[*] [String Catch] [0]       39
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]      920
+[*] [String Catch] [0]       20
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]          .LOS       39        0      920       20        0        0        0                           
+[*] [String Catch] [0]       .Zygote
+[*] [String Catch] [0]      379
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]      972
+[*] [String Catch] [0]      344
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]       .Zygote      379        0      972      344        0        0        0                           
+[*] [String Catch] [0]    .NonMoving
+[*] [String Catch] [0]       80
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       80
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]    .NonMoving       80        0        0       80        0        0        0                           
+[*] [String Catch] [0]  .LinearAlloc
+[*] [String Catch] [0]       48
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       48
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]  .LinearAlloc       48        0        0       48        0        0        0                           
+[*] [String Catch] [0]           .GC
+[*] [String Catch] [0]       88
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       24
+[*] [String Catch] [0]       88
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]           .GC       88        0       24       88        0        0        0                           
+[*] [String Catch] [0]     .JITCache
+[*] [String Catch] [0]       24
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       24
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     .JITCache       24        0        0       24        0        0        0                           
+[*] [String Catch] [0]  .IndirectRef
+[*] [String Catch] [0]       44
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        8
+[*] [String Catch] [0]       44
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]  .IndirectRef       44        0        8       44        0        0        0                           
+[*] [String Catch] [0]    .Boot vdex
+[*] [String Catch] [0]     1460
+[*] [String Catch] [0]       84
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]    18636
+[*] [String Catch] [0]       84
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]    .Boot vdex     1460       84        0        0    18636       84        0                           
+[*] [String Catch] [0]      .App dex
+[*] [String Catch] [0]       40
+[*] [String Catch] [0]       32
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        8
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       32
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]      .App dex       40       32        0        8        0       32        0                           
+[*] [String Catch] [0]     .App vdex
+[*] [String Catch] [0]      252
+[*] [String Catch] [0]      252
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]      252
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     .App vdex      252      252        0        0        0      252        0                           
+[*] [String Catch] [0]      .App art
+[*] [String Catch] [0]       60
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]       56
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]      .App art       60        4        0       56        0        4        0                           
+[*] [String Catch] [0]     .Boot art
+[*] [String Catch] [0]     1699
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]     1344
+[*] [String Catch] [0]     1064
+[*] [String Catch] [0]    15876
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]         
+[*] [String Catch] [0]     .Boot art     1699        4     1344     1064    15876        4        0                           
+[*] [String Catch] [0]                      
+[*] [String Catch] [0]  Pss(KB)
+[*] [String Catch] [0]                        Pss(KB)
+[*] [String Catch] [0]                      
+[*] [String Catch] [0]   ------
+[*] [String Catch] [0]                         ------
+[*] [String Catch] [0]            Java Heap:
+[*] [String Catch] [0] 3160
+[*] [String Catch] [0]     3160
+[*] [String Catch] [0]            Java Heap:     3160
+[*] [String Catch] [0]          Native Heap:
+[*] [String Catch] [0] 6896
+[*] [String Catch] [0]     6896
+[*] [String Catch] [0]          Native Heap:     6896
+[*] [String Catch] [0]                 Code:
+[*] [String Catch] [0] 1576
+[*] [String Catch] [0]     1576
+[*] [String Catch] [0]                 Code:     1576
+[*] [String Catch] [0]                Stack:
+[*] [String Catch] [0] 64
+[*] [String Catch] [0]       64
+[*] [String Catch] [0]                Stack:       64
+[*] [String Catch] [0]             Graphics:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]             Graphics:        0
+[*] [String Catch] [0]        Private Other:
+[*] [String Catch] [0] 7908
+[*] [String Catch] [0]     7908
+[*] [String Catch] [0]        Private Other:     7908
+[*] [String Catch] [0]               System:
+[*] [String Catch] [0] 9154
+[*] [String Catch] [0]     9154
+[*] [String Catch] [0]               System:     9154
+[*] [String Catch] [0]                TOTAL:
+[*] [String Catch] [0] 28758
+[*] [String Catch] [0]    28758
+[*] [String Catch] [0]       TOTAL SWAP PSS:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]                TOTAL:    28758       TOTAL SWAP PSS:        0
+[*] [String Catch] [0]                Views:
+[*] [String Catch] [0] 296
+[*] [String Catch] [0]      296
+[*] [String Catch] [0]         ViewRootImpl:
+[*] [String Catch] [0] 5
+[*] [String Catch] [0]        5
+[*] [String Catch] [0]                Views:      296         ViewRootImpl:        5
+[*] [String Catch] [0]          AppContexts:
+[*] [String Catch] [0] 13
+[*] [String Catch] [0]       13
+[*] [String Catch] [0]           Activities:
+[*] [String Catch] [0] 4
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]          AppContexts:       13           Activities:        4
+[*] [String Catch] [0]               Assets:
+[*] [String Catch] [0] 2
+[*] [String Catch] [0]        2
+[*] [String Catch] [0]        AssetManagers:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]               Assets:        2        AssetManagers:        0
+[*] [String Catch] [0]        Local Binders:
+[*] [String Catch] [0] 15
+[*] [String Catch] [0]       15
+[*] [String Catch] [0]        Proxy Binders:
+[*] [String Catch] [0] 32
+[*] [String Catch] [0]       32
+[*] [String Catch] [0]        Local Binders:       15        Proxy Binders:       32
+[*] [String Catch] [0]        Parcel memory:
+[*] [String Catch] [0] 4
+[*] [String Catch] [0]        4
+[*] [String Catch] [0]         Parcel count:
+[*] [String Catch] [0] 18
+[*] [String Catch] [0]       18
+[*] [String Catch] [0]        Parcel memory:        4         Parcel count:       18
+[*] [String Catch] [0]     Death Recipients:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]      OpenSSL Sockets:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]     Death Recipients:        0      OpenSSL Sockets:        0
+[*] [String Catch] [0]             WebViews:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]             WebViews:        0
+[*] [String Catch] [0]          MEMORY_USED:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]          MEMORY_USED:        0
+[*] [String Catch] [0]   PAGECACHE_OVERFLOW:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]          MALLOC_SIZE:
+[*] [String Catch] [0] 0
+[*] [String Catch] [0]        0
+[*] [String Catch] [0]   PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+[*] [String Catch] [0] 10.59.7.3
+[*] [String Catch] [0] /10.59.7.3
+[*] [String Catch] [0] /::
+[*] [String Catch] [0] connect failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /10.59.7.3 (port 4444) from /:: (port 56514): connect failed: ECONNREFUSED (Connection refused)

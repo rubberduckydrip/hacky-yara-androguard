@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<overlays version="3">
+    <item packageName="com.android.internal.display.cutout.emulation.corner" userId="0" targetPackageName="android" baseCodePath="/vendor/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk" state="2" isEnabled="false" isStatic="false" priority="1" category="com.android.internal.display_cutout_emulation" />
+    <item packageName="com.android.internal.display.cutout.emulation.double" userId="0" targetPackageName="android" baseCodePath="/vendor/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk" state="2" isEnabled="false" isStatic="false" priority="1" category="com.android.internal.display_cutout_emulation" />
+    <item packageName="com.android.internal.display.cutout.emulation.tall" userId="0" targetPackageName="android" baseCodePath="/vendor/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk" state="2" isEnabled="false" isStatic="false" priority="1" category="com.android.internal.display_cutout_emulation" />
+    <item packageName="com.android.systemui.theme.dark" userId="0" targetPackageName="com.android.systemui" baseCodePath="/vendor/overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk" state="2" isEnabled="false" isStatic="false" priority="1" />
+    <item packageName="com.android.internal.display.cutout.emulation.emu01" userId="0" targetPackageName="android" baseCodePath="/vendor/overlay/DisplayCutoutEmulationEmu01/DisplayCutoutEmulationEmu01Overlay.apk" state="2" isEnabled="false" isStatic="false" priority="1" category="com.android.internal.emulator_display_cutout_emulation" />
+</overlays>

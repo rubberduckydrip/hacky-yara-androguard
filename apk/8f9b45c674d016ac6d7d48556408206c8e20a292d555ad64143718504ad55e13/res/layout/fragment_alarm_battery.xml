@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/viewSwitch" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/black" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/enabled" android:singleLine="true" android:layout_weight="1.0" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switchMain" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_500" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start_at" android:singleLine="true" />
+        <TextView android:textSize="@dimen/textview_big_alarm" android:textColor="@color/grey_500" android:gravity="center_horizontal" android:id="@id/tvTimeStart" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_500" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stop_at" android:singleLine="true" />
+        <TextView android:textSize="@dimen/textview_big_alarm" android:textColor="@color/grey_500" android:gravity="center_horizontal" android:id="@id/tvTimeStop" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/viewPediod" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/black" android:id="@id/tvModeToUse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mode_to_use" android:singleLine="true" />
+            <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_500" android:id="@id/tvTypeBatterySaver" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/share_description" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_down_grey_500_36dp" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/viewPeriodOutside" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/black" android:id="@id/tvModeToUsePeriod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mode_to_use_outside" android:singleLine="true" />
+            <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_500" android:id="@id/tvTypeBatterySaverPeriod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/share_description" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_down_grey_500_36dp" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+</LinearLayout>

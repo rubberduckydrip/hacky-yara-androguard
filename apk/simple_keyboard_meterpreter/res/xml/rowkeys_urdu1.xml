@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <switch>
+        <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked">
+            <Key latin:keySpec="ٔ" />
+            <Key latin:keySpec="ْ" />
+            <Key latin:keySpec="ّ" />
+            <Key latin:keySpec="ً" />
+            <Key latin:keySpec="ٗ" />
+            <Key latin:keySpec="ٖ" />
+            <Key latin:keySpec="ٰ" />
+            <Key latin:keySpec="ُ" />
+            <Key latin:keySpec="ِ" />
+            <Key latin:keySpec="َ" />
+        </case>
+        <default>
+            <Key latin:keySpec="ق" />
+            <Key latin:additionalMoreKeys="ؤ" latin:keyHintLabel="ؤ" latin:keySpec="و" />
+            <Key latin:keySpec="ع" />
+            <Key latin:additionalMoreKeys="ڑ" latin:keyHintLabel="ڑ" latin:keySpec="ر" />
+            <Key latin:additionalMoreKeys="ٹ" latin:keyHintLabel="ٹ" latin:keySpec="ت" />
+            <Key latin:additionalMoreKeys="ۓ" latin:keyHintLabel="ۓ" latin:keySpec="ے" />
+            <Key latin:additionalMoreKeys="ئ" latin:keyHintLabel="ئ" latin:keySpec="ء" />
+            <Key latin:keySpec="ی" />
+            <Key latin:additionalMoreKeys="ۂ,ۃ" latin:keyHintLabel="ۂ" latin:keySpec="ہ" />
+            <Key latin:keySpec="پ" />
+        </default>
+    </switch>
+</merge>

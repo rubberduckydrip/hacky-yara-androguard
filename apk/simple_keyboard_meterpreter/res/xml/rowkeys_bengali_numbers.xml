@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_1" latin:keySpec="১" latin:moreKeys="!text/morekeys_symbols_1" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_2" latin:keySpec="২" latin:moreKeys="!text/morekeys_symbols_2" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_3" latin:keySpec="৩" latin:moreKeys="!text/morekeys_symbols_3" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_4" latin:keySpec="৪" latin:moreKeys="!text/morekeys_symbols_4" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_5" latin:keySpec="৫" latin:moreKeys="!text/morekeys_symbols_5" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_6" latin:keySpec="৬" latin:moreKeys="!text/morekeys_symbols_6" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_7" latin:keySpec="৭" latin:moreKeys="!text/morekeys_symbols_7" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_8" latin:keySpec="৮" latin:moreKeys="!text/morekeys_symbols_8" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_9" latin:keySpec="৯" latin:moreKeys="!text/morekeys_symbols_9" />
+    <Key latin:additionalMoreKeys="!text/additional_morekeys_symbols_0" latin:keySpec="০" latin:moreKeys="!text/morekeys_symbols_0" />
+</merge>

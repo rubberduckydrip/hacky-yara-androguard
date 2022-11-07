@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<user locales="en-US" last-app-scan-time2="1667402143718" last-app-scan-fp="Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys">
+<launcher value="com.android.launcher3/com.android.launcher3.Launcher" />
+<package name="com.android.documentsui" call-count="0" last-reset="0">
+<package-info version="28" last_udpate_time="1533061792000" shadow="0" allow-backup="1" allow-backup-initialized="1" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="content://com.android.providers.media.documents/root/images_root" activity="com.android.documentsui/com.android.documentsui.LauncherActivity" title="Images" titleid="2131755135" titlename="images_shortcut_label" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402143921" rank="0" flags="420" icon-res="2131165325" icon-resname="drawable/ic_images_shortcut">
+<intent intent-base="content://com.android.providers.media.documents/root/images_root#Intent;launchFlags=0x1000c000;end" />
+</shortcut>
+</package>
+<package name="com.android.contacts" call-count="0" last-reset="0">
+<package-info version="10731" last_udpate_time="1533062020000" shadow="0" allow-backup="1" allow-backup-initialized="1" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="shortcut-add-contact" activity="com.android.contacts/com.android.contacts.activities.PeopleActivity" title="Add contact" titleid="2131755541" titlename="shortcut_add_contact" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402143814" rank="0" flags="420" icon-res="2131230829" icon-resname="drawable/ic_add_contact_shortcut">
+<intent intent-base="content://com.android.contacts/contacts#Intent;action=android.intent.action.INSERT;launchFlags=0x1000c000;component=com.android.contacts/.activities.ContactEditorActivity;end" />
+</shortcut>
+</package>
+<package name="com.android.settings" call-count="1" last-reset="1667402139369">
+<package-info version="28" last_udpate_time="1533062077000" shadow="0" allow-backup="0" allow-backup-initialized="1" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="manifest-shortcut-wifi" activity="com.android.settings/com.android.settings.Settings" title="Wi‑Fi" titleid="2131890036" titlename="wifi_settings" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402554488" rank="0" flags="420" icon-res="2131231100" icon-resname="drawable/ic_shortcut_wireless">
+<intent intent-base="#Intent;action=android.settings.WIFI_SETTINGS;launchFlags=0x1000c000;end" />
+</shortcut>
+<shortcut id="manifest-shortcut-battery" activity="com.android.settings/com.android.settings.Settings" title="Battery" titleid="2131888543" titlename="power_usage_summary_title" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402554488" rank="2" flags="420" icon-res="2131231098" icon-resname="drawable/ic_shortcut_battery">
+<intent intent-base="#Intent;action=android.intent.action.POWER_USAGE_SUMMARY;launchFlags=0x1000c000;end" />
+</shortcut>
+<shortcut id="manifest-shortcut-data-usage" activity="com.android.settings/com.android.settings.Settings" title="Data usage" titleid="2131887232" titlename="data_usage_summary_title" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402554488" rank="1" flags="420" icon-res="2131231099" icon-resname="drawable/ic_shortcut_data_usage">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;launchFlags=0x1000c000;component=com.android.settings/.Settings%24DataUsageSummaryActivity;end" />
+</shortcut>
+</package>
+<package name="com.android.deskclock" call-count="1" last-reset="1667402139369">
+<package-info version="28" last_udpate_time="1533062000000" shadow="0" allow-backup="0" allow-backup-initialized="1" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="Alarm_Create" activity="com.android.deskclock/com.android.deskclock.DeskClock" title="New alarm" titleid="0" text="Create new alarm" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402146390" rank="0" flags="133" icon-res="2131230920" icon-resname="drawable/shortcut_new_alarm">
+<intent intent-base="#Intent;action=android.intent.action.SET_ALARM;launchFlags=0x10000000;component=com.android.deskclock/.HandleApiCalls;end">
+<extras>
+<int name="com.android.deskclock.extra.EVENT_LABEL" value="2131821039" />
+</extras>
+</intent>
+</shortcut>
+<shortcut id="Stopwatch" activity="com.android.deskclock/com.android.deskclock.DeskClock" title="Start" titleid="0" text="Start stopwatch" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402146390" rank="2" flags="133" icon-res="2131230923" icon-resname="drawable/shortcut_stopwatch">
+<intent intent-base="#Intent;action=com.android.deskclock.action.START_STOPWATCH;launchFlags=0x10000000;component=com.android.deskclock/.HandleShortcuts;end">
+<extras>
+<int name="com.android.deskclock.extra.EVENT_LABEL" value="2131821039" />
+</extras>
+</intent>
+</shortcut>
+<shortcut id="Screensaver_Show" activity="com.android.deskclock/com.android.deskclock.DeskClock" title="Screen saver" titleid="0" text="Start screen saver" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402146392" rank="3" flags="133" icon-res="2131230922" icon-resname="drawable/shortcut_screensaver">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;launchFlags=0x10000000;component=com.android.deskclock/.ScreensaverActivity;end">
+<extras>
+<int name="com.android.deskclock.extra.EVENT_LABEL" value="2131821039" />
+</extras>
+</intent>
+</shortcut>
+<shortcut id="Timer_Create" activity="com.android.deskclock/com.android.deskclock.DeskClock" title="New timer" titleid="0" text="Create new timer" textid="0" dmessageid="0" disabled-reason="0" timestamp="1667402146390" rank="1" flags="133" icon-res="2131230921" icon-resname="drawable/shortcut_new_timer">
+<intent intent-base="#Intent;action=android.intent.action.SET_TIMER;launchFlags=0x10000000;component=com.android.deskclock/.HandleApiCalls;end">
+<extras>
+<int name="com.android.deskclock.extra.EVENT_LABEL" value="2131821039" />
+</extras>
+</intent>
+</shortcut>
+</package>
+</user>

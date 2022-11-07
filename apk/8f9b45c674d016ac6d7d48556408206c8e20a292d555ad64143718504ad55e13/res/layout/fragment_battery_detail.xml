@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/viewNameBatterySaver" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/colorPrimaryDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" android:singleLine="true" />
+                <EditText android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/black" android:textColorHint="@color/grey_500" android:id="@id/edName" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:hint="@string/enter_name" android:singleLine="true" />
+                <requestFocus />
+                <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/red" android:id="@id/tvPleaseInputName" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/please_input_name" android:singleLine="true" />
+            </LinearLayout>
+            <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewScreenBrightness" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvScreenBrightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screen_brightness" android:singleLine="true" />
+                    <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvScreenBrightnessIndex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+                </LinearLayout>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_down_grey_500_36dp" android:contentDescription="@string/app_name" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewScreenBrightnessDescription" android:background="@color/background_list" android:padding="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <SeekBar android:id="@id/seekBarScreenBrightness" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="100" android:secondaryProgress="@color/colorPrimary" android:layout_weight="1.0" />
+                <CheckBox android:id="@id/checkBoxScreenBrightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto" />
+            </LinearLayout>
+            <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewScreenTimeout" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvScreenTimeout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screen_timeout" android:singleLine="true" />
+                    <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvScreenTimeoutIndex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+                </LinearLayout>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_down_grey_500_36dp" android:contentDescription="@string/app_name" />
+            </LinearLayout>
+            <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewWifi" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvWifi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/wifi" android:singleLine="true" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/switchCompatWifi" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewBluetooth" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvBluetooth" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/bluetooth" android:singleLine="true" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/switchCompatBluetooth" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewData" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvData" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/data" android:singleLine="true" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/switchCompatData" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewAutoSync" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvAutoSync" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/auto_sync" android:singleLine="true" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/switchCompatAutoSync" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewVibrate" android:background="@drawable/selector_row" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textview_small_header_clean" android:textColor="@color/grey_700" android:id="@id/tvVibrate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/vibrate" android:singleLine="true" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/switchCompatVibrate" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/viewButton" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/colorPrimary" android:id="@id/btnCancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <View android:background="@color/view_line" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <Button android:textColor="@color/colorPrimary" android:id="@id/btnSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/save" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

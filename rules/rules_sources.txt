@@ -1,2 +1,0 @@
-https://github.com/Yara-Rules/rules.git
-https://github.com/mikesxrs/Open-Source-YARA-rules

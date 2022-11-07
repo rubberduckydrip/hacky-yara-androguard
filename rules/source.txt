@@ -1,1 +1,0 @@
-https://github.com/Yara-Rules/rules/tree/master/deprecated/Android

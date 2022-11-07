@@ -1,0 +1,35 @@
+Process: com.android.launcher3
+PID: 2358
+Flags: 0x34cbbe45
+Package: com.android.launcher3 v28 (9)
+Build: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
+System-App: true
+Uptime-Millis: 402239
+Loop-Violation-Number: 5
+Duration-Millis: 1
+
+android.os.strictmode.ResourceMismatchViolation: TypedValue{t=0x3/d=0x8 "1f" a=-1}
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onResourceMismatch(StrictMode.java:1482)
+	at android.os.StrictMode.noteResourceMismatch(StrictMode.java:2341)
+	at android.content.res.TypedArray.getFloat(TypedArray.java:423)
+	at android.animation.AnimatorInflater.loadKeyframe(AnimatorInflater.java:983)
+	at android.animation.AnimatorInflater.loadPvh(AnimatorInflater.java:845)
+	at android.animation.AnimatorInflater.loadValues(AnimatorInflater.java:742)
+	at android.animation.AnimatorInflater.createAnimatorFromXml(AnimatorInflater.java:684)
+	at android.animation.AnimatorInflater.createAnimatorFromXml(AnimatorInflater.java:642)
+	at android.animation.AnimatorInflater.loadAnimator(AnimatorInflater.java:126)
+	at android.animation.AnimatorInflater.loadAnimator(AnimatorInflater.java:106)
+	at android.animation.AnimatorInflater.loadAnimator(AnimatorInflater.java:91)
+	at com.android.launcher3.allapps.DiscoveryBounce.<init>(DiscoveryBounce.java:56)
+	at com.android.launcher3.allapps.DiscoveryBounce.showForHomeIfNeeded(DiscoveryBounce.java:140)
+	at com.android.launcher3.allapps.DiscoveryBounce.lambda$showForHomeIfNeeded$0(DiscoveryBounce.java:136)
+	at com.android.launcher3.allapps.-$$Lambda$DiscoveryBounce$UWP5iGtDzA1k_-2kVLNOLEwtkow.run(Unknown Source:2)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6669)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+
+TypedValue{t=0x3/d=0x8 "1f" a=-1}

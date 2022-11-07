@@ -11,7 +11,9 @@ There is 3 python script;
 
 - create_report.py
 - androguard_scan.py
-- scan.py
+- directory_scan.py
+- apktool_apk.py
+- apk_scan.py
   
 `create_report.py` will create apk reports that will be used with yara. You can give folder name that all your apks are staying or file name.
 
@@ -25,9 +27,15 @@ androguard_scan.py takes 3 parameter: report folder, apk folder and yara rule fo
 
 Since androguard module didn't work on my yara python version I used os.system, if you can run it with yarapython library feel free to pr.
 
-scan.py takes 2 parameters: fodler containing file to be scanned and yara rule folder.
+directory_scan.py takes 2 parameters: folder containing file to be scanned and yara rule folder.
 
-`scan.py files_dir rules`
+`directory_scan.py files_dir rules`
+
+apktool_apk.py runs apktool on all apks in the given directory, keeping dex files as they are
+`apktool_apk.py ../apks`
+
+apk_scan.py scans all .apks, .dex and .elf files within the given directory with the given rules
+`apk_scan.py ../apks ../rules`
 
 ## Directories
 rules: yara rules either written or obtained from various places on the web

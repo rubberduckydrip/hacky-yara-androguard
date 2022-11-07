@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/viewMainNotification" android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@mipmap/battery_notification" android:layout_width="@dimen/width_battery_notification" android:layout_height="@dimen/height_battery_notification">
+        <ProgressBar android:id="@id/progressBarBatteryNotification" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="7.0dip" android:paddingBottom="1.0dip" android:layout_width="@dimen/width_battery_notification" android:layout_height="@dimen/height_battery_notification" android:progressDrawable="@drawable/progressbar_states_notification" android:layout_centerInParent="true" android:paddingStart="1.0dip" android:paddingEnd="7.0dip" style="?android:progressBarStyleHorizontal" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/textview_percent_battery_notfication" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvPercentageNotification" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/arc_suffix_text_size_small" android:textColor="@color/white" android:gravity="top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:text="@string/percent_none" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

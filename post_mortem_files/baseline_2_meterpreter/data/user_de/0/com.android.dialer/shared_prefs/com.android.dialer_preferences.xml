@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="phone_account_dependent_is_account_activated_89014103211118510720" value="false" />
+    <boolean name="phone_account_dependent_legacy_voicemail_dismissed_89014103211118510720" value="false" />
+</map>
