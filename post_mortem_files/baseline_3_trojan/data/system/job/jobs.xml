@@ -2,12 +2,12 @@
 <job-info version="0">
     <job jobid="2131427336" package="com.android.settings" class="com.android.settings.fuelgauge.batterytip.AnomalyConfigJobService" sourcePackageName="com.android.settings" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
         <constraints idle="true" charging="true" />
-        <periodic period="86400000" flex="86400000" deadline="1667488547131" delay="1667402147131" />
+        <periodic period="86400000" flex="86400000" deadline="1668011680204" delay="1667925280204" />
         <extras />
     </job>
     <job jobid="2131427335" package="com.android.settings" class="com.android.settings.fuelgauge.batterytip.AnomalyCleanupJobService" sourcePackageName="com.android.settings" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
         <constraints idle="true" charging="true" />
-        <periodic period="86400000" flex="86400000" deadline="1667488547134" delay="1667402147134" />
+        <periodic period="86400000" flex="86400000" deadline="1668011680206" delay="1667925280206" />
         <extras />
     </job>
 </job-info>

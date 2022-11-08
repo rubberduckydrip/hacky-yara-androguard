@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<task task_id="6" real_activity="com.example.reverseshell2/.controlPanel" real_activity_suspended="false" affinity="com.example.reverseshell2" root_has_reset="false" auto_remove_recents="false" asked_compat_mode="false" user_id="0" user_setup_complete="true" effective_uid="10068" last_time_moved="1667920836859" never_relinquish_identity="true" task_description_color="ff008577" task_description_colorBackground="fffafafa" task_affiliation_color="-16743049" task_affiliation="6" prev_affiliation="-1" next_affiliation="-1" calling_uid="0" calling_package="" resize_mode="4" supports_picture_in_picture="false" min_width="-1" min_height="-1" persist_task_version="1">
+<intent component="com.example.reverseshell2/.controlPanel" flags="10000000" />
+</task>
+

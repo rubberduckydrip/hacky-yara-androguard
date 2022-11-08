@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<task task_id="7" real_activity="com.android.settings/.Settings" real_activity_suspended="false" orig_activity="com.android.settings/.Settings" affinity="com.android.settings.root" root_has_reset="false" auto_remove_recents="false" asked_compat_mode="false" user_id="0" user_setup_complete="true" effective_uid="1000" last_time_moved="1667925424245" never_relinquish_identity="true" task_description_color="fff5f5f5" task_description_colorBackground="fffafafa" task_description_icon_filename="/data/system_ce/0/recent_images/7_activity_icon_1667925439672.png" task_affiliation_color="-657931" task_affiliation="7" prev_affiliation="-1" next_affiliation="-1" calling_uid="10068" calling_package="rkr.simplekeyboard.inputmethod" resize_mode="1" supports_picture_in_picture="false" min_width="-1" min_height="-1" persist_task_version="1">
+<intent action="android.settings.SETTINGS" component="com.android.settings/.Settings" flags="10000000" />
+</task>
+

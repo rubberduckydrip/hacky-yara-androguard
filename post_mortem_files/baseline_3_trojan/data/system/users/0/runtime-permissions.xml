@@ -78,6 +78,10 @@
     <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="20" />
     <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="20" />
   </pkg>
+  <pkg name="rkr.simplekeyboard.inputmethod">
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="0" />
+    <item name="android.permission.CALL_PHONE" granted="true" flags="0" />
+  </pkg>
   <shared-user name="android.media">
     <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
     <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />

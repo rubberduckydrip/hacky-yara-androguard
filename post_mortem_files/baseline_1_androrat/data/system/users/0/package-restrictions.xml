@@ -29,7 +29,7 @@
     <pkg name="com.android.providers.downloads.ui" ceDataInode="15001" />
     <pkg name="com.android.pacprocessor" ceDataInode="15004" />
     <pkg name="com.android.simappdialog" ceDataInode="15007" />
-    <pkg name="opensecurity.clipdump" ceDataInode="15309" />
+    <pkg name="opensecurity.clipdump" ceDataInode="14960" />
     <pkg name="com.android.internal.display.cutout.emulation.tall" ceDataInode="15010" />
     <pkg name="com.android.certinstaller" ceDataInode="15013" />
     <pkg name="com.android.carrierconfig" ceDataInode="15016" />
@@ -72,7 +72,6 @@
         </disabled-components>
     </pkg>
     <pkg name="com.android.musicfx" ceDataInode="15077" />
-    <pkg name="com.metasploit.stage" ceDataInode="15490" stopped="true" />
     <pkg name="com.android.internal.display.cutout.emulation.emu01" ceDataInode="15080" />
     <pkg name="com.android.cellbroadcastreceiver" ceDataInode="15086" />
     <pkg name="android.ext.shared" ceDataInode="14892" />
@@ -132,24 +131,24 @@
     <pkg name="com.android.wallpaperbackup" ceDataInode="15146" />
     <pkg name="com.android.providers.blockednumber" ceDataInode="15152" />
     <pkg name="com.android.providers.userdictionary" ceDataInode="15155" />
-    <pkg name="com.android.emergency" ceDataInode="15161" />
+    <pkg name="com.android.emergency" ceDataInode="15162" />
     <pkg name="com.android.location.fused" ceDataInode="14949" />
-    <pkg name="com.android.deskclock" ceDataInode="15164" />
+    <pkg name="com.android.deskclock" ceDataInode="15165" />
     <pkg name="com.android.systemui" ceDataInode="14955">
         <disabled-components>
             <item name="com.android.systemui.tuner.TunerActivity" />
         </disabled-components>
     </pkg>
     <pkg name="com.android.bluetoothmidiservice" ceDataInode="15168" />
-    <pkg name="com.example.reverseshell2" ceDataInode="15293">
+    <pkg name="com.example.reverseshell2" ceDataInode="14958" stopped="true">
         <disabled-components>
             <item name="com.example.reverseshell2.MainActivity" />
         </disabled-components>
     </pkg>
     <pkg name="com.android.traceur" ceDataInode="15171" />
-    <pkg name="com.android.bluetooth" ceDataInode="15177" />
-    <pkg name="com.android.providers.contacts" ceDataInode="15180" />
-    <pkg name="com.android.captiveportallogin" ceDataInode="15183" />
+    <pkg name="com.android.bluetooth" ceDataInode="15179" />
+    <pkg name="com.android.providers.contacts" ceDataInode="15182" />
+    <pkg name="com.android.captiveportallogin" ceDataInode="15185" />
     <preferred-activities>
         <item name="com.android.messaging/.ui.conversation.LaunchConversationActivity" match="200000" always="true" set="1">
             <set name="com.android.messaging/.ui.conversation.LaunchConversationActivity" />
@@ -164,7 +163,7 @@
             <filter>
                 <action name="android.intent.action.SENDTO" />
                 <cat name="android.intent.category.DEFAULT" />
-                <scheme name="smsto" />
+                <scheme name="mms" />
             </filter>
         </item>
         <item name="com.android.messaging/.ui.conversation.LaunchConversationActivity" match="200000" always="true" set="1">
@@ -180,7 +179,7 @@
             <filter>
                 <action name="android.intent.action.SENDTO" />
                 <cat name="android.intent.category.DEFAULT" />
-                <scheme name="mms" />
+                <scheme name="smsto" />
             </filter>
         </item>
     </preferred-activities>

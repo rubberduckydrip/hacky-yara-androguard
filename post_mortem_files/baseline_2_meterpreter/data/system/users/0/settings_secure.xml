@@ -45,7 +45,7 @@
   <setting id="4" name="mount_play_not_snd" value="1" package="android" defaultValue="1" defaultSysSet="true" />
   <setting id="7" name="mount_ums_notify_enabled" value="1" package="android" defaultValue="1" defaultSysSet="true" />
   <setting id="71" name="icon_blacklist" package="com.android.systemui" />
-  <setting id="26" name="android_id" value="6d5d6cc0c361554d" package="android" defaultValue="6d5d6cc0c361554d" defaultSysSet="true" />
+  <setting id="26" name="android_id" value="4b26f3e9aa3dd3d0" package="android" defaultValue="4b26f3e9aa3dd3d0" defaultSysSet="true" />
   <setting id="9" name="touch_exploration_enabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
   <setting id="66" name="sysui_qqs_count" package="com.android.systemui" />
   <setting id="39" name="enabled_notification_listeners" value="com.android.launcher3/com.android.launcher3.notification.NotificationListener" package="android" defaultValue="com.android.launcher3/com.android.launcher3.notification.NotificationListener" defaultSysSet="true" />

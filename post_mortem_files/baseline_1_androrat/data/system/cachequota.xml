@@ -1,10 +1,4 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <cache-info previousBytes="0">
-<quota uid="10031" bytes="26567096" />
-<quota uid="10052" bytes="18540881" />
-<quota uid="10069" bytes="14291238" />
-<quota uid="1000" bytes="11604768" />
-<quota uid="10008" bytes="9726140" />
-<quota uid="10012" bytes="8323934" />
-<quota uid="10070" bytes="7228568" />
+<quota uid="1000" bytes="112088064" />
 </cache-info>

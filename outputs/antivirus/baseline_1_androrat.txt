@@ -1,0 +1,35 @@
+https://antiscan.me/scan/new/result?id=t3SoC8iHPt7U
+
+File Name: karma.bin
+Scan Date: 23-10-2022 15:24:14
+Detected by: 3/26
+
+MD5: 3cfbcf3681fd34b9eeb34090382b904d
+Checked by AntiScan.Me: https://antiscan.me/scan/new/result?id=t3SoC8iHPt7U
+
+adaware:Clean
+ahnlab:Clean
+alyac:Clean
+avast:Clean
+avg:Clean
+avira:Clean
+bitdef:Clean
+bullguard:detected
+clam:Clean
+comodo:Clean
+drweb:Clean
+emsisoft:Clean
+nod32:a variant of Android/Spy.Agent.BEL trojan
+fortinet:Clean
+fsec:Malware.ANDROID/SpyAgent.FKWC.Gen
+ikarus:Clean
+kasper:Clean
+mcafeetp:Clean
+mbytes:Clean
+pandagp:Clean
+sophos:Clean
+trend:Clean
+webroot:Clean
+mssec:Clean
+zonealarm:Clean
+zillya:Clean

@@ -72,7 +72,6 @@
         </disabled-components>
     </pkg>
     <pkg name="com.android.musicfx" ceDataInode="15077" />
-    <pkg name="com.metasploit.stage" ceDataInode="14958" />
     <pkg name="com.android.internal.display.cutout.emulation.emu01" ceDataInode="15080" />
     <pkg name="com.android.cellbroadcastreceiver" ceDataInode="15086" />
     <pkg name="android.ext.shared" ceDataInode="14892" />
@@ -160,14 +159,14 @@
     <pkg name="com.android.bluetooth" ceDataInode="15177" />
     <pkg name="com.android.providers.contacts" ceDataInode="15180" />
     <pkg name="com.android.captiveportallogin" ceDataInode="15183" />
-    <pkg name="rkr.simplekeyboard.inputmethod" ceDataInode="15454" />
+    <pkg name="rkr.simplekeyboard.inputmethod" ceDataInode="14958" />
     <preferred-activities>
         <item name="com.android.messaging/.ui.conversation.LaunchConversationActivity" match="200000" always="true" set="1">
             <set name="com.android.messaging/.ui.conversation.LaunchConversationActivity" />
             <filter>
                 <action name="android.intent.action.SENDTO" />
                 <cat name="android.intent.category.DEFAULT" />
-                <scheme name="mms" />
+                <scheme name="smsto" />
             </filter>
         </item>
         <item name="com.android.messaging/.ui.conversation.LaunchConversationActivity" match="200000" always="true" set="1">
@@ -191,7 +190,7 @@
             <filter>
                 <action name="android.intent.action.SENDTO" />
                 <cat name="android.intent.category.DEFAULT" />
-                <scheme name="smsto" />
+                <scheme name="mms" />
             </filter>
         </item>
     </preferred-activities>

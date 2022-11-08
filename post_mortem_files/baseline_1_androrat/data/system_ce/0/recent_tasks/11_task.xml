@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<task task_id="11" real_activity="com.android.gallery3d/.app.GalleryActivity" real_activity_suspended="false" affinity="com.android.gallery3d" root_has_reset="true" auto_remove_recents="false" asked_compat_mode="false" user_id="0" user_setup_complete="true" effective_uid="10052" last_time_moved="1666798151828" never_relinquish_identity="true" task_description_color="ff222222" task_affiliation_color="-14540254" task_affiliation="11" prev_affiliation="-1" next_affiliation="-1" calling_uid="10031" calling_package="com.android.launcher3" resize_mode="1" supports_picture_in_picture="false" min_width="-1" min_height="-1" persist_task_version="1">
-<intent action="android.intent.action.MAIN" component="com.android.gallery3d/.app.GalleryActivity" flags="10200000">
-<categories category="android.intent.category.LAUNCHER" />
-</intent>
-</task>
-
