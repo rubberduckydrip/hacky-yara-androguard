@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <include latin:keyboardLayout="@xml/keys_dvorak_123" />
+    <switch>
+        <case latin:showExtraChars="true" latin:showNumberRow="true">
+            <Key latin:additionalMoreKeys="=" latin:keyHintLabel="=" latin:keySpec="p" />
+            <Key latin:additionalMoreKeys="!text/keyspec_left_square_bracket" latin:keyHintLabel="[" latin:keySpec="y" latin:moreKeys="!text/morekeys_y" />
+            <Key latin:additionalMoreKeys="!text/keyspec_right_square_bracket" latin:keyHintLabel="]" latin:keySpec="f" />
+            <Key latin:additionalMoreKeys="!text/keyspec_less_than" latin:keyHintLabel="&lt;" latin:keySpec="g" latin:moreKeys="!text/morekeys_g" />
+            <Key latin:additionalMoreKeys="!text/keyspec_greater_than" latin:keyHintLabel=">" latin:keySpec="c" latin:moreKeys="!text/morekeys_c" />
+            <Key latin:additionalMoreKeys="!text/keyspec_left_curly_bracket" latin:keyHintLabel="{" latin:keySpec="r" latin:moreKeys="!text/morekeys_r" />
+            <Key latin:additionalMoreKeys="!text/keyspec_right_curly_bracket" latin:keyHintLabel="}" latin:keySpec="l" latin:moreKeys="!text/morekeys_l" />
+        </case>
+        <case latin:showNumberRow="true">
+            <Key latin:keySpec="p" />
+            <Key latin:keySpec="y" latin:moreKeys="!text/morekeys_y" />
+            <Key latin:keySpec="f" />
+            <Key latin:keySpec="g" latin:moreKeys="!text/morekeys_g" />
+            <Key latin:keySpec="c" latin:moreKeys="!text/morekeys_c" />
+            <Key latin:keySpec="r" latin:moreKeys="!text/morekeys_r" />
+            <Key latin:keySpec="l" latin:moreKeys="!text/morekeys_l" />
+        </case>
+        <default>
+            <Key latin:additionalMoreKeys="4" latin:keyHintLabel="4" latin:keySpec="p" />
+            <Key latin:additionalMoreKeys="5" latin:keyHintLabel="5" latin:keySpec="y" latin:moreKeys="!text/morekeys_y" />
+            <Key latin:additionalMoreKeys="6" latin:keyHintLabel="6" latin:keySpec="f" />
+            <Key latin:additionalMoreKeys="7" latin:keyHintLabel="7" latin:keySpec="g" latin:moreKeys="!text/morekeys_g" />
+            <Key latin:additionalMoreKeys="8" latin:keyHintLabel="8" latin:keySpec="c" latin:moreKeys="!text/morekeys_c" />
+            <Key latin:additionalMoreKeys="9" latin:keyHintLabel="9" latin:keySpec="r" latin:moreKeys="!text/morekeys_r" />
+            <Key latin:additionalMoreKeys="0" latin:keyHintLabel="0" latin:keySpec="l" latin:moreKeys="!text/morekeys_l" />
+        </default>
+    </switch>
+</merge>

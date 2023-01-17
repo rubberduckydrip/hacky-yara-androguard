@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="english_ime_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/settings_screen_preferences" android:key="screen_preferences" android:fragment="rkr.simplekeyboard.inputmethod.latin.settings.PreferencesSettingsFragment" />
+    <PreferenceScreen android:title="@string/settings_screen_key_press" android:key="screen_key_press" android:fragment="rkr.simplekeyboard.inputmethod.latin.settings.KeyPressSettingsFragment" />
+    <PreferenceScreen android:title="@string/settings_screen_appearance" android:key="screen_appearance" android:fragment="rkr.simplekeyboard.inputmethod.latin.settings.AppearanceSettingsFragment" />
+</PreferenceScreen>

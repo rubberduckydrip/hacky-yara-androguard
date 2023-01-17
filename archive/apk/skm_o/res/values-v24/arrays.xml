@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="keyboard_theme_colors">
+        <item>@color/background_lxx_light</item>
+        <item>@color/background_lxx_dark</item>
+        <item>@color/background_lxx_light</item>
+        <item>@color/background_lxx_dark</item>
+        <item>@color/background_lxx_system</item>
+        <item>@color/background_lxx_system</item>
+    </array>
+    <integer-array name="keyboard_theme_ids">
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+</resources>

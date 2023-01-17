@@ -1,0 +1,33 @@
+File Name: xawi_inject_b.bin
+Scan Date: 10-01-2023 14:15:26
+Detected by: 2/26
+
+MD5: 4acfdfd8e6fec525313ef12d3c4bc8e8
+Checked by AntiScan.Me: https://antiscan.me/scan/new/result?id=PYo60YjfSgR9
+
+adaware:Clean
+ahnlab:Clean
+alyac:Clean
+avast:Clean
+avg:Clean
+avira:Clean
+bitdef:Clean
+bullguard:Clean
+clam:Clean
+comodo:Clean
+drweb:Clean
+emsisoft:Clean
+nod32:a variant of Android/TrojanDownloader.Agent.JN trojan
+fortinet:Clean
+fsec:Malware.ANDROID/TrojanDldr.FNAA.Gen
+ikarus:Clean
+kasper:Clean
+mcafeetp:Clean
+mbytes:Clean
+pandagp:Clean
+sophos:Clean
+trend:Clean
+webroot:Clean
+mssec:Clean
+zonealarm:Clean
+zillya:Clean

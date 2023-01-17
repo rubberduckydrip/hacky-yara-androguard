@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="InputView" />
+    <style name="Keyboard">
+        <item name="horizontalGap">@fraction/config_key_horizontal_gap</item>
+        <item name="keyboardBottomPadding">@fraction/config_keyboard_bottom_padding</item>
+        <item name="keyboardLeftPadding">@fraction/config_keyboard_left_padding</item>
+        <item name="keyboardRightPadding">@fraction/config_keyboard_right_padding</item>
+        <item name="keyboardTopPadding">@fraction/config_keyboard_top_padding</item>
+        <item name="maxMoreKeysColumn">@integer/config_max_more_keys_column</item>
+        <item name="moreKeysTemplate">@xml/kbd_more_keys_keyboard_template</item>
+        <item name="rowHeight">25.0%p</item>
+        <item name="verticalGap">@fraction/config_key_vertical_gap</item>
+    </style>
+    <style name="Keyboard.LXX_Dark" parent="@style/Keyboard" />
+    <style name="Keyboard.LXX_Dark_Border" parent="@style/Keyboard" />
+    <style name="Keyboard.LXX_Light" parent="@style/Keyboard" />
+    <style name="Keyboard.LXX_Light_Border" parent="@style/Keyboard" />
+    <style name="KeyboardIcons" />
+    <style name="KeyboardIcons.LXX_Dark" parent="@style/KeyboardIcons">
+        <item name="iconDeleteKey">@drawable/sym_keyboard_delete_lxx_dark</item>
+        <item name="iconDoneKey">@drawable/sym_keyboard_done_lxx_dark</item>
+        <item name="iconEnterKey">@drawable/sym_keyboard_return_lxx_dark</item>
+        <item name="iconGoKey">@drawable/sym_keyboard_go_lxx_dark</item>
+        <item name="iconLanguageSwitchKey">@drawable/sym_keyboard_language_switch_lxx_dark</item>
+        <item name="iconNextKey">@drawable/sym_keyboard_next_lxx_dark</item>
+        <item name="iconPreviousKey">@drawable/sym_keyboard_previous_lxx_dark</item>
+        <item name="iconSearchKey">@drawable/sym_keyboard_search_lxx_dark</item>
+        <item name="iconSendKey">@drawable/sym_keyboard_send_lxx_dark</item>
+        <item name="iconSettingsKey">@drawable/sym_keyboard_settings_lxx_dark</item>
+        <item name="iconShiftKey">@drawable/sym_keyboard_shift_lxx_dark</item>
+        <item name="iconShiftKeyShifted">@drawable/sym_keyboard_shift_locked_lxx_dark</item>
+        <item name="iconSpaceKey">@null</item>
+        <item name="iconSpaceKeyForNumberLayout">@drawable/sym_keyboard_space_lxx_dark</item>
+        <item name="iconTabKey">@drawable/sym_keyboard_tab_lxx_dark</item>
+        <item name="iconZwjKey">@drawable/sym_keyboard_zwj_lxx_dark</item>
+        <item name="iconZwnjKey">@drawable/sym_keyboard_zwnj_lxx_dark</item>
+    </style>
+    <style name="KeyboardIcons.LXX_Light" parent="@style/KeyboardIcons">
+        <item name="iconDeleteKey">@drawable/sym_keyboard_delete_lxx_light</item>
+        <item name="iconDoneKey">@drawable/sym_keyboard_done_lxx_light</item>
+        <item name="iconEnterKey">@drawable/sym_keyboard_return_lxx_light</item>
+        <item name="iconGoKey">@drawable/sym_keyboard_go_lxx_light</item>
+        <item name="iconLanguageSwitchKey">@drawable/sym_keyboard_language_switch_lxx_light</item>
+        <item name="iconNextKey">@drawable/sym_keyboard_next_lxx_light</item>
+        <item name="iconPreviousKey">@drawable/sym_keyboard_previous_lxx_light</item>
+        <item name="iconSearchKey">@drawable/sym_keyboard_search_lxx_light</item>
+        <item name="iconSendKey">@drawable/sym_keyboard_send_lxx_light</item>
+        <item name="iconSettingsKey">@drawable/sym_keyboard_settings_lxx_light</item>
+        <item name="iconShiftKey">@drawable/sym_keyboard_shift_lxx_light</item>
+        <item name="iconShiftKeyShifted">@drawable/sym_keyboard_shift_locked_lxx_light</item>
+        <item name="iconSpaceKey">@null</item>
+        <item name="iconSpaceKeyForNumberLayout">@drawable/sym_keyboard_space_lxx_light</item>
+        <item name="iconTabKey">@drawable/sym_keyboard_tab_lxx_light</item>
+        <item name="iconZwjKey">@drawable/sym_keyboard_zwj_lxx_light</item>
+        <item name="iconZwnjKey">@drawable/sym_keyboard_zwnj_lxx_light</item>
+    </style>
+    <style name="KeyboardTheme.LXX_Dark" parent="@style/KeyboardIcons.LXX_Dark">
+        <item name="inputViewStyle">@style/InputView</item>
+        <item name="keyboardStyle">@style/Keyboard.LXX_Dark</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.LXX_Dark</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.LXX_Dark</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.LXX_Dark</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.LXX_Dark</item>
+    </style>
+    <style name="KeyboardTheme.LXX_Dark_Border" parent="@style/KeyboardIcons.LXX_Dark">
+        <item name="inputViewStyle">@style/InputView</item>
+        <item name="keyboardStyle">@style/Keyboard.LXX_Dark_Border</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.LXX_Dark_Border</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.LXX_Dark_Border</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.LXX_Dark</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.LXX_Dark</item>
+    </style>
+    <style name="KeyboardTheme.LXX_Light" parent="@style/KeyboardIcons.LXX_Light">
+        <item name="inputViewStyle">@style/InputView</item>
+        <item name="keyboardStyle">@style/Keyboard.LXX_Light</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.LXX_Light</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.LXX_Light</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.LXX_Light</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.LXX_Light</item>
+    </style>
+    <style name="KeyboardTheme.LXX_Light_Border" parent="@style/KeyboardIcons.LXX_Light">
+        <item name="inputViewStyle">@style/InputView</item>
+        <item name="keyboardStyle">@style/Keyboard.LXX_Light_Border</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.LXX_Light_Border</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.LXX_Light_Border</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.LXX_Light</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.LXX_Light</item>
+    </style>
+    <style name="KeyboardView">
+        <item name="backgroundDimAlpha">128</item>
+        <item name="ignoreAltCodeKeyTimeout">@integer/config_ignore_alt_code_key_timeout</item>
+        <item name="keyHintLabelOffCenterRatio">300.0%</item>
+        <item name="keyHintLabelRatio">@fraction/config_key_hint_label_ratio_lxx</item>
+        <item name="keyHintLetterPadding">@dimen/config_key_hint_letter_padding</item>
+        <item name="keyHintLetterRatio">@fraction/config_key_hint_letter_ratio_lxx</item>
+        <item name="keyHysteresisDistance">@dimen/config_key_hysteresis_distance</item>
+        <item name="keyHysteresisDistanceForSlidingModifier">@dimen/config_key_hysteresis_distance_for_sliding_modifier</item>
+        <item name="keyLabelFlags">alignHintLabelToBottom</item>
+        <item name="keyLabelOffCenterRatio">-79.99999%</item>
+        <item name="keyLabelSize">@fraction/config_key_label_ratio_lxx</item>
+        <item name="keyLargeLetterRatio">@fraction/config_key_large_letter_ratio_lxx</item>
+        <item name="keyLetterSize">@fraction/config_key_letter_ratio_lxx</item>
+        <item name="keyPreviewTextRatio">@fraction/config_key_preview_text_ratio</item>
+        <item name="keyRepeatInterval">@integer/config_key_repeat_interval</item>
+        <item name="keyRepeatStartTimeout">@integer/config_key_repeat_start_timeout</item>
+        <item name="keySelectionByDraggingFinger">@bool/config_key_selection_by_dragging_finger</item>
+        <item name="keyShiftedLetterHintPadding">@dimen/config_key_shifted_letter_hint_padding</item>
+        <item name="keyShiftedLetterHintRatio">@fraction/config_key_shifted_letter_hint_ratio_lxx</item>
+        <item name="keyTextShadowRadius">-1.0</item>
+        <item name="keyTypeface">normal</item>
+        <item name="languageOnSpacebarFadeoutAnimator">@anim/language_on_spacebar_fadeout</item>
+        <item name="languageOnSpacebarFinalAlpha">@integer/config_language_on_spacebar_final_alpha</item>
+        <item name="languageOnSpacebarTextRatio">@fraction/config_language_on_spacebar_text_ratio</item>
+        <item name="longPressShiftLockTimeout">@integer/config_longpress_shift_lock_timeout</item>
+        <item name="moreKeysKeyboardLayout">@layout/more_keys_keyboard</item>
+        <item name="showMoreKeysKeyboardAtTouchedPoint">@bool/config_show_more_keys_keyboard_at_touched_point</item>
+        <item name="slidingKeyInputPreviewBodyRatio">@integer/config_sliding_key_input_preview_body_ratio</item>
+        <item name="slidingKeyInputPreviewShadowRatio">@integer/config_sliding_key_input_preview_shadow_ratio</item>
+        <item name="slidingKeyInputPreviewWidth">@dimen/config_sliding_key_input_preview_width</item>
+        <item name="spacebarIconWidthRatio">0.9</item>
+        <item name="touchNoiseThresholdDistance">@dimen/config_touch_noise_threshold_distance</item>
+        <item name="touchNoiseThresholdTime">@integer/config_touch_noise_threshold_time</item>
+        <item name="verticalCorrection">@dimen/config_keyboard_vertical_correction</item>
+    </style>
+    <style name="KeyboardView.LXX_Dark" parent="@style/KeyboardView">
+        <item name="android:background">@color/background_lxx_dark</item>
+        <item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_lxx_dark</item>
+        <item name="functionalTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_lxx_dark</item>
+        <item name="keyHintLabelColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_lxx_dark</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="keyTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyTextInactivatedColor">@color/key_functional_text_color_lxx_dark</item>
+        <item name="spacebarBackground">@drawable/btn_keyboard_spacebar_lxx_dark</item>
+    </style>
+    <style name="KeyboardView.LXX_Dark_Border" parent="@style/KeyboardView">
+        <item name="android:background">@color/background_lxx_dark</item>
+        <item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_lxx_dark_border</item>
+        <item name="functionalTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_lxx_dark_border</item>
+        <item name="keyHintLabelColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_lxx_dark</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="keyTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyTextInactivatedColor">@color/key_functional_text_color_lxx_dark</item>
+        <item name="spacebarBackground">@drawable/btn_keyboard_key_lxx_dark_border</item>
+    </style>
+    <style name="KeyboardView.LXX_Light" parent="@style/KeyboardView">
+        <item name="android:background">@color/background_lxx_light</item>
+        <item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_lxx_light</item>
+        <item name="functionalTextColor">@color/key_functional_text_color_lxx_light</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_lxx_light</item>
+        <item name="keyHintLabelColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_lxx_light</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_lxx_light</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_text_color_lxx_light</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="keyTextColor">@color/key_text_color_lxx_light</item>
+        <item name="keyTextInactivatedColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="spacebarBackground">@drawable/btn_keyboard_spacebar_lxx_light</item>
+    </style>
+    <style name="KeyboardView.LXX_Light_Border" parent="@style/KeyboardView">
+        <item name="android:background">@color/background_lxx_light</item>
+        <item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_lxx_light_border</item>
+        <item name="functionalTextColor">@color/key_functional_text_color_lxx_light</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_lxx_light_border</item>
+        <item name="keyHintLabelColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_lxx_light</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_lxx_light</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_text_color_lxx_light</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="keyTextColor">@color/key_text_color_lxx_light</item>
+        <item name="keyTextInactivatedColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="spacebarBackground">@drawable/btn_keyboard_key_lxx_light_border</item>
+    </style>
+    <style name="MainKeyboardView" parent="@style/KeyboardView" />
+    <style name="MainKeyboardView.LXX_Dark" parent="@style/KeyboardView.LXX_Dark">
+        <item name="keyPreviewBackground">@drawable/keyboard_key_feedback_background_lxx_dark</item>
+        <item name="keyPreviewDismissAnimator">@anim/key_preview_dismiss_lxx</item>
+        <item name="keyPreviewHeight">@dimen/config_key_preview_height_lxx</item>
+        <item name="keyPreviewOffset">@dimen/config_key_preview_offset_lxx</item>
+        <item name="keyPreviewWidth">@dimen/config_key_preview_width_lxx</item>
+        <item name="languageOnSpacebarTextColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_dark</item>
+    </style>
+    <style name="MainKeyboardView.LXX_Dark_Border" parent="@style/KeyboardView.LXX_Dark_Border">
+        <item name="keyPreviewBackground">@drawable/keyboard_key_feedback_background_lxx_dark</item>
+        <item name="keyPreviewDismissAnimator">@anim/key_preview_dismiss_lxx</item>
+        <item name="keyPreviewHeight">@dimen/config_key_preview_height_lxx</item>
+        <item name="keyPreviewOffset">@dimen/config_key_preview_offset_lxx</item>
+        <item name="keyPreviewWidth">@dimen/config_key_preview_width_lxx</item>
+        <item name="languageOnSpacebarTextColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_dark</item>
+    </style>
+    <style name="MainKeyboardView.LXX_Light" parent="@style/KeyboardView.LXX_Light">
+        <item name="keyPreviewBackground">@drawable/keyboard_key_feedback_background_lxx_light</item>
+        <item name="keyPreviewDismissAnimator">@anim/key_preview_dismiss_lxx</item>
+        <item name="keyPreviewHeight">@dimen/config_key_preview_height_lxx</item>
+        <item name="keyPreviewOffset">@dimen/config_key_preview_offset_lxx</item>
+        <item name="keyPreviewWidth">@dimen/config_key_preview_width_lxx</item>
+        <item name="languageOnSpacebarTextColor">@color/language_on_spacebar_text_color_lxx_light</item>
+        <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_light</item>
+    </style>
+    <style name="MainKeyboardView.LXX_Light_Border" parent="@style/KeyboardView.LXX_Light_Border">
+        <item name="keyPreviewBackground">@drawable/keyboard_key_feedback_background_lxx_light</item>
+        <item name="keyPreviewDismissAnimator">@anim/key_preview_dismiss_lxx</item>
+        <item name="keyPreviewHeight">@dimen/config_key_preview_height_lxx</item>
+        <item name="keyPreviewOffset">@dimen/config_key_preview_offset_lxx</item>
+        <item name="keyPreviewWidth">@dimen/config_key_preview_width_lxx</item>
+        <item name="languageOnSpacebarTextColor">@color/language_on_spacebar_text_color_lxx_light</item>
+        <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_light</item>
+    </style>
+    <style name="MoreKeysKeyboard.LXX_Dark" parent="@style/Keyboard.LXX_Dark">
+        <item name="horizontalGap">0.0%p</item>
+        <item name="keyboardBottomPadding">0.0%p</item>
+        <item name="keyboardTopPadding">0.0%p</item>
+    </style>
+    <style name="MoreKeysKeyboard.LXX_Light" parent="@style/Keyboard.LXX_Light">
+        <item name="horizontalGap">0.0%p</item>
+        <item name="keyboardBottomPadding">0.0%p</item>
+        <item name="keyboardTopPadding">0.0%p</item>
+    </style>
+    <style name="MoreKeysKeyboardView" />
+    <style name="MoreKeysKeyboardView.LXX_Dark" parent="@style/KeyboardView.LXX_Dark">
+        <item name="android:background">@drawable/keyboard_popup_panel_background_lxx_dark</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup_lxx_dark</item>
+        <item name="keyTypeface">normal</item>
+        <item name="verticalCorrection">@dimen/config_more_keys_keyboard_vertical_correction</item>
+    </style>
+    <style name="MoreKeysKeyboardView.LXX_Light" parent="@style/KeyboardView.LXX_Light">
+        <item name="android:background">@drawable/keyboard_popup_panel_background_lxx_light</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup_lxx_light</item>
+        <item name="keyTypeface">normal</item>
+        <item name="verticalCorrection">@dimen/config_more_keys_keyboard_vertical_correction</item>
+    </style>
+    <style name="platformDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="platformSettingsTheme" parent="@android:style/Theme.DeviceDefault" />
+</resources>

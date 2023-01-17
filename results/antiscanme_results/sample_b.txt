@@ -1,0 +1,34 @@
+File Name: sample_b.bin
+Scan Date: 10-01-2023 14:12:08
+Detected by: 0/26
+
+MD5: d252cd59b9932db7db86eac76460b3f7
+Checked by AntiScan.Me: https://antiscan.me/scan/new/result?id=9jAYR5JSDI9m
+
+adaware:Clean
+ahnlab:Clean
+alyac:Clean
+avast:Clean
+avg:Clean
+avira:Clean
+bitdef:Clean
+bullguard:Clean
+clam:Clean
+comodo:Clean
+drweb:Clean
+emsisoft:Clean
+nod32:Clean
+fortinet:Clean
+fsec:Clean
+ikarus:Clean
+kasper:Clean
+mcafeetp:Clean
+mbytes:Clean
+pandagp:Clean
+sophos:Clean
+trend:Clean
+webroot:Clean
+mssec:Clean
+zonealarm:Clean
+zillya:Clean
+				

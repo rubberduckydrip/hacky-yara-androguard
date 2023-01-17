@@ -16,12 +16,17 @@ if not os.path.isdir(sys.argv[2]):
     print('Give me rules folder argv[2]')
     sys.exit()
 
+rule_count = 0
 for filename in listfiles('./' + sys.argv[2]):
     match = re.search("\.yar$", filename)
 
     # if match is found
     if match:
-        fileextensions = ('.apk', '.dex', '.elf')
+        rule_count+=1
+        fileextensions = ('.apk', '.dex', '.elf', 'AndroidManifest.xml')
         for report in listfiles('./' + sys.argv[1]):
             if report.endswith(fileextensions):
                 os.system('yara --no-warnings '+ filename + ' ' + report)
+
+
+print("Num of rules scanned: " + str(rule_count))

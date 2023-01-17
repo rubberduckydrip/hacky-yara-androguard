@@ -1,0 +1,33 @@
+File Name: baseline_3b.bin
+Scan Date: 10-01-2023 14:10:33
+Detected by: 2/26
+
+MD5: d7ea65a7abcab237e8a392280b85def3
+Checked by AntiScan.Me: https://antiscan.me/scan/new/result?id=JhWFAKpSoSzF
+
+adaware:Clean
+ahnlab:Clean
+alyac:Clean
+avast:Clean
+avg:Clean
+avira:Clean
+bitdef:Clean
+bullguard:Clean
+clam:Clean
+comodo:Clean
+drweb:Clean
+emsisoft:Clean
+nod32:a variant of Android/TrojanDownloader.Agent.JN trojan
+fortinet:Clean
+fsec:Malware.ANDROID/TrojanDldr.FNAA.Gen
+ikarus:Clean
+kasper:Clean
+mcafeetp:Clean
+mbytes:Clean
+pandagp:Clean
+sophos:Clean
+trend:Clean
+webroot:Clean
+mssec:Clean
+zonealarm:Clean
+zillya:Clean

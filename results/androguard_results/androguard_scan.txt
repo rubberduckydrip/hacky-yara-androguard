@@ -1,0 +1,19 @@
+Metasploit_Payload ../apk/xawi.apk
+Metasploit_Payload ../apk/xawi_acc.apk
+Metasploit_Payload ../apk/baseline_2.apk
+android_meterpreter ../apk/xawi_acc_inject_b.apk
+android_meterpreter ../apk/baseline_3a.apk
+android_meterpreter ../apk/xawi_inject_a.apk
+android_meterpreter ../apk/xawi.apk
+android_meterpreter ../apk/xawi_acc.apk
+android_meterpreter ../apk/baseline_2.apk
+android_meterpreter ../apk/sample_b.apk
+android_meterpreter ../apk/xawi_inject_b.apk
+android_meterpreter ../apk/xawi_acc_inject_a.apk
+android_meterpreter ../apk/baseline_3b.apk
+android_meterpreter ../apk/sample_a.apk
+fake_whatsapp ../apk/baseline_3a.apk
+fake_whatsapp ../apk/xawi_inject_a.apk
+fake_whatsapp ../apk/xawi_acc_inject_a.apk
+fake_whatsapp ../apk/sample_a.apk
+

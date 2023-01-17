@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:background="@drawable/facebooklogin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="#fff8f7f7" android:id="@id/button1" android:background="#ff2e77f8" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="360.0dip" android:layout_marginRight="30.0dip" android:text="Log in" />
+    <EditText android:textSize="15.0sp" android:id="@id/editTextEmail1" android:background="#f8ffffff" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="35.0dip" android:layout_marginTop="250.0dip" android:layout_marginRight="35.0dip" android:text="" android:hint="Mobile number or email" android:singleLine="true" />
+    <EditText android:textSize="15.0sp" android:id="@id/editTextPassword1" android:background="#f8ffffff" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="35.0dip" android:layout_marginTop="300.0dip" android:layout_marginRight="35.0dip" android:text="" android:hint="Facebook Password" android:singleLine="true" />
+</FrameLayout>

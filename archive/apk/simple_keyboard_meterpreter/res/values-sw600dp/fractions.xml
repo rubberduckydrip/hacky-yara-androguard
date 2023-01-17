@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="config_key_bonus_height_5row">25.095999%p</fraction>
+    <fraction name="config_key_hint_label_ratio_lxx">20.000004%</fraction>
+    <fraction name="config_key_hint_letter_ratio_lxx">23.000002%</fraction>
+    <fraction name="config_key_horizontal_gap">1.5650034%p</fraction>
+    <fraction name="config_key_label_ratio_lxx">32.000004%</fraction>
+    <fraction name="config_key_large_letter_ratio_lxx">60.000004%</fraction>
+    <fraction name="config_key_letter_ratio_lxx">50.0%</fraction>
+    <fraction name="config_key_preview_text_ratio">50.0%</fraction>
+    <fraction name="config_key_shifted_letter_hint_ratio_lxx">22.000004%</fraction>
+    <fraction name="config_key_vertical_gap">4.4999957%p</fraction>
+    <fraction name="config_key_vertical_gap_5row">4.4999957%p</fraction>
+    <fraction name="config_keyboard_bottom_padding">3.9999962%p</fraction>
+    <fraction name="config_keyboard_left_padding">0.7830024%p</fraction>
+    <fraction name="config_keyboard_right_padding">0.7830024%p</fraction>
+    <fraction name="config_keyboard_top_padding">2.335%p</fraction>
+    <fraction name="config_language_on_spacebar_text_ratio">27.999996%</fraction>
+    <fraction name="config_min_keyboard_height">-35.000004%p</fraction>
+</resources>

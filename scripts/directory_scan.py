@@ -21,6 +21,10 @@ for filename in listfiles('./' + sys.argv[2]):
 
     # if match is found
     if match:
+        rule_count = 0
         for report in reports:
             os.system('yara --no-warnings '+ filename + ' ' + report)
             #print("Scanning rule: " + filename + " against: " + report)
+            rule_count++
+
+    print("Num of rules scanned: " + rule_count)

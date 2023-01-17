@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_corner_radius_lxx">4.0dip</dimen>
+    <dimen name="config_default_keyboard_height">205.6dip</dimen>
+    <dimen name="config_key_hint_letter_padding">1.0dip</dimen>
+    <dimen name="config_key_hysteresis_distance">5.0dip</dimen>
+    <dimen name="config_key_hysteresis_distance_for_sliding_modifier">8.0dip</dimen>
+    <dimen name="config_key_preview_height_lxx">122.0dip</dimen>
+    <dimen name="config_key_preview_offset_lxx">50.0dip</dimen>
+    <dimen name="config_key_preview_width_lxx">0.0dip</dimen>
+    <dimen name="config_key_shifted_letter_hint_padding">2.0dip</dimen>
+    <dimen name="config_keyboard_vertical_correction">0.0dip</dimen>
+    <dimen name="config_language_on_spacebar_horizontal_margin">1.0dip</dimen>
+    <dimen name="config_more_keys_keyboard_bottom_padding">0.0dip</dimen>
+    <dimen name="config_more_keys_keyboard_key_height">52.799988dip</dimen>
+    <dimen name="config_more_keys_keyboard_key_horizontal_padding">8.0dip</dimen>
+    <dimen name="config_more_keys_keyboard_left_padding">0.0dip</dimen>
+    <dimen name="config_more_keys_keyboard_right_padding">0.0dip</dimen>
+    <dimen name="config_more_keys_keyboard_slide_allowance">63.359985dip</dimen>
+    <dimen name="config_more_keys_keyboard_top_padding">0.0dip</dimen>
+    <dimen name="config_more_keys_keyboard_vertical_correction">-26.399994dip</dimen>
+    <dimen name="config_sliding_key_input_preview_width">8.0dip</dimen>
+    <dimen name="config_touch_noise_threshold_distance">12.599976dip</dimen>
+</resources>

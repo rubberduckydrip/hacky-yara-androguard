@@ -1,0 +1,34 @@
+File Name: xawi.bin
+Scan Date: 10-01-2023 14:16:07
+Detected by: 3/26
+
+MD5: f2d0ea4bd9f4d2094c4e74f3c498442f
+Checked by AntiScan.Me: https://antiscan.me/scan/new/result?id=4R527tga6V2W
+
+adaware:Clean
+ahnlab:Clean
+alyac:Clean
+avast:Clean
+avg:Clean
+avira:Clean
+bitdef:Clean
+bullguard:Clean
+clam:Clean
+comodo:Clean
+drweb:Clean
+emsisoft:Clean
+nod32:a variant of Android/TrojanDownloader.Agent.JN trojan
+fortinet:Android/Agent.JN!tr
+fsec:Malware.ANDROID/TrojanDldr.FNAA.Gen
+ikarus:Clean
+kasper:Clean
+mcafeetp:Clean
+mbytes:Clean
+pandagp:Clean
+sophos:Clean
+trend:Clean
+webroot:Clean
+mssec:Clean
+zonealarm:Clean
+zillya:Clean
+				

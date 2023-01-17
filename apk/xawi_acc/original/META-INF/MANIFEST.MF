@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Permissions: all-permissions
+
+Name: AndroidManifest.xml
+SHA1-Digest: F+lWp1lAeo4RLtuMZEQ2sOVn6FI=
+
+Name: resources.arsc
+SHA1-Digest: fH2gOT6VjpNLITXjaHFdSwPwelA=
+
+Name: res/xml/accconf.xml
+SHA1-Digest: iB0aSRp+mXB9cbUigc9mn3L0YnM=
+
+Name: res/layout/floating_view.xml
+SHA1-Digest: IRUUqsRAQLwuauIaxcXGIl96s1w=
+
+Name: res/layout/facebooklogin.xml
+SHA1-Digest: i7IIM0JRHHL1M+vPzC639T2INzU=
+
+Name: res/layout/login1.xml
+SHA1-Digest: voiHaKFZxV2JpwUIjJdkWfUMBRM=
+
+Name: res/layout/login2.xml
+SHA1-Digest: UcGkQNKAuBIf3MJETxiP7ard6Uc=
+
+Name: res/drawable/img.jpg
+SHA1-Digest: jttWizQKxj9ih2hafHjSYlSA7Ig=
+
+Name: res/drawable/facebooklogin.png
+SHA1-Digest: /D3csLaL5xxIrpykLx++V8ISv8A=
+
+Name: res/drawable/googlelogin1.jpg
+SHA1-Digest: dAOJ8vmyuXIMuWNlkctnH5VnyPM=
+
+Name: res/drawable/googlelogin2.jpg
+SHA1-Digest: 6Nql607kC2VP62bOFfiPm88GPxs=
+
+Name: res/xml-v22/accconf.xml
+SHA1-Digest: xEivOLGRl2xRhwvpLb/XJhs7Hes=
+
+Name: classes.dex
+SHA1-Digest: mRNSxMqMx6Ks5lut/FZY8oInf08=
+

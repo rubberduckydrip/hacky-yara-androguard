@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyWidth="26.670002%p" latin:keyboardLeftPadding="10.000002%p" latin:keyboardRightPadding="10.000002%p" xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <include latin:keyboardLayout="@xml/rows_number" />
+</Keyboard>

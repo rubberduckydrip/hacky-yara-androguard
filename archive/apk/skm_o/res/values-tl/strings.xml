@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abbreviation_unit_milliseconds">%sms</string>
+    <string name="add">Idagdag</string>
+    <string name="auto_cap">Auto-capitalization</string>
+    <string name="auto_cap_summary">I-capitalize ang unang salita ng bawat pangungusap</string>
+    <string name="button_default">Default</string>
+    <string name="locale_name_en_GB">English (UK)</string>
+    <string name="locale_name_en_US">English (United States)</string>
+    <string name="locale_name_es_US">Spanish (US)</string>
+    <string name="locale_name_hi_ZZ">Hinglish</string>
+    <string name="locale_name_sr_ZZ">Serbian (Latin)</string>
+    <string name="popup_on_keypress">Mag-popup sa keypress</string>
+    <string name="prefs_key_longpress_timeout_settings">Delay sa long press ng key</string>
+    <string name="prefs_keypress_sound_volume_settings">Volume ng tunog ng keypress</string>
+    <string name="prefs_keypress_vibration_duration_settings">Tagal ng vibration ng keypress</string>
+    <string name="remove">Alisin</string>
+    <string name="select_language">Mga Wika</string>
+    <string name="settings_screen_preferences">Mga Kagustuhan</string>
+    <string name="settings_screen_theme">Tema</string>
+    <string name="settings_system_default">Default ng system</string>
+    <string name="sound_on_keypress">Tumunog sa keypress</string>
+    <string name="subtype_compact">Compact</string>
+    <string name="subtype_traditional">Traditional</string>
+    <string name="vibrate_on_keypress">Mag-vibrate sa keypress</string>
+</resources>

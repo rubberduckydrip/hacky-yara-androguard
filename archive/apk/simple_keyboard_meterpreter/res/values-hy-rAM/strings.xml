@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abbreviation_unit_milliseconds">%sմվ</string>
+    <string name="add">Ավելացնել</string>
+    <string name="auto_cap">Ավտոմատ գլխատառացում</string>
+    <string name="auto_cap_summary">Գլխատառել յուրաքանչյուր նախադասության առաջին բառը</string>
+    <string name="button_default">Լռելյայնը</string>
+    <string name="locale_name_en_GB">Անգլերեն (ՄԹ)</string>
+    <string name="locale_name_en_US">Անգլերեն (ԱՄՆ)</string>
+    <string name="locale_name_es_US">Իսպաներեն (ԱՄՆ)</string>
+    <string name="locale_name_hi_ZZ">Հինգլիշ</string>
+    <string name="locale_name_sr_ZZ">Սերբերեն (Լատինական)</string>
+    <string name="popup_on_keypress">Ելնող պատուհան՝ ստեղնի հպման դեպքում</string>
+    <string name="prefs_key_longpress_timeout_settings">Ստեղնի երկար սեղմման ուշացում</string>
+    <string name="prefs_keypress_sound_volume_settings">Սեղմման ձայնի բարձրությունը</string>
+    <string name="prefs_keypress_vibration_duration_settings">Սեղմման թրթռոցի տևողություն</string>
+    <string name="remove">Հեռացնել</string>
+    <string name="select_language">Լեզուներ</string>
+    <string name="settings_screen_preferences">Նախընտրանքներ</string>
+    <string name="settings_screen_theme">Թեմա</string>
+    <string name="settings_system_default">Համակարգի լռելյայնները</string>
+    <string name="sound_on_keypress">Ձայնը սեղմման ժամանակ</string>
+    <string name="subtype_compact">սեղմ</string>
+    <string name="subtype_traditional">ավանդական</string>
+    <string name="symbols_word_separators">"\u0009 
+ ()[]{}*&amp;&lt;>+=|.,;:!?/_\"։՝"</string>
+    <string name="vibrate_on_keypress">Թրթռալ սեղմման ժամանակ</string>
+</resources>

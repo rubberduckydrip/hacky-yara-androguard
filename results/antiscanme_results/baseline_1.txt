@@ -1,0 +1,33 @@
+File Name: baseline_1.bin
+Scan Date: 10-01-2023 14:08:23
+Detected by: 3/26
+
+MD5: ebfb0232fb6578c89b919cbc5bbbf1f2
+Checked by AntiScan.Me: https://antiscan.me/scan/new/result?id=LSEC8FmKsQ4T
+
+adaware:Clean
+ahnlab:Clean
+alyac:Clean
+avast:Clean
+avg:Clean
+avira:Clean
+bitdef:Clean
+bullguard:Clean
+clam:Clean
+comodo:Clean
+drweb:Clean
+emsisoft:Clean
+nod32:a variant of Android/Spy.Agent.BEL trojan
+fortinet:Clean
+fsec:Malware.ANDROID/SpyAgent.FKWC.Gen
+ikarus:Clean
+kasper:Clean
+mcafeetp:Artemis!0FBBD8AC1219
+mbytes:Clean
+pandagp:Clean
+sophos:Clean
+trend:Clean
+webroot:Clean
+mssec:Clean
+zonealarm:Clean
+zillya:Clean

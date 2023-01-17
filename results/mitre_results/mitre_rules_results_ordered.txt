@@ -1,4 +1,4 @@
-sample_a:
+sample_a: 
 audio_capture ./../apk/sample_a/AndroidManifest.xml
 call_control ./../apk/sample_a/AndroidManifest.xml
 call_log ./../apk/sample_a/AndroidManifest.xml
@@ -17,6 +17,7 @@ system_information_discovery ./../apk/sample_a/classes.dex
 system_network_connections_discovery ./../apk/sample_a/classes2.dex
 user_evasion ./../apk/sample_a/classes.dex
 video_capture ./../apk/sample_a/AndroidManifest.xml
+18/38
 
 sample_b:
 data_from_local_system ./../apk/sample_b/AndroidManifest.xml
@@ -32,6 +33,7 @@ process_discovery ./../apk/sample_b.apk
 scheduled_task ./../apk/sample_b/AndroidManifest.xml
 system_information_discovery ./../apk/sample_b/classes.dex
 user_evasion ./../apk/sample_b/classes.dex
+13/38
 
 baseline_1:
 audio_capture ./../apk/baseline_1/AndroidManifest.xml
@@ -50,6 +52,7 @@ sms_messages ./../apk/baseline_1/AndroidManifest.xml
 suppress_application ./../apk/baseline_1/classes.dex
 user_evasion ./../apk/baseline_1/classes.dex
 video_capture ./../apk/baseline_1/AndroidManifest.xml
+16/38
 
 baseline_2:
 audio_capture ./../apk/baseline_2/AndroidManifest.xml
@@ -65,6 +68,7 @@ process_discovery ./../apk/baseline_2/classes.dex
 sms_control ./../apk/baseline_2/AndroidManifest.xml
 sms_messages ./../apk/baseline_2/AndroidManifest.xml
 video_capture ./../apk/baseline_2/AndroidManifest.xml
+13/38
 
 baseline_3a: 
 audio_capture ./../apk/baseline_3a/AndroidManifest.xml
@@ -86,6 +90,7 @@ system_information_discovery ./../apk/baseline_3a/classes.dex
 system_network_connections_discovery ./../apk/baseline_3a/classes2.dex
 user_evasion ./../apk/baseline_3a/classes.dex
 video_capture ./../apk/baseline_3a/AndroidManifest.xml
+19/38
 
 baseline_3b:
 audio_capture ./../apk/baseline_3b/AndroidManifest.xml
@@ -108,6 +113,7 @@ sms_messages ./../apk/baseline_3b/AndroidManifest.xml
 system_information_discovery ./../apk/baseline_3b/classes.dex
 user_evasion ./../apk/baseline_3b/classes.dex
 video_capture ./../apk/baseline_3b/AndroidManifest.xml
+20/38
 
 xawi:
 audio_capture ./../apk/xawi/AndroidManifest.xml
@@ -121,6 +127,7 @@ geofencing ./../apk/xawi/AndroidManifest.xml
 location_tracking ./../apk/xawi/AndroidManifest.xml
 process_discovery ./../apk/xawi/classes.dex
 video_capture ./../apk/xawi/AndroidManifest.xml
+11/38
 
 xawi_inject_a:
 audio_capture ./../apk/xawi_inject_a/AndroidManifest.xml
@@ -141,6 +148,7 @@ system_information_discovery ./../apk/xawi_inject_a/classes.dex
 system_network_connections_discovery ./../apk/xawi_inject_a/classes2.dex
 user_evasion ./../apk/xawi_inject_a/classes.dex
 video_capture ./../apk/xawi_inject_a/AndroidManifest.xml
+18/38
 
 xawi_inject_b:
 audio_capture ./../apk/xawi_inject_b/AndroidManifest.xml
@@ -161,6 +169,7 @@ scheduled_task ./../apk/xawi_inject_b/AndroidManifest.xml
 system_information_discovery ./../apk/xawi_inject_b/classes.dex
 user_evasion ./../apk/xawi_inject_b/classes.dex
 video_capture ./../apk/xawi_inject_b/AndroidManifest.xml
+18/38
 
 xawi_acc:
 audio_capture ./../apk/xawi_acc/AndroidManifest.xml
@@ -176,6 +185,7 @@ keylogging ./../apk/xawi_acc/classes.dex
 location_tracking ./../apk/xawi_acc/AndroidManifest.xml
 process_discovery ./../apk/xawi_acc/classes.dex
 video_capture ./../apk/xawi_acc/AndroidManifest.xml
+13/38
 
 xawi_acc_inject_a:
 audio_capture ./../apk/xawi_acc_inject_a/AndroidManifest.xml
@@ -198,6 +208,7 @@ system_information_discovery ./../apk/xawi_acc_inject_a/classes.dex
 system_network_connections_discovery ./../apk/xawi_acc_inject_a/classes2.dex
 user_evasion ./../apk/xawi_acc_inject_a/classes.dex
 video_capture ./../apk/xawi_acc_inject_a/AndroidManifest.xml
+20/38
 
 xawi_inject_b:
 audio_capture ./../apk/xawi_acc_inject_b/AndroidManifest.xml
@@ -218,3 +229,4 @@ scheduled_task ./../apk/xawi_acc_inject_b/AndroidManifest.xml
 system_information_discovery ./../apk/xawi_acc_inject_b/classes.dex
 user_evasion ./../apk/xawi_acc_inject_b/classes.dex
 video_capture ./../apk/xawi_acc_inject_b/AndroidManifest.xml
+18/38

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <switch>
+        <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted">
+            <Key latin:additionalMoreKeys="ৠ" latin:keyHintLabel="⋯" latin:keySpec="⸍|র্" latin:moreKeys="ঌ,ৡ,ৄ,ৢ,ৣ" />
+            <Key latin:keyHintLabel="ঊ" latin:keySpec="ূ" latin:moreKeys="ঊ" />
+            <Key latin:keyHintLabel="ঈ" latin:keySpec="ী" latin:moreKeys="ঈ" />
+            <Key latin:keySpec="অ" />
+            <Key latin:additionalMoreKeys="৺" latin:keyHintLabel="⋯" latin:keySpec="ঁ" latin:moreKeys="ৗ,়,ৰ,ৱ,ঽ" />
+            <Key latin:keySpec="ভ" />
+            <Key latin:keySpec="খ" />
+            <Key latin:keySpec="থ" />
+            <Key latin:keySpec="ধ" />
+        </case>
+        <default>
+            <Key latin:keyHintLabel="ঋ" latin:keySpec="ৃ" latin:moreKeys="ঋ" />
+            <Key latin:keyHintLabel="উ" latin:keySpec="ু" latin:moreKeys="উ" />
+            <Key latin:keyHintLabel="ই" latin:keySpec="ি" latin:moreKeys="ই" />
+            <Key latin:additionalMoreKeys="আ" latin:keyHintLabel="আ" latin:keySpec="া" latin:moreKeys="অ" />
+            <Key latin:additionalMoreKeys="ঁ" latin:keyHintLabel="ঁ" latin:keySpec="্" latin:moreKeys="ঃ" />
+            <Key latin:keyHintLabel="ভ" latin:keySpec="ব" latin:moreKeys="ভ" />
+            <Key latin:keyHintLabel="খ" latin:keySpec="ক" latin:moreKeys="খ" />
+            <Key latin:additionalMoreKeys="থ" latin:keyHintLabel="থ" latin:keySpec="ত" latin:moreKeys="ৎ" />
+            <Key latin:keyHintLabel="ধ" latin:keySpec="দ" latin:moreKeys="ধ" />
+        </default>
+    </switch>
+</merge>

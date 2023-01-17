@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_screen_preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:summary="@string/auto_cap_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/show_number_row" android:key="pref_show_number_row" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/hide_special_chars" android:key="pref_hide_special_chars" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/hide_language_switch_key" android:key="pref_hide_language_switch_key" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_enable_ime_switch" android:key="pref_enable_ime_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/space_swipe" android:key="pref_space_swipe" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/delete_swipe" android:key="pref_delete_swipe" android:defaultValue="false" />
+</PreferenceScreen>

@@ -1,0 +1,1291 @@
+Loaded Frida Script - ssl_pinning_bypass
+Loaded Frida Script - api_monitor
+Loaded Frida Script - root_bypass
+Loaded Frida Script - debugger_check_bypass
+[API Monitor] Cannot find org.apache.http.impl.client.AbstractHttpClient.execute
+[API Monitor] Cannot find com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream
+[SSL Pinning Bypass] okhttp CertificatePinner not found
+[SSL Pinning Bypass] okhttp3 CertificatePinner not found
+[SSL Pinning Bypass] DataTheorem trustkit not found
+[SSL Pinning Bypass] Appcelerator PinningTrustManager not found
+[SSL Pinning Bypass] Apache Cordova SSLCertificateChecker not found
+[SSL Pinning Bypass] Wultra CertStore.validateFingerprint not found
+[*] sun.invoke.util.Wrapper
+[*] java.lang.annotation.ElementType
+[*] android.text.TextLine
+[*] android.icu.impl.CacheValue
+[*] java.util.stream.StreamShape
+[*] sun.security.x509.NetscapeCertTypeExtension$MapEntry
+[*] javax.crypto.Cipher$NeedToSet
+[*] java.nio.file.LinkOption
+[*] android.text.style.ParagraphStyle
+[*] android.database.sqlite.SQLiteConnectionPool$AcquiredConnectionStatus
+[*] sun.security.util.DisabledAlgorithmConstraints$Constraint$Operator
+[*] android.icu.lang.UScript$ScriptUsage
+[*] java.util.Formatter$BigDecimalLayoutForm
+[*] java.nio.file.StandardOpenOption
+[*] java.lang.reflect.Parameter
+[*] java.lang.Character
+[*] java.lang.Object
+[*] com.android.i18n.phonenumbers.PhoneNumberUtil$PhoneNumberType
+[*] android.view.accessibility.CaptioningManager$CaptionStyle
+[*] java.lang.ThreadGroup
+[*] android.icu.util.Currency$CurrencyUsage
+[*] java.util.Locale$Category
+[*] java.time.format.TextStyle
+[*] android.graphics.Paint$Align
+[*] java.net.Proxy$Type
+[*] java.lang.invoke.VarHandle$AccessType
+[*] com.android.internal.telephony.Call$SrvccState
+[*] android.os.Parcel
+[*] com.android.internal.telephony.uicc.SIMRecords$GetSpnFsmState
+[*] java.util.concurrent.ConcurrentHashMap$CounterCell
+[*] android.graphics.Bitmap$Config
+[*] android.bluetooth.BluetoothSocket$SocketState
+[*] android.icu.text.DateFormatSymbols$CalendarDataSink$AliasType
+[*] android.icu.text.RelativeDateTimeFormatter$Direction
+[*] android.graphics.Path$Op
+[*] java.lang.annotation.RetentionPolicy
+[*] com.android.org.bouncycastle.asn1.ASN1ObjectIdentifier
+[*] com.android.org.conscrypt.OpenSSLX509CertPath$Encoding
+[*] android.icu.text.NumberFormat$Field
+[*] java.security.cert.PKIXRevocationChecker$Option
+[*] android.net.NetworkInfo$DetailedState
+[*] com.android.internal.telephony.DctConstants$State
+[*] sun.security.jca.ServiceId
+[*] android.icu.impl.number.Padder$PadPosition
+[*] com.android.internal.telephony.PhoneConstants$State
+[*] android.icu.text.DateFormat$BooleanAttribute
+[*] java.time.temporal.IsoFields$Field
+[*] java.util.stream.StreamOpFlag$Type
+[*] android.hardware.camera2.params.StreamConfigurationDuration
+[*] java.lang.invoke.MethodHandle
+[*] android.icu.text.IDNA$Error
+[*] android.webkit.WebSettings$PluginState
+[*] android.graphics.Region$Op
+[*] android.graphics.PorterDuff$Mode
+[*] android.icu.number.NumberFormatter$UnitWidth
+[*] android.graphics.Rect
+[*] android.icu.text.TimeZoneNames$NameType
+[*] com.android.internal.telephony.SmsConstants$MessageClass
+[*] android.hardware.camera2.params.Face
+[*] javax.net.ssl.SSLEngineResult$Status
+[*] com.android.internal.telephony.uicc.IccCardStatus$PinState
+[*] android.graphics.ColorSpace$Model
+[*] android.icu.text.DateTimePatternGenerator$DTPGflags
+[*] com.android.internal.os.BatterySipper$DrainType
+[*] java.util.ArrayList
+[*] android.util.Size
+[*] android.icu.text.LocaleDisplayNames$DialectHandling
+[*] android.net.wifi.SupplicantState
+[*] com.android.org.conscrypt.SSLUtils$SessionType
+[*] android.graphics.Interpolator$Result
+[*] java.util.Enumeration
+[*] android.icu.impl.Trie2$ValueWidth
+[*] java.lang.reflect.Method
+[*] java.security.Provider
+[*] com.android.org.conscrypt.OpenSSLSignature$EngineType
+[*] android.net.LocalSocketAddress$Namespace
+[*] android.text.method.TextKeyListener
+[*] java.io.File
+[*] java.util.Comparators$NaturalOrderComparator
+[*] java.io.IOException
+[*] android.util.Rational
+[*] java.util.stream.Collector$Characteristics
+[*] android.icu.number.NumberFormatter$SignDisplay
+[*] android.icu.text.AlphabeticIndex$Bucket$LabelType
+[*] java.security.CryptoPrimitive
+[*] android.icu.text.PluralRules$SampleType
+[*] android.graphics.Point
+[*] android.icu.text.RelativeDateTimeFormatter$RelativeDateTimeUnit
+[*] java.lang.reflect.Field
+[*] android.text.TextUtils$TruncateAt
+[*] android.icu.number.NumberFormatter$DecimalSeparatorDisplay
+[*] android.icu.text.ListFormatter$Style
+[*] java.util.Locale$FilteringMode
+[*] android.icu.text.DisplayContext$Type
+[*] com.android.internal.telephony.Connection$PostDialState
+[*] com.android.okhttp.CipherSuite
+[*] android.os.BatteryStats$IntToString
+[*] android.webkit.WebSettings$LayoutAlgorithm
+[*] java.lang.String
+[*] android.text.method.QwertyKeyListener
+[*] java.util.stream.MatchOps$MatchKind
+[*] com.android.internal.telephony.CommandsInterface$RadioState
+[*] com.android.internal.telephony.dataconnection.DcTracker$RetryFailures
+[*] android.hardware.camera2.params.HighSpeedVideoConfiguration
+[*] com.android.internal.telephony.dataconnection.DataConnectionReasons$DataDisallowedReasonType
+[*] java.lang.Class
+[*] android.graphics.Matrix$ScaleToFit
+[*] android.graphics.Paint$Cap
+[*] android.icu.text.RelativeDateTimeFormatter$Style
+[*] java.time.zone.ZoneOffsetTransitionRule
+[*] java.net.Authenticator$RequestorType
+[*] java.time.LocalDateTime
+[*] org.kxml2.io.KXmlParser$ValueContext
+[*] javax.net.ssl.TrustManager
+[*] android.icu.util.BytesTrie$Result
+[*] android.icu.text.MeasureFormat$FormatWidth
+[*] java.lang.annotation.Annotation
+[*] android.icu.impl.coll.CollationRuleParser$Position
+[*] android.graphics.Path$FillType
+[*] android.icu.impl.ICUCurrencyDisplayInfoProvider$ICUCurrencyDisplayInfo$CurrencySink$EntrypointTable
+[*] android.graphics.PathDashPathEffect$Style
+[*] android.hardware.camera2.params.StreamConfiguration
+[*] com.android.internal.app.ResolverActivity$ActionTitle
+[*] java.lang.Short
+[*] sun.util.logging.PlatformLogger$Level
+[*] com.android.okhttp.TlsVersion
+[*] android.net.NetworkRequest$Type
+[*] java.time.format.DateTimeFormatterBuilder$SettingsParser
+[*] com.android.i18n.phonenumbers.PhoneNumberUtil$ValidationResult
+[*] android.icu.impl.ICUResourceBundle$OpenType
+[*] javax.net.ssl.SSLEngineResult$HandshakeStatus
+[*] android.icu.text.CompactDecimalFormat$CompactStyle
+[*] android.util.JsonToken
+[*] com.android.internal.telephony.dataconnection.DataConnection$SetupResult
+[*] com.android.internal.telephony.dataconnection.DataConnectionReasons$DataAllowedReasonType
+[*] com.android.internal.telephony.PhoneConstants$DataState
+[*] java.lang.Thread
+[*] android.os.BatteryStats$BitDescription
+[*] java.util.concurrent.ConcurrentHashMap$Segment
+[*] android.icu.util.UResourceBundle$RootType
+[*] java.time.LocalTime
+[*] android.hardware.camera2.params.MeteringRectangle
+[*] libcore.io.IoTracker$Mode
+[*] java.util.concurrent.ForkJoinTask$ExceptionNode
+[*] android.graphics.ColorSpace$Adaptation
+[*] java.nio.file.attribute.FileAttribute
+[*] android.text.Layout$Alignment
+[*] dalvik.system.DexPathList$NativeLibraryElement
+[*] java.lang.invoke.VarHandle$AccessMode
+[*] android.telephony.TelephonyManager$MultiSimVariants
+[*] sun.security.provider.certpath.OCSPResponse$ResponseStatus
+[*] java.lang.ref.WeakReference
+[*] android.graphics.Canvas$EdgeType
+[*] android.icu.util.TimeZone$SystemTimeZoneType
+[*] java.io.File$PathStatus
+[*] com.android.internal.telephony.uicc.IccCardApplicationStatus$PersoSubState
+[*] com.android.org.conscrypt.OpenSSLCipher$Padding
+[*] java.lang.CharSequence
+[*] android.text.InputFilter
+[*] com.android.internal.telephony.uicc.IccCardApplicationStatus$AppType
+[*] sun.security.pkcs.SignerInfo
+[*] javax.crypto.Cipher$InitType
+[*] android.util.Pair
+[*] android.graphics.Paint$Style
+[*] java.lang.reflect.Constructor
+[*] sun.security.util.ObjectIdentifier
+[*] java.lang.Class
+[*] com.android.internal.telephony.dataconnection.DcFailCause
+[*] java.text.DateFormat$Field
+[*] java.lang.Throwable
+[*] com.android.internal.telephony.CommandException$Error
+[*] android.icu.impl.StandardPlural
+[*] org.json.JSONStringer$Scope
+[*] java.lang.reflect.TypeVariable
+[*] android.icu.text.DateFormatSymbols$CapitalizationContextUsage
+[*] android.net.IpConfiguration$ProxySettings
+[*] dalvik.system.DexPathList$Element
+[*] java.lang.Byte
+[*] android.net.LinkProperties$ProvisioningChange
+[*] java.io.ObjectStreamField
+[*] android.util.JsonScope
+[*] android.icu.text.PluralRules$Operand
+[*] android.util.Xml$Encoding
+[*] android.icu.text.PluralRules$PluralType
+[*] android.webkit.ConsoleMessage$MessageLevel
+[*] android.icu.text.RelativeDateTimeFormatter$RelDateTimeDataSink$DateTimeUnit
+[*] com.android.okhttp.Protocol
+[*] java.lang.Byte
+[*] java.util.HashMap$Node
+[*] org.apache.xpath.objects.XObject
+[*] java.security.cert.CRLReason
+[*] java.lang.Package
+[*] android.view.Display$Mode
+[*] android.icu.text.RelativeDateTimeFormatter$RelativeUnit
+[*] java.nio.file.AccessMode
+[*] android.graphics.Path$Direction
+[*] sun.security.provider.certpath.OCSP$RevocationStatus$CertStatus
+[*] java.math.MathContext
+[*] java.lang.StackTraceElement
+[*] com.android.i18n.phonenumbers.NumberParseException$ErrorType
+[*] java.lang.reflect.AccessibleObject
+[*] java.util.WeakHashMap$Entry
+[*] android.media.MediaCodecInfo$Feature
+[*] android.widget.TextView$BufferType
+[*] android.icu.impl.CacheValue$Strength
+[*] java.lang.Thread$State
+[*] android.icu.impl.LocaleDisplayNamesImpl$DataTableType
+[*] sun.misc.FDBigInteger
+[*] android.graphics.Bitmap$CompressFormat
+[*] java.time.zone.ZoneOffsetTransitionRule$TimeDefinition
+[*] sun.security.jca.ProviderConfig
+[*] android.icu.impl.TimeZoneNamesImpl$ZNames$NameTypeIndex
+[*] com.android.i18n.phonenumbers.PhoneNumberUtil$PhoneNumberFormat
+[*] android.widget.ImageView$ScaleType
+[*] android.icu.impl.LocaleDisplayNamesImpl$CapitalizationContextUsage
+[*] libcore.reflect.AnnotationMember
+[*] android.icu.impl.CurrencyData$CurrencySpacingInfo$SpacingType
+[*] com.android.okhttp.HttpUrl$Builder$ParseResult
+[*] java.lang.String
+[*] java.lang.invoke.MethodType
+[*] java.net.StandardProtocolFamily
+[*] android.util.DataUnit
+[*] java.lang.Integer
+[*] java.util.concurrent.ConcurrentHashMap$Node
+[*] com.android.internal.telephony.uicc.IccCardStatus$CardState
+[*] com.android.i18n.phonenumbers.PhoneNumberMatcher$State
+[*] android.icu.text.RelativeDateTimeFormatter$AbsoluteUnit
+[*] android.icu.text.Normalizer2$Mode
+[*] java.time.format.SignStyle
+[*] java.text.DateFormat
+[*] com.android.org.conscrypt.OpenSSLCipher$Mode
+[*] java.math.RoundingMode
+[*] java.text.Normalizer$Form
+[*] java.lang.Comparable
+[*] android.net.IpConfiguration$IpAssignment
+[*] android.net.NetworkInfo$State
+[*] android.icu.text.DisplayContext
+[*] com.android.internal.telephony.uicc.IccCardApplicationStatus$AppState
+[*] com.android.i18n.phonenumbers.Phonenumber$PhoneNumber$CountryCodeSource
+[*] java.util.Hashtable$HashtableEntry
+[*] java.nio.ByteBuffer
+[*] android.icu.impl.CurrencyData$CurrencySpacingInfo$SpacingPattern
+[*] android.graphics.Paint$Join
+[*] com.android.internal.telephony.IccCardConstants$State
+[*] java.time.format.ResolverStyle
+[*] com.android.internal.telephony.PhoneInternalInterface$DataActivityState
+[*] java.lang.Enum
+[*] java.time.DayOfWeek
+[*] java.util.stream.StreamOpFlag
+[*] android.graphics.Shader$TileMode
+[*] android.icu.util.ULocale$Category
+[*] android.text.method.TextKeyListener$Capitalize
+[*] libcore.reflect.AnnotationMember$DefaultValues
+[*] java.util.Locale
+[*] sun.misc.FormattedFloatingDecimal$Form
+[*] android.content.res.ApkAssets
+[*] sun.security.provider.certpath.RevocationChecker$Mode
+[*] android.graphics.ColorSpace$Named
+[*] com.android.internal.telephony.DctConstants$Activity
+[*] com.android.internal.telephony.uicc.UsimServiceTable$UsimService
+[*] java.lang.reflect.Type
+[*] java.lang.Long
+[*] java.time.Month
+[*] android.util.Range
+[*] java.util.logging.Handler
+[*] org.apache.xml.dtm.ref.ExtendedType
+[*] android.hardware.camera2.params.OisSample
+[*] com.android.i18n.phonenumbers.PhoneNumberUtil$Leniency
+[*] android.os.AsyncTask$Status
+[*] android.hardware.display.WifiDisplay
+[*] android.graphics.drawable.GradientDrawable$Orientation
+[*] java.lang.Long
+[*] java.util.concurrent.TimeUnit
+[*] android.app.VoiceInteractor$Request
+[*] android.graphics.BlurMaskFilter$Blur
+[*] java.lang.Character$UnicodeBlock
+[*] android.icu.util.Calendar$CalType
+[*] android.webkit.WebSettings$ZoomDensity
+[*] java.lang.annotation.Annotation
+[*] com.android.internal.telephony.Call$State
+[*] android.security.KeyStore$State
+[*] android.media.AudioGain
+[*] java.math.BigInteger
+[*] android.content.pm.PackageParser$NewPermissionInfo
+[*] android.graphics.ColorSpace
+[*] java.time.temporal.ChronoUnit
+[*] java.lang.Runnable
+[*] android.icu.text.DateFormat$Field
+[*] android.graphics.drawable.LayerDrawable$ChildDrawable
+[*] android.os.ParcelUuid
+[*] java.time.format.DateTimeFormatterBuilder$DateTimePrinterParser
+[*] android.icu.text.UnicodeSet
+[*] android.media.ExifInterface$ExifTag
+[*] android.text.FontConfig$Alias
+[*] android.icu.impl.UCharacterProperty$IntProperty
+[*] java.time.temporal.IsoFields$Unit
+[*] android.hardware.soundtrigger.SoundTrigger$Keyphrase
+[*] android.media.ImageWriter$WriterSurfaceImage$SurfacePlane
+[*] android.graphics.FontFamily
+[*] java.math.BigDecimal
+[*] android.content.pm.PackageParser$SplitPermissionInfo
+[*] android.hardware.soundtrigger.SoundTrigger$ConfidenceLevel
+[*] java.util.HashMap
+[*] android.graphics.Typeface
+[*] android.icu.impl.UCharacterProperty$BinaryProperty
+[*] java.util.prefs.AbstractPreferences
+[*] android.content.res.XmlBlock
+[*] android.media.ExifInterface$ExifTag
+[*] android.text.FontConfig$Font
+[*] android.icu.util.ULocale
+[*] java.time.temporal.TemporalUnit
+[*] libcore.io.ClassPathURLStreamHandler
+[*] java.io.FileDescriptor
+[*] android.graphics.fonts.FontVariationAxis
+[*] android.util.LongSparseArray
+[*] android.text.FontConfig$Family
+[*] java.time.temporal.ChronoField
+[*] android.hardware.soundtrigger.SoundTrigger$KeyphraseRecognitionExtra
+[*] android.content.pm.PackageSharedLibraryUpdater
+[*] sun.util.calendar.Era
+[*] java.util.concurrent.ForkJoinTask
+[*] com.android.okhttp.ConnectionSpec
+[*] android.media.ImageReader$SurfaceImage$SurfacePlane
+[*] java.lang.ThreadLocal$ThreadLocalMap$Entry
+[*] android.system.StructCapUserData
+[*] android.graphics.Bitmap
+[*] android.graphics.drawable.Drawable
+[*] java.lang.ProcessBuilder$Redirect
+[*] android.system.StructPollfd
+[*] android.accounts.Account
+[*] java.security.cert.X509Certificate
+[*] [String Compare] capturing all string comparisons
+[*] [String Catch] [0] dalvik.system.DexClassLoader.<init>(Native Method)
+[*] [String Catch] [0] android.app.ActivityThread.getPackageInfoNoCheck(Native Method)
+[*] [String Catch] [0] android.app.ActivityThread.handleBindApplication(ActivityThread.java:5616)
+[*] [String Catch] [0] android.app.ActivityThread.handleBindApplication(Native Method)
+[*] [String Catch] [0] android.app.ActivityThread.access$1100(ActivityThread.java:199)
+[*] [String Catch] [0] android.app.ActivityThread$H.handleMessage(ActivityThread.java:1650)
+[*] [String Catch] [0] android.os.Handler.dispatchMessage(Handler.java:106)
+[*] [String Catch] [0] android.os.Looper.loop(Looper.java:193)
+[*] [String Catch] [0] android.app.ActivityThread.main(ActivityThread.java:6669)
+[*] [String Catch] [0] java.lang.reflect.Method.invoke(Native Method)
+[*] [String Catch] [0] com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+[*] [String Catch] [0] com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+[*] [String Compare] SSLContext == SSLContext ? true
+[*] [String Compare] SSLContext == SSLContext ? true
+[*] [String Compare] ssl.KeyManagerFactory.algorithm == ssl.KeyManagerFactory.algorithm ? true
+[*] [String Compare] KeyManagerFactory == KeyManagerFactory ? true
+[*] [String Compare] KeyManagerFactory == KeyManagerFactory ? true
+[*] [String Compare] keystore.type == keystore.type ? true
+[*] [String Catch] [0] java.security.KeyStoreSpi
+[*] [String Compare] KeyStore == KeyStore ? true
+[*] [String Compare] KeyStore == KeyStore ? true
+[*] [String Compare] SSLContext == SecureRandom ? false
+[*] [String Compare] SSLContext == SecureRandom ? false
+[*] [String Compare] SSLContext == SecureRandom ? false
+[*] [String Compare] SSLContext == SecureRandom ? false
+[*] [String Compare] SSLContext == SecureRandom ? false
+[*] [String Compare] SSLContext == SecureRandom ? false
+[*] [String Compare] AlgorithmParameters == SecureRandom ? false
+[*] [String Compare] AlgorithmParameters == SecureRandom ? false
+[*] [String Compare] AlgorithmParameters == SecureRandom ? false
+[*] [String Compare] AlgorithmParameters == SecureRandom ? false
+[*] [String Compare] AlgorithmParameters == SecureRandom ? false
+[*] [String Compare] AlgorithmParameters == SecureRandom ? false
+[*] [String Compare] MessageDigest == SecureRandom ? false
+[*] [String Compare] MessageDigest == SecureRandom ? false
+[*] [String Compare] MessageDigest == SecureRandom ? false
+[*] [String Compare] MessageDigest == SecureRandom ? false
+[*] [String Compare] MessageDigest == SecureRandom ? false
+[*] [String Compare] MessageDigest == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyGenerator == SecureRandom ? false
+[*] [String Compare] KeyPairGenerator == SecureRandom ? false
+[*] [String Compare] KeyPairGenerator == SecureRandom ? false
+[*] [String Compare] KeyFactory == SecureRandom ? false
+[*] [String Compare] KeyFactory == SecureRandom ? false
+[*] [String Compare] SecretKeyFactory == SecureRandom ? false
+[*] [String Compare] KeyAgreement == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] Signature == SecureRandom ? false
+[*] [String Compare] SecureRandom == SecureRandom ? true
+[*] [String Compare] SecureRandom == SecureRandom ? true
+[*] [String Compare] SHA1PRNG == SHA1PRNG ? true
+[*] [String Compare] TLSv1.1 == TLSv1.1 ? true
+[*] [String Compare] TLSv1.2 == TLSv1.1 ? false
+[*] [String Compare] TLSv1.2 == TLSv1.2 ? true
+[SSL Pinning Bypass] Xutils not found
+[SSL Pinning Bypass] httpclientandroidlib not found
+[SSL Pinning Bypass] Cronet not found
+[SSL Pinning Bypass] certificatetransparency.CTInterceptorBuilder not found
+[*] [String Compare] network_management == network_management ? true
+[*] [String Compare] connectivity == connectivity ? true
+[*] [String Catch] [0] 
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android == com.example.reverseshell2 ? false
+[*] [String Catch] [0] /data/user/0/com.example.reverseshell2/cache
+[*] [String Compare] java.io.tmpdir == java.io.tmpdir ? true
+[*] [String Catch] [0] /data/user_de/0/com.example.reverseshell2/code_cache
+[*] [String Compare] package == package ? true
+[*] [String Catch] [0] /data/user_de/0/com.example.reverseshell2/code_cache/com.android.opengl.shaders_cache
+[*] [String Catch] [0] /data/user_de/0/com.example.reverseshell2/code_cache/com.android.skia.shaders_cache
+[*] [String Catch] [0] settings
+[*] [String Compare] _track_generation == _track_generation ? true
+[*] [String Compare] _generation_index == _generation_index ? true
+[*] [String Compare] _generation == _generation ? true
+[*] [String Catch] [0] /data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86
+[*] [String Catch] [0] android.security.net.config.RootTrustManagerFactorySpi
+[*] [String Catch] [0] putProviderProperty.AndroidNSSP
+[*] [String Catch] [0] putProviderProperty.AndroidNSSP
+[*] [String Compare] AndroidOpenSSL == AndroidNSSP ? false
+[*] [String Compare] CertPathProvider == AndroidNSSP ? false
+[*] [String Compare] AndroidKeyStoreBCWorkaround == AndroidNSSP ? false
+[*] [String Compare] BC == AndroidNSSP ? false
+[*] [String Compare] HarmonyJSSE == AndroidNSSP ? false
+[*] [String Compare] AndroidKeyStore == AndroidNSSP ? false
+[*] [String Compare] AndroidNSSP == AndroidNSSP ? true
+[*] [String Compare] com.example.reverseshell2 == android ? false
+[*] [String Compare] com.example.reverseshell2 == com.example.reverseshell2 ? true
+[*] [String Compare] com.example.reverseshell2 == com.example.reverseshell2 ? true
+[*] [String Catch] [0] android.app.ActivityThread@a9a7d0f
+[*] [String Catch] [0] android.os.BinderProxy@e7c019c
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@a9a7d0f, token: android.os.BinderProxy@e7c019c
+[*] [String Catch] [0] com.example.reverseshell2/.MainActivity
+[*] [String Catch] [0] Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.example.reverseshell2 cmp=com.example.reverseshell2/.MainActivity }
+[*] [String Catch] [0] ActivityInfo{df267a5 com.example.reverseshell2.MainActivity}
+[*] [String Catch] [0] en_US
+[*] [String Catch] [0] [en_US]
+[*] [String Catch] [0] Rect(0, 0 - 0, 0)
+[*] [String Catch] [0] Rect(0, 0 - 1440, 2712)
+[*] [String Catch] [0] { mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 1440, 2712) mWindowingMode=fullscreen mActivityType=undefined}
+[*] [String Catch] [0] {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h750dp 560dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 1440, 2712) mWindowingMode=fullscreen mActivityType=undefined} s.5}
+[*] [String Catch] [0] en_US
+[*] [String Catch] [0] [en_US]
+[*] [String Catch] [0] Rect(0, 0 - 1440, 2678)
+[*] [String Catch] [0] Rect(0, 0 - 1440, 2678)
+[*] [String Catch] [0] { mBounds=Rect(0, 0 - 1440, 2678) mAppBounds=Rect(0, 0 - 1440, 2678) mWindowingMode=fullscreen mActivityType=standard}
+[*] [String Catch] [0] {1.0 310mcc260mnc [en_US] ldltr sw382dp w411dp h741dp 560dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1440, 2678) mAppBounds=Rect(0, 0 - 1440, 2678) mWindowingMode=fullscreen mActivityType=standard} s.5}
+[*] [String Catch] [0] LaunchActivityItem{intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.example.reverseshell2 cmp=com.example.reverseshell2/.MainActivity },ident=160731806,info=ActivityInfo{df267a5 com.example.reverseshell2.MainActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h750dp 560dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 1440, 2712) mWindowingMode=fullscreen mActivityType=undefined} s.5},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw382dp w411dp h741dp 560dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1440, 2678) mAppBounds=Rect(0, 0 - 1440, 2678) mWindowingMode=fullscreen mActivityType=standard} s.5},referrer=android,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,profilerInfo=null}
+[*] [String Catch] [0] Resolving callback: LaunchActivityItem{intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.example.reverseshell2 cmp=com.example.reverseshell2/.MainActivity },ident=160731806,info=ActivityInfo{df267a5 com.example.reverseshell2.MainActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h750dp 560dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 1440, 2712) mWindowingMode=fullscreen mActivityType=undefined} s.5},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw382dp w411dp h741dp 560dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1440, 2678) mAppBounds=Rect(0, 0 - 1440, 2678) mWindowingMode=fullscreen mActivityType=standard} s.5},referrer=android,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,profilerInfo=null}
+[*] [String Compare] com.example.reverseshell2 == com.example.reverseshell2 ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] window == window ? true
+[*] [String Compare] /data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk == /data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] en-US
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Compare] com.example.reverseshell2 == com.example.reverseshell2 ? true
+[*] [String Compare] com.example.reverseshell2 == system ? false
+[*] [String Compare] /data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk == /data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk ? true
+[*] [String Compare] /system/framework/org.apache.http.legacy.boot.jar == /system/framework/org.apache.http.legacy.boot.jar ? true
+[*] [String Compare] window == layout_inflater ? false
+[*] [String Compare] search == layout_inflater ? false
+[*] [String Compare] layout_inflater == layout_inflater ? true
+[*] [String Catch] [0] com.example.reverseshell2/com.example.reverseshell2.MainActivity
+[*] [String Compare] vector == drawable ? false
+[*] [String Compare] vector == vector ? true
+[*] [String Compare] path == vector ? false
+[*] [String Compare] clip-path == vector ? false
+[*] [String Compare] group == vector ? false
+[*] [String Compare] android.graphics.drawable.VectorDrawable == android.graphics.drawable.VectorDrawable ? true
+[*] [String Compare] window == layout_inflater ? false
+[*] [String Compare] search == layout_inflater ? false
+[*] [String Compare] layout_inflater == layout_inflater ? true
+[*] [String Catch] [0] android:fragment:0
+[*] [String Catch] [0] 192.168.1.134	8080
+[*] [String Catch] [0] AsyncTask #1
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] window == window ? true
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53748) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] layout_inflater == window ? false
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] android.view.Display$HdrCapabilities == android.view.Display$HdrCapabilities ? true
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53750) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] accessibility == accessibility ? true
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53752) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53754) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53756) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53758) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53760) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53762) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53764) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53766) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53768) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] pathInterpolator == linearInterpolator ? false
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Compare] pathInterpolator == accelerateInterpolator ? false
+[*] [String Compare] pathInterpolator == decelerateInterpolator ? false
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Compare] pathInterpolator == accelerateDecelerateInterpolator ? false
+[*] [String Compare] pathInterpolator == cycleInterpolator ? false
+[*] [String Compare] pathInterpolator == anticipateInterpolator ? false
+[*] [String Compare] pathInterpolator == overshootInterpolator ? false
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] pathInterpolator == anticipateOvershootInterpolator ? false
+[*] [String Compare] pathInterpolator == bounceInterpolator ? false
+[*] [String Compare] pathInterpolator == pathInterpolator ? true
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53770) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] res/interpolator/linear_out_slow_in.xml == res/interpolator/fast_out_linear_in.xml ? false
+[*] [String Compare] pathInterpolator == linearInterpolator ? false
+[*] [String Compare] pathInterpolator == accelerateInterpolator ? false
+[*] [String Compare] pathInterpolator == decelerateInterpolator ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Compare] pathInterpolator == accelerateDecelerateInterpolator ? false
+[*] [String Compare] pathInterpolator == cycleInterpolator ? false
+[*] [String Compare] pathInterpolator == anticipateInterpolator ? false
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] pathInterpolator == overshootInterpolator ? false
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Compare] pathInterpolator == anticipateOvershootInterpolator ? false
+[*] [String Compare] pathInterpolator == bounceInterpolator ? false
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] pathInterpolator == pathInterpolator ? true
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53772) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] DecorView[]
+[*] [String Compare] res/interpolator/linear_out_slow_in.xml == res/layout/screen_simple.xml ? false
+[*] [String Compare] res/interpolator/fast_out_linear_in.xml == res/layout/screen_simple.xml ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] merge == LinearLayout ? false
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53774) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] androidx.appcompat.app.AppCompatViewInflater == androidx.appcompat.app.AppCompatViewInflater ? true
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53776) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53778) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] fragment == LinearLayout ? false
+[*] [String Compare] fragment == LinearLayout ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] fragment == LinearLayout ? false
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53780) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] android.widget.LinearLayout
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53782) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53784) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53786) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] requestFocus == ViewStub ? false
+[*] [String Compare] tag == ViewStub ? false
+[*] [String Compare] include == ViewStub ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] merge == ViewStub ? false
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] fragment == ViewStub ? false
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53788) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] fragment == ViewStub ? false
+[*] [String Compare] fragment == ViewStub ? false
+[*] [String Catch] [0] android.widget.ViewStub
+[*] [String Catch] [0] zip file "/system/framework/org.apache.http.legacy.boot.jar"
+[*] [String Catch] [0] zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"
+[*] [String Catch] [0] [zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"]
+[*] [String Catch] [0] [/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]
+[*] [String Catch] [0] DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]]
+[*] [String Catch] [0] Didn't find class "android.widget.ViewStub" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]]
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] android.webkit.ViewStub
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53790) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] zip file "/system/framework/org.apache.http.legacy.boot.jar"
+[*] [String Catch] [0] zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"
+[*] [String Catch] [0] [zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"]
+[*] [String Catch] [0] [/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]
+[*] [String Catch] [0] DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]]
+[*] [String Catch] [0] Didn't find class "android.webkit.ViewStub" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]]
+[*] [String Catch] [0] android.app.ViewStub
+[*] [String Catch] [0] zip file "/system/framework/org.apache.http.legacy.boot.jar"
+[*] [String Catch] [0] zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"
+[*] [String Catch] [0] [zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"]
+[*] [String Catch] [0] [/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]
+[*] [String Catch] [0] DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]]
+[*] [String Catch] [0] Didn't find class "android.app.ViewStub" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reverseshell2-lHJvqCdVp_L7k1zLKZt6Cg==/lib/x86, /system/lib]]
+[*] [String Catch] [0] android.view.ViewStub
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Compare] requestFocus == FrameLayout ? false
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] tag == FrameLayout ? false
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53792) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] include == FrameLayout ? false
+[*] [String Compare] merge == FrameLayout ? false
+[*] [String Compare] fragment == FrameLayout ? false
+[*] [String Compare] fragment == FrameLayout ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] fragment == FrameLayout ? false
+[*] [String Catch] [0] android.widget.FrameLayout
+[*] [String Compare] res/interpolator/linear_out_slow_in.xml == res/transition/fade.xml ? false
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Compare] res/interpolator/fast_out_linear_in.xml == res/transition/fade.xml ? false
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] res/layout/screen_simple.xml == res/transition/fade.xml ? false
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53794) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] res/transition/fade.xml == res/transition/move.xml ? false
+[*] [String Compare] res/interpolator/linear_out_slow_in.xml == res/transition/move.xml ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] res/interpolator/fast_out_linear_in.xml == res/transition/move.xml ? false
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53796) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] res/layout/screen_simple.xml == res/transition/move.xml ? false
+[*] [String Compare] fade == transitionSet ? false
+[*] [String Compare] changeBounds == transitionSet ? false
+[*] [String Compare] slide == transitionSet ? false
+[*] [String Compare] explode == transitionSet ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53798) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] changeImageTransform == transitionSet ? false
+[*] [String Compare] changeTransform == transitionSet ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Compare] changeClipBounds == transitionSet ? false
+[*] [String Compare] autoTransition == transitionSet ? false
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53800) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] recolor == transitionSet ? false
+[*] [String Compare] changeScroll == transitionSet ? false
+[*] [String Compare] transitionSet == transitionSet ? true
+[*] [String Compare] fade == changeBounds ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Compare] changeBounds == changeBounds ? true
+[*] [String Compare] fade == changeTransform ? false
+[*] [String Compare] changeBounds == changeTransform ? false
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Compare] slide == changeTransform ? false
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53802) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] explode == changeTransform ? false
+[*] [String Compare] changeImageTransform == changeTransform ? false
+[*] [String Compare] changeTransform == changeTransform ? true
+[*] [String Compare] fade == changeClipBounds ? false
+[*] [String Compare] changeBounds == changeClipBounds ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Compare] slide == changeClipBounds ? false
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] explode == changeClipBounds ? false
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53804) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] changeImageTransform == changeClipBounds ? false
+[*] [String Compare] changeTransform == changeClipBounds ? false
+[*] [String Compare] changeClipBounds == changeClipBounds ? true
+[*] [String Compare] fade == changeImageTransform ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53806) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] changeBounds == changeImageTransform ? false
+[*] [String Compare] slide == changeImageTransform ? false
+[*] [String Compare] explode == changeImageTransform ? false
+[*] [String Compare] changeImageTransform == changeImageTransform ? true
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Compare] res/transition/fade.xml == res/transition/move.xml ? false
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] res/transition/move.xml == res/transition/move.xml ? true
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53808) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] fade == transitionSet ? false
+[*] [String Compare] changeBounds == transitionSet ? false
+[*] [String Compare] slide == transitionSet ? false
+[*] [String Compare] explode == transitionSet ? false
+[*] [String Compare] changeImageTransform == transitionSet ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53810) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] changeTransform == transitionSet ? false
+[*] [String Compare] changeClipBounds == transitionSet ? false
+[*] [String Compare] autoTransition == transitionSet ? false
+[*] [String Compare] recolor == transitionSet ? false
+[*] [String Compare] changeScroll == transitionSet ? false
+[*] [String Compare] transitionSet == transitionSet ? true
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Compare] fade == changeBounds ? false
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] changeBounds == changeBounds ? true
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53812) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] fade == changeTransform ? false
+[*] [String Compare] changeBounds == changeTransform ? false
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Compare] slide == changeTransform ? false
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] explode == changeTransform ? false
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53814) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] changeImageTransform == changeTransform ? false
+[*] [String Compare] changeTransform == changeTransform ? true
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Compare] fade == changeClipBounds ? false
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] changeBounds == changeClipBounds ? false
+[*] [String Compare] slide == changeClipBounds ? false
+[*] [String Compare] explode == changeClipBounds ? false
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53816) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Compare] changeImageTransform == changeClipBounds ? false
+[*] [String Compare] changeTransform == changeClipBounds ? false
+[*] [String Compare] changeClipBounds == changeClipBounds ? true
+[*] [String Compare] fade == changeImageTransform ? false
+[*] [String Compare] changeBounds == changeImageTransform ? false
+[*] [String Compare] slide == changeImageTransform ? false
+[*] [String Compare] explode == changeImageTransform ? false
+[*] [String Compare] changeImageTransform == changeImageTransform ? true
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53818) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] ResumeActivityItem{procState=-1,updateProcState=false,isForward=true}
+[*] [String Catch] [0] Resolving lifecycle state: ResumeActivityItem{procState=-1,updateProcState=false,isForward=true}
+[*] [String Catch] [0] Cycle from: 1 to: 3 excludeLastState:true
+[*] [String Catch] [0] Transitioning to state: 2
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] android.app.ActivityThread@a9a7d0f
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53820) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] android.os.BinderProxy@e7c019c
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@a9a7d0f, token: android.os.BinderProxy@e7c019c
+[*] [String Catch] [0] PauseActivityItem{finished=true,userLeaving=false,configChanges=0,dontReport=false}
+[*] [String Catch] [0] Resolving lifecycle state: PauseActivityItem{finished=true,userLeaving=false,configChanges=0,dontReport=false}
+[*] [String Catch] [0] Cycle from: 1 to: 4 excludeLastState:true
+[*] [String Catch] [0] Transitioning to state: 2
+[*] [String Catch] [0] Transitioning to state: 3
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53822) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53824) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53826) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53828) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53830) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53832) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53834) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53836) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53838) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53840) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53842) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53844) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53846) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53848) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53850) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53852) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53854) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53856) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53858) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53860) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53862) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53864) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53866) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53868) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53870) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53872) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53874) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53876) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53878) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53880) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53882) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53884) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53886) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53888) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53890) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53892) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53894) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53896) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53898) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53900) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53902) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53904) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53906) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53908) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53910) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53912) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53914) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53916) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53918) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53920) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53922) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53924) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53926) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53928) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53930) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53932) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53934) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53936) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53938) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53940) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53942) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53944) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53946) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53948) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] failed to connect to /192.168.1.134 (port 8080) from /192.168.232.2 (port 53950) after 3000ms: isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] 192.168.1.134
+[*] [String Catch] [0] /192.168.1.134
+[*] [String Catch] [0] 192.168.232.2
+[*] [String Catch] [0] /192.168.232.2
+[*] [String Catch] [0] isConnected failed: ECONNREFUSED (Connection refused)
+[*] [String Catch] [0] android.app.ActivityThread@a9a7d0f
+[*] [String Catch] [0] android.os.BinderProxy@e7c019c
+[*] [String Catch] [0] Start resolving transaction for client: android.app.ActivityThread@a9a7d0f, token: android.os.BinderProxy@e7c019c
+[*] [String Catch] [0] DestroyActivityItem{finished=true,mConfigChanges=0}
+[*] [String Catch] [0] Resolving lifecycle state: DestroyActivityItem{finished=true,mConfigChanges=0}
+[*] [String Catch] [0] Cycle from: 1 to: 6 excludeLastState:true
+[*] [String Catch] [0] Transitioning to state: 2
+[*] [String Catch] [0] Transitioning to state: 3
+[*] [String Catch] [0] Transitioning to state: 4
+[*] [String Catch] [0] Transitioning to state: 5
+[*] [String Catch] [0] log.looper.10086.queued-work-looper.slow

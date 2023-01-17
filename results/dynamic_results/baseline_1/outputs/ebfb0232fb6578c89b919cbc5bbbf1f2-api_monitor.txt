@@ -1,0 +1,1 @@
+{"name":"Dex Class Loader","class":"dalvik.system.DexClassLoader","method":"$init","arguments":["/data/data/com.example.reverseshell2/frida8210077649648738674.dex","/data/data/com.example.reverseshell2/cache",null,"<instance: java.lang.ClassLoader, $className: dalvik.system.PathClassLoader>"],"calledFrom":"android.app.ActivityThread.getPackageInfoNoCheck(Native Method)"},

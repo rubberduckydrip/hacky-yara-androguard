@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:background="@drawable/googlelogin1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button2" android:background="#004c74df" android:layout_width="140.0dip" android:layout_height="55.0dip" android:layout_marginLeft="250.0dip" android:layout_marginTop="610.0dip" android:layout_marginRight="30.0dip" android:text="" />
+    <EditText android:textSize="20.0sp" android:id="@id/editTextEmail2" android:background="#f8ffffff" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="35.0dip" android:layout_marginTop="195.0dip" android:layout_marginRight="35.0dip" android:text="" android:hint="Email or phone" android:singleLine="true" />
+</FrameLayout>
