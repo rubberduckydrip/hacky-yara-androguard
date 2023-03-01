@@ -1,0 +1,23 @@
+access_notification ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+audio_capture ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+calendar_entries ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+call_control ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+call_log ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+command_and_scripting_interpreter ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+contacts ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+data_from_local_system ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+device_administrator_permissions ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+dynamic_code_loading ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-api_monitor.txt
+event_triggered_execution_broadcast_receivers ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+geofencing ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+gui_input_capture ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+location_tracking ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+process_discovery ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+scheduled_task ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+screen_capture ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-logcat.txt
+sms_control ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+sms_messages ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+system_network_configuration_discovery ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+uninstall_malicious_applicartion ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+video_capture ../results/dynamic_results/baseline_2/outputs/940e940ba816c7095d0e7f5d5c537d9a-dump.txt
+22/38

@@ -23,7 +23,7 @@ for filename in listfiles('./' + sys.argv[2]):
     # if match is found
     if match:
         rule_count+=1
-        fileextensions = ('.apk', '.dex', '.elf', 'AndroidManifest.xml')
+        fileextensions = ('.apk', '.dex', '.elf', 'AndroidManifest.xml', '.tar')
         for report in listfiles('./' + sys.argv[1]):
             if report.endswith(fileextensions):
                 os.system('yara --no-warnings '+ filename + ' ' + report)

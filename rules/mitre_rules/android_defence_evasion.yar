@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to any user or organization, as    long as you use it under this license.
 */
 
-rule dynamic_code_loading : defense evasion
+rule dynamic_code_loading_a : defense evasion
 {
 	meta:
 		description = "Adversaries may download and execute dynamic code not included in the original application package after installation"
@@ -17,34 +17,32 @@ rule dynamic_code_loading : defense evasion
 		any of them
 }
 
-rule execution_guardrails : defense_evasion
+
+rule dynamic_code_loading_b : defense evasion
 {
-    meta:
-        description = "Adversaries may use execution guardrails to constrain execution or actions based on adversary supplied and environment specific conditions that are expected to be present on the target"
-        reference = "https://attack.mitre.org/techniques/T1627/"
+	meta:
+		description = "Adversaries may download and execute dynamic code not included in the original application package after installation"
+        reference = "https://attack.mitre.org/techniques/T1407/"
 
-    strings:
-        $strings_a = "SystemProperties"
-        $strings_b = "Build.MODEL"
-        $strings_c = "Build.HARDWARE"
-        $strings_d = "Build.PRODUCT"
+	strings:
+        $string_b = "System.load"
 
-    condition:
-        any of them
+	condition:
+		any of them
 }
 
-rule geofencing : defense_evasion
+
+rule dynamic_code_loading_c : defense evasion
 {
-    meta:
-        description = "Adversaries may use a device’s geographical location to limit certain malicious behaviors"
-        reference = "https://attack.mitre.org/techniques/T1627/001/"
+	meta:
+		description = "Adversaries may download and execute dynamic code not included in the original application package after installation"
+        reference = "https://attack.mitre.org/techniques/T1407/"
 
-    strings:
-        $string_a = "ACCESS_FINE_LOCATION"
-        $string_b = "ACCESS_BACKGROUND_LOCATION"
+	strings:
+        $string_c = "JavaScriptInterface"
 
-    condition:
-        any of them
+	condition:
+		any of them
 }
 
 rule suppress_application : defense_evasion 
@@ -62,46 +60,8 @@ rule suppress_application : defense_evasion
         any of them
 }
 
-rule user_evasion : defense_evasion
-{
-    meta: 
-        description = "By utilizing the various motion sensors on a device, such as accelerometer or gyroscope, an application could detect that the device is being interacted with"
-        reference = "https://attack.mitre.org/techniques/T1628/002/"
-        
-    strings:
-        $string_a = "SensorManager"
-      
-    condition:
-        all of them
-}
 
-rule device_lockout : defense_evasion
-{
-    meta:
-        description = "An adversary may seek to inhibit user interaction by locking the legitimate user out of the device"
-        reference = "https://attack.mitre.org/techniques/T1629/002/"
-
-    strings:
-        $string_a = "DevicePolicyManager.lockNow"
-
-    condition:
-        all of them
-}
-
-rule uninstall_malicious_applicartion : defense_evasion
-{
-    meta:
-        description = "Adversaries may include functionality in malware that uninstalls the malicious application from the device"
-        reference = "https://attack.mitre.org/techniques/T1630/001/"
-        referense_code = "https://stackoverflow.com/questions/6813322/install-uninstall-apks-programmatically-packagemanager-vs-intents"
-
-    strings:
-        $string_a = "REQUEST_DELETE_PACKAGES"
-
-    condition:
-        all of them
-}
-
+/*
 rule file_deletion : defense_evasion 
 {
     meta: 
@@ -115,5 +75,5 @@ rule file_deletion : defense_evasion
     condition:
         all of them
 }
-
+*/
 

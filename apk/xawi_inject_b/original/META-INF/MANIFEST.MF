@@ -1,13 +1,13 @@
 Manifest-Version: 1.0
 
 Name: AndroidManifest.xml
-SHA-256-Digest: Zpocb3wGj2TMcYrxJZMBGNc7704rGlbZuOqj5a9pFcs=
+SHA-256-Digest: VRgefXTpNMKjZgcT0nRSwpXhBV2FTcH+5a80jmoh98E=
 
 Name: billing.properties
 SHA-256-Digest: 4/t62JmkQG+kb1MCzu5ywgZu1wO7Nn+KeG87tqJMwqU=
 
 Name: classes.dex
-SHA-256-Digest: iua6mMAbejRuqvqTSeT9tYDaG0/tX2hRLHXqdNVwvkI=
+SHA-256-Digest: 5uGANB9WU20vUeVEalhr5ZtaHUFUC0GueLfWkKCFckw=
 
 Name: firebase-ads.properties
 SHA-256-Digest: lzi93zpeRaNmnhY25l+9RErmNvUkjClhCshM8qENjK8=

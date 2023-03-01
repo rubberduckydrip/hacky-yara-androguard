@@ -1,0 +1,24 @@
+access_notification ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+audio_capture ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+calendar_entries ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+call_control ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+call_log ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+command_and_scripting_interpreter ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+contacts ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+data_from_local_system ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+device_administrator_permissions ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+dynamic_code_loading ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-logcat.txt
+event_triggered_execution_broadcast_receivers ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+geofencing ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+gui_input_capture ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+location_tracking ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+process_discovery ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+scheduled_task ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+screen_capture ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-logcat.txt
+sms_control ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+sms_messages ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+system_network_configuration_discovery ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+system_network_connections_discovery ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+uninstall_malicious_applicartion ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+video_capture ../results/dynamic_results/xawi_acc/outputs/5d86ac37d255147defc674fcd922bd4c-dump.txt
+23/38

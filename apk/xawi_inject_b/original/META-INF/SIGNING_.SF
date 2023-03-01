@@ -1,16 +1,16 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android)
-SHA-256-Digest-Manifest: PyDqNc01WLU1nGaC52SUMAPTrjldHRkzqv1FXQ+Hh50=
+SHA-256-Digest-Manifest: MzhisLYHOLH6SFy1DyedwefnlnWZUqQE7JrQql7GXtM=
 X-Android-APK-Signed: 2, 3
 
 Name: AndroidManifest.xml
-SHA-256-Digest: spswuAqbEaF87NA+ZtcHbrH6KBjJ9NpqCG3MZdnRIHQ=
+SHA-256-Digest: 9xeCQnq20gGMI6wHT+eAea4CZ5YdWYDYUHXsDVVzX2c=
 
 Name: billing.properties
 SHA-256-Digest: j6hLKG2y/yziT98fA7gy0PHYtpvNspeqgwT0KFBqZQo=
 
 Name: classes.dex
-SHA-256-Digest: wlkJUJb4eWisvMNhzQm7nG5f2lQACdKoP1FEzQRwheY=
+SHA-256-Digest: 8oFrBfJa1nTsMp1+YuZaPhbBRKnt/aKcbapXt0L1u2I=
 
 Name: firebase-ads.properties
 SHA-256-Digest: muftIgWrx/c+ds2P46yFYpE+cH4jQD/bf6JynNTu+BY=
