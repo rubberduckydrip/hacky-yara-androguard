@@ -50,7 +50,6 @@ rule sms_control_d : android_impact
 
 	strings:
         $string_a = "sendTextMessage"
-        $string_b = "SmsManager"
 
 	condition:
 		any of them
