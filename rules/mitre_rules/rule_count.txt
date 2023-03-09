@@ -1,6 +1,11 @@
-andorid_collection: 6
-android_impact: 4
-android_defence_evasion: 4
+andorid_collection: 13
+android_credential_access: 4
+android_defence_evasion: 8
+android_discovery: 6
+android_execution: 2
+android_impact: 2
+android_persistance: 2
+android_privilage_escalation: 1
 
-total: 14
+total: 38
 
