@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to any user or organization, as    long as you use it under this license.
 */
 
-rule access_notification : android_collection
+rule access_notification__android_collection
 {
 	meta:
 		description = "Adversaries may collect data within notifications sent by the operating system or other applications"
@@ -15,7 +15,7 @@ rule access_notification : android_collection
 		any of them
 }
 
-rule clipboard_data : android_collection
+rule clipboard_data__android_collection
 {
     meta:
         description = "Adversaries may abuse clipboard manager APIs to obtain sensitive information copied to the device clipboard"
@@ -28,7 +28,7 @@ rule clipboard_data : android_collection
         any of them
 }
 
-rule keylogging : android_collection
+rule keylogging__android_collection
 {
     meta:
         description = "Adversaries may log user keystrokes to intercept credentials or other information from the user as the user types them"
@@ -42,7 +42,7 @@ rule keylogging : android_collection
         any of them
 }
 
-rule gui_input_capture : android_collection
+rule gui_input_capture__android_collection
 
 {
     meta:
@@ -57,7 +57,7 @@ rule gui_input_capture : android_collection
 }
 
 
-rule audio_capture : android_collection
+rule audio_capture__android_collection
 {
 	meta:
 		description = "Adversaries may capture audio to collect information by leveraging standard operating system APIs of a mobile device"
@@ -71,26 +71,8 @@ rule audio_capture : android_collection
 		any of them
 }
 
-rule call_control : android_collection
-{
-    meta:
-        description = "Adversaries may make, forward, or block phone calls without user authorization. "
-        reference = "https://attack.mitre.org/techniques/T1616/"
 
-    strings:
-        $string_a = "ANSWER_PHONE_CALLS"
-        $string_b = "CALL_PHONE"
-        $string_c = "PROCESS_OUTGOING_CALLS"
-        $string_d = "MANAGE_OWN_CALLS"
-        $string_e = "ConnectionService"
-        $string_f = "BIND_TELECOM_CONNECTION_SERVICE"
-        $string_g = "WRITE_CALL_LOG"
-
-    condition: 
-        any of them
-}
-
-rule data_from_local_system : android_collection
+rule data_from_local_system__android_collection
 {
     meta: 
         description = "Adversaries may search local system sources, such as file systems or local databases, to find files of interest and sensitive data prior to exfiltration"
@@ -107,7 +89,7 @@ rule data_from_local_system : android_collection
         any of them
 }
 
-rule calendar_entries : android_collection
+rule calendar_entries__android_collection
 {
     meta:
         description = "Adversaries may utilize standard operating system APIs to gather calendar entry data. On Android, this can be accomplished using the Calendar Content Provider"
@@ -121,7 +103,7 @@ rule calendar_entries : android_collection
         any of them
 }
 
-rule call_log : android_collection
+rule call_log__android_collection
 {
     meta:
         description = "Adversaries may utilize standard operating system APIs to gather call log data. On Android, this can be accomplished using the Call Log Content Provider"
@@ -134,7 +116,7 @@ rule call_log : android_collection
         any of them
 }
 
-rule contacts : android_collection
+rule contacts__android_collection
 {
     meta:
         description = "Adversaries may utilize standard operating system APIs to gather contact list data"
@@ -147,7 +129,7 @@ rule contacts : android_collection
         any of them
 }
 
-rule sms_messages : android_collection
+rule sms_messages__android_collection
 {
     meta:
         description = "Adversaries may utilize standard operating system APIs to gather SMS messages. "
@@ -160,7 +142,7 @@ rule sms_messages : android_collection
         any of them
 }
 
-rule screen_capture : android_collection
+rule screen_capture__android_collection
 {
     meta: 
         description = "Adversaries may use screen capture to collect additional information about a target device, such as applications running in the foreground, user data, credentials, or other sensitive information"
@@ -173,7 +155,7 @@ rule screen_capture : android_collection
         any of them
 }
 
-rule video_capture : android_collection
+rule video_capture__android_collection
 {
     meta: 
         description =  "An adversary can leverage a device’s cameras to gather information by capturing video recordings"

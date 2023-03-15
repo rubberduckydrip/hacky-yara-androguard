@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to any user or organization, as    long as you use it under this license.
 */
 
-rule dynamic_code_loading : defense evasion
+rule dynamic_code_loading__defense_evasion
 {
 	meta:
 		description = "Adversaries may download and execute dynamic code not included in the original application package after installation"
@@ -17,7 +17,7 @@ rule dynamic_code_loading : defense evasion
 		any of them
 }
 
-rule execution_guardrails : defense_evasion
+rule execution_guardrails__defense_evasion
 {
     meta:
         description = "Adversaries may use execution guardrails to constrain execution or actions based on adversary supplied and environment specific conditions that are expected to be present on the target"
@@ -33,7 +33,7 @@ rule execution_guardrails : defense_evasion
         any of them
 }
 
-rule geofencing : defense_evasion
+rule geofencing__defense_evasion
 {
     meta:
         description = "Adversaries may use a device’s geographical location to limit certain malicious behaviors"
@@ -47,7 +47,7 @@ rule geofencing : defense_evasion
         any of them
 }
 
-rule suppress_application : defense_evasion 
+rule suppress_application__defense_evasion 
 {
     meta:
         description = "A malicious application could suppress its icon from being displayed to the user in the application launcher"
@@ -62,7 +62,7 @@ rule suppress_application : defense_evasion
         any of them
 }
 
-rule user_evasion : defense_evasion
+rule user_evasion__defense_evasion
 {
     meta: 
         description = "By utilizing the various motion sensors on a device, such as accelerometer or gyroscope, an application could detect that the device is being interacted with"
@@ -75,7 +75,7 @@ rule user_evasion : defense_evasion
         all of them
 }
 
-rule device_lockout : defense_evasion
+rule device_lockout__defense_evasion
 {
     meta:
         description = "An adversary may seek to inhibit user interaction by locking the legitimate user out of the device"
@@ -88,7 +88,7 @@ rule device_lockout : defense_evasion
         all of them
 }
 
-rule uninstall_malicious_applicartion : defense_evasion
+rule uninstall_malicious_applicartion__defense_evasion
 {
     meta:
         description = "Adversaries may include functionality in malware that uninstalls the malicious application from the device"
@@ -102,7 +102,7 @@ rule uninstall_malicious_applicartion : defense_evasion
         all of them
 }
 
-rule file_deletion : defense_evasion 
+rule file_deletion__defense_evasion 
 {
     meta: 
         description = "Adversaries may wipe a device or delete individual files in order to manipulate external outcomes or hide activity"

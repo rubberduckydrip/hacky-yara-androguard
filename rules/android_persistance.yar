@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to any user or organization, as    long as you use it under this license.
 */
 
-rule event_triggered_execution_broadcast_receivers : android_persistance
+rule event_triggered_execution_broadcast_receivers__android_persistance
 {
 	meta:
 		description = "Adversaries may establish persistence using system mechanisms that trigger execution based on specific events"
@@ -17,7 +17,7 @@ rule event_triggered_execution_broadcast_receivers : android_persistance
 		any of them
 }
 
-rule foreground_persistance : android_persistance
+rule foreground_persistance__android_persistance
 {
     meta:
         description = "Adversaries may abuse Android's startForeground() API method to maintain continuous sensor access"
