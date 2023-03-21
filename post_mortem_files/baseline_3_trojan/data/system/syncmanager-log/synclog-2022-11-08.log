@@ -1,7 +1,0 @@
-2022-11-08 16:34:33.429 1728 Loaded 0 items
-2022-11-08 16:34:33.438 1728 Sync manager initialized: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
-2022-11-08 16:34:33.719 1941 onStartUser: user=0
-2022-11-08 16:34:36.465 1941 onUnlockUser: user=0
-2022-11-08 16:34:36.564 1941 updateRunningAccountsH: []
-2022-11-08 16:34:36.564 1941 Loaded persisted syncs: 0 periodic syncs, 0 oneshot syncs, 7 total system server jobs, JobStats: FirstLoad: 0/0/0 LastSave: -1/-1/-1
-2022-11-08 16:34:37.210 1728 rescheduleSyncs() ep=ALL ACCS/ALL PDRS:u-1 why=network reconnect

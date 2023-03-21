@@ -1,3 +1,0 @@
-android_meterpretesison_Abuse ../apk/karma.apk
-AndroRAT ../apk/karma.apk
-

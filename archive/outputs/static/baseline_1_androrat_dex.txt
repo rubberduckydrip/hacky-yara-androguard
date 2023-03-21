@@ -1,1 +1,0 @@
-android_meterpreter ./../apk/karma/classes.dex

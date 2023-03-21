@@ -1,8 +1,0 @@
-isPrevious: false
-Build: Android/sdk_phone_x86_64/generic_x86_64:9/PSR1.180720.012/4923214:userdebug/test-keys
-Hardware: goldfish_x86_64
-Revision: 0
-Bootloader: unknown
-Radio: 1.0.0.0
-Kernel: Linux version 4.4.124+ (android-build@wpiu5.hot.corp.google.com) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Jun 18 17:10:07 UTC 2018
-

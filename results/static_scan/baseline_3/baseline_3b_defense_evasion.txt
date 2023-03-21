@@ -1,0 +1,3 @@
+geofencing ../data/apk_decompiled/baseline_3b/AndroidManifest.xml
+dynamic_code_loading ../data/apk_decompiled/baseline_3b/classes.dex
+geofencing ../data/apk_decompiled/baseline_3b/classes.dex

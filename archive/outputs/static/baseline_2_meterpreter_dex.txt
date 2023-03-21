@@ -1,2 +1,0 @@
-android_meterpreter ./../apk/meterpreter.apk
-Metasploit_Payload ./../apk/meterpreter/classes.dex

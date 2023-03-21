@@ -1,0 +1,4 @@
+foreground_persistence ../data/volreconstructor/xawi/8__dynamic-code.odex_0xc7a51000.bin
+foreground_persistence ../data/volreconstructor/xawi/4__dynamic-code.odex_0xca852000.bin
+foreground_persistence ../data/volreconstructor/xawi/7__dynamic-code.odex_0xcab9d000.bin
+foreground_persistence ../data/volreconstructor/xawi/5__dynamic-code.odex_0xc6d5f000.bin

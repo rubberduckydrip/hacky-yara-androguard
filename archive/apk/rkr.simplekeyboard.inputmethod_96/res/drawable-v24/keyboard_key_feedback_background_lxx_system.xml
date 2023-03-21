@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/background_secondary_lxx_system" />
-    <size android:height="5.0dip" android:width="45.0dip" />
-    <padding android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="60.0dip" />
-    <corners android:radius="@dimen/button_corner_radius_lxx" />
-</shape>

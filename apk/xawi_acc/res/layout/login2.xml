@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="top" android:background="@drawable/googlelogin2" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:id="@id/button3" android:background="#004c74df" android:layout_width="140.0dip" android:layout_height="55.0dip" android:layout_marginLeft="250.0dip" android:layout_marginTop="610.0dip" android:layout_marginRight="30.0dip" android:text="" />
-    <EditText android:textSize="18.0sp" android:id="@id/editTextPassword3" android:background="#f8ffffff" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="35.0dip" android:layout_marginTop="209.0dip" android:layout_marginRight="75.0dip" android:text="" android:password="true" android:singleLine="true" />
-    <TextView android:textStyle="bold" android:textColor="#da161616" android:id="@id/textViewEmail3" android:background="#f8ffffff" android:layout_width="250.0dip" android:layout_height="30.0dip" android:layout_marginLeft="140.0dip" android:layout_marginTop="135.0dip" android:layout_marginRight="95.0dip" android:text="TextView" />
-</FrameLayout>

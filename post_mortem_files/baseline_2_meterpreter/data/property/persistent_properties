@@ -1,13 +1,0 @@
-
-(
-persist.sys.dalvik.vm.lib.2	libart.so
-$
-persist.sys.timezoneEurope/Malta
-
-persist.sys.usb.configadb
-
-persist.traced.enable1
-'
-persist.sys.webview.vmsize	147849872
-
-persist.sys.gps.lpp0

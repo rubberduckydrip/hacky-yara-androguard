@@ -1,0 +1,2 @@
+sms_control ../data/apk_decompiled/baseline_3b/AndroidManifest.xml
+call_control ../data/apk_decompiled/baseline_3b/AndroidManifest.xml

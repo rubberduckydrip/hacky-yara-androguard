@@ -1,0 +1,4 @@
+audio_capture ../data/apk_decompiled/xawi_inject_b/AndroidManifest.xml
+data_from_local_system ../data/apk_decompiled/xawi_inject_b/AndroidManifest.xml
+video_capture ../data/apk_decompiled/xawi_inject_b/AndroidManifest.xml
+call_control ../data/apk_decompiled/xawi_inject_b/AndroidManifest.xml

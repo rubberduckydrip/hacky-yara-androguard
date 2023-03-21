@@ -1,0 +1,8 @@
+data_from_local_system ../data/volreconstructor/xawi/4__dynamic-code.odex_0xca852000.bin
+screen_capture ../data/volreconstructor/xawi/4__dynamic-code.odex_0xca852000.bin
+data_from_local_system ../data/volreconstructor/xawi/7__dynamic-code.odex_0xcab9d000.bin
+screen_capture ../data/volreconstructor/xawi/7__dynamic-code.odex_0xcab9d000.bin
+data_from_local_system ../data/volreconstructor/xawi/5__dynamic-code.odex_0xc6d5f000.bin
+screen_capture ../data/volreconstructor/xawi/5__dynamic-code.odex_0xc6d5f000.bin
+data_from_local_system ../data/volreconstructor/xawi/8__dynamic-code.odex_0xc7a51000.bin
+screen_capture ../data/volreconstructor/xawi/8__dynamic-code.odex_0xc7a51000.bin

@@ -173,7 +173,7 @@ rule video_capture : collection
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to any user or organization, as    long as you use it under this license.
 */
 
-rule dynamic_code_loading : defence_evasion
+rule dynamic_code_loading : defense_evasion
 {
 	meta:
 		description = "Adversaries may download and execute dynamic code not included in the original application package after installation"
@@ -188,7 +188,7 @@ rule dynamic_code_loading : defence_evasion
 		any of them
 }
 
-rule execution_guardrails : defence_evasion
+rule execution_guardrails : defense_evasion
 {
     meta:
         description = "Adversaries may use execution guardrails to constrain execution or actions based on adversary supplied and environment specific conditions that are expected to be present on the target"
@@ -204,7 +204,7 @@ rule execution_guardrails : defence_evasion
         any of them
 }
 
-rule geofencing : defence_evasion
+rule geofencing : defense_evasion
 {
     meta:
         description = "Adversaries may use a device’s geographical location to limit certain malicious behaviors"
@@ -218,7 +218,7 @@ rule geofencing : defence_evasion
         any of them
 }
 
-rule suppress_application : defence_evasion
+rule suppress_application : defense_evasion
 {
     meta:
         description = "A malicious application could suppress its icon from being displayed to the user in the application launcher"
@@ -233,7 +233,7 @@ rule suppress_application : defence_evasion
         any of them
 }
 
-rule user_evasion : defence_evasion
+rule user_evasion : defense_evasion
 {
     meta: 
         description = "By utilizing the various motion sensors on a device, such as accelerometer or gyroscope, an application could detect that the device is being interacted with"
@@ -246,7 +246,7 @@ rule user_evasion : defence_evasion
         all of them
 }
 
-rule device_lockout : defence_evasion
+rule device_lockout : defense_evasion
 {
     meta:
         description = "An adversary may seek to inhibit user interaction by locking the legitimate user out of the device"
@@ -259,7 +259,7 @@ rule device_lockout : defence_evasion
         all of them
 }
 
-rule uninstall_malicious_application : defence_evasion
+rule uninstall_malicious_application : defense_evasion
 {
     meta:
         description = "Adversaries may include functionality in malware that uninstalls the malicious application from the device"
@@ -273,7 +273,7 @@ rule uninstall_malicious_application : defence_evasion
         all of them
 }
 
-rule file_deletion : defence_evasion
+rule file_deletion : defense_evasion
 {
     meta: 
         description = "Adversaries may wipe a device or delete individual files in order to manipulate external outcomes or hide activity"
@@ -330,7 +330,7 @@ rule call_control : impact collection c2
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to any user or organization, as    long as you use it under this license.
 */
 
-rule event_triggered_execution_broadcast_receivers : persistance
+rule event_triggered_execution_broadcast_receivers : persistence
 {
 	meta:
 		description = "Adversaries may establish persistence using system mechanisms that trigger execution based on specific events"
@@ -345,7 +345,7 @@ rule event_triggered_execution_broadcast_receivers : persistance
 		any of them
 }
 
-rule foreground_persistance : persistance
+rule foreground_persistence : persistence
 {
     meta:
         description = "Adversaries may abuse Android's startForeground() API method to maintain continuous sensor access"

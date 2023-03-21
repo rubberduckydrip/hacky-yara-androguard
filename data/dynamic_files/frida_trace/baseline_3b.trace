@@ -1,0 +1,70 @@
+Spawning `jakhar.aseem.diva`...
+Instrumenting...
+IccProvider.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/com.android.internal.telephony.IccProvider/query.js"
+SQLiteQueryBuilder.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.database.sqlite.SQLiteQueryBuilder/query.js"
+ContentProvider.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.content.ContentProvider/query.js"
+Uri$Builder.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.net.Uri_Builder/query.js"
+SqliteWrapper.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.database.sqlite.SqliteWrapper/query.js"
+ContentResolver.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.content.ContentResolver/query.js"
+CalendarContract$Instances.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.provider.CalendarContract_Instances/query.js"
+SearchRecentSuggestionsProvider.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.content.SearchRecentSuggestionsProvider/query.js"
+IContentProvider.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.content.IContentProvider/query.js"
+MediaStore$Images$Media.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.provider.MediaStore_Images_Media/query.js"
+SQLiteDirectCursorDriver.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.database.sqlite.SQLiteDirectCursorDriver/query.js"
+SliceProvider.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.app.slice.SliceProvider/query.js"
+SQLiteCursorDriver.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.database.sqlite.SQLiteCursorDriver/query.js"
+SQLiteDatabase.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.database.sqlite.SQLiteDatabase/query.js"
+DownloadManager.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.app.DownloadManager/query.js"
+ContentProviderClient.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.content.ContentProviderClient/query.js"
+SearchIndexablesProvider.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.provider.SearchIndexablesProvider/query.js"
+MediaStore$Images$Thumbnails.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.provider.MediaStore_Images_Thumbnails/query.js"
+ContentProviderProxy.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.content.ContentProviderProxy/query.js"
+Telephony$Mms.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.provider.Telephony_Mms/query.js"
+RingtoneManager.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.media.RingtoneManager/query.js"
+ContentProvider$Transport.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.content.ContentProvider_Transport/query.js"
+CalendarContract$Attendees.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.provider.CalendarContract_Attendees/query.js"
+Telephony$Sms.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.provider.Telephony_Sms/query.js"
+DocumentsProvider.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/android.provider.DocumentsProvider/query.js"
+HttpUrl.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/com.android.okhttp.HttpUrl/query.js"
+HttpUrl$Builder.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/com.android.okhttp.HttpUrl_Builder/query.js"
+ZonedDateTime.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.ZonedDateTime/query.js"
+ChronoLocalDateTime.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.chrono.ChronoLocalDateTime/query.js"
+OffsetTime.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.OffsetTime/query.js"
+Instant.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.Instant/query.js"
+MonthDay.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.MonthDay/query.js"
+TemporalAccessor.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.temporal.TemporalAccessor/query.js"
+Year.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.Year/query.js"
+LocalTime.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.LocalTime/query.js"
+OffsetDateTime.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.OffsetDateTime/query.js"
+Parsed.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.format.Parsed/query.js"
+Month.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.Month/query.js"
+ZoneOffset.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.ZoneOffset/query.js"
+ChronoLocalDate.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.chrono.ChronoLocalDate/query.js"
+DayOfWeek.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.DayOfWeek/query.js"
+YearMonth.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.YearMonth/query.js"
+LocalDateTime.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.LocalDateTime/query.js"
+LocalDate.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.LocalDate/query.js"
+ChronoZonedDateTime.query: Auto-generated handler at "/Users/manwelbugeja/git/hacky-yara-androguard/dynamic_files/frida_trace/__handlers__/java.time.chrono.ChronoZonedDateTime/query.js"
+Started tracing 45 functions. Press Ctrl+C to stop.
+           /* TID 0xff6 */
+  3720 ms  Uri$Builder.query("<instance: android.net.Uri$Part, $className: android.net.Uri$Part$EmptyPart>")
+  3721 ms  <= "<instance: android.net.Uri$Builder>"
+  3721 ms  Uri$Builder.query("<instance: android.net.Uri$Part, $className: android.net.Uri$Part$EmptyPart>")
+  3721 ms  <= "<instance: android.net.Uri$Builder>"
+           /* TID 0x1034 */
+ 36454 ms  ContentResolver.query("<instance: android.net.Uri, $className: android.net.Uri$StringUri>", null, null, null, null)
+ 36455 ms     | ContentResolver.query("<instance: android.net.Uri, $className: android.net.Uri$StringUri>", null, null, null, null, null)
+ 36455 ms     |    | ContentResolver.query("<instance: android.net.Uri, $className: android.net.Uri$StringUri>", null, null, null)
+ 36457 ms     |    |    | ContentProviderProxy.query("jakhar.aseem.diva", "<instance: android.net.Uri, $className: android.net.Uri$StringUri>", null, null, null)
+ 36515 ms     |    |    | <= "<instance: android.database.Cursor, $className: android.database.BulkCursorToCursorAdaptor>"
+ 36517 ms     |    | <= "<instance: android.database.Cursor, $className: android.content.ContentResolver$CursorWrapperInner>"
+ 36517 ms     | <= "<instance: android.database.Cursor, $className: android.content.ContentResolver$CursorWrapperInner>"
+ 36518 ms  <= "<instance: android.database.Cursor, $className: android.content.ContentResolver$CursorWrapperInner>"
+ 40418 ms  ContentResolver.query("<instance: android.net.Uri, $className: android.net.Uri$StringUri>", null, null, null, null)
+ 40418 ms     | ContentResolver.query("<instance: android.net.Uri, $className: android.net.Uri$StringUri>", null, null, null, null, null)
+ 40418 ms     |    | ContentResolver.query("<instance: android.net.Uri, $className: android.net.Uri$StringUri>", null, null, null)
+ 40420 ms     |    |    | ContentProviderProxy.query("jakhar.aseem.diva", "<instance: android.net.Uri, $className: android.net.Uri$StringUri>", null, null, null)
+ 40454 ms     |    |    | <= "<instance: android.database.Cursor, $className: android.database.BulkCursorToCursorAdaptor>"
+ 40456 ms     |    | <= "<instance: android.database.Cursor, $className: android.content.ContentResolver$CursorWrapperInner>"
+ 40456 ms     | <= "<instance: android.database.Cursor, $className: android.content.ContentResolver$CursorWrapperInner>"
+ 40457 ms  <= "<instance: android.database.Cursor, $className: android.content.ContentResolver$CursorWrapperInner>"

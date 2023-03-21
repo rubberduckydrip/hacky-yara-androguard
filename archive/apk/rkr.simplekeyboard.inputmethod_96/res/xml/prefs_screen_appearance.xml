@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/settings_screen_appearance" android:key="screen_appearance"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto">
-    <PreferenceScreen android:title="@string/settings_screen_theme" android:key="screen_theme" android:fragment="rkr.simplekeyboard.inputmethod.latin.settings.ThemeSettingsFragment" />
-    <rkr.simplekeyboard.inputmethod.latin.settings.ColorDialogPreference android:title="@string/keyboard_color" android:key="pref_keyboard_color" />
-    <CheckBoxPreference android:title="@string/matching_navbar_color" android:key="pref_matching_navbar_color" android:defaultValue="false" />
-    <rkr.simplekeyboard.inputmethod.latin.settings.SeekBarDialogPreference android:title="@string/prefs_keyboard_height_settings" android:key="pref_keyboard_height" latin:maxValue="@integer/config_max_keyboar_height" latin:minValue="@integer/config_min_keyboar_height" latin:stepValue="@integer/config_keyboar_height_step" />
-</PreferenceScreen>

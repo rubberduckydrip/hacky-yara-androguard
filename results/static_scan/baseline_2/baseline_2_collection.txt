@@ -1,0 +1,7 @@
+audio_capture ../data/apk_decompiled/baseline_2/AndroidManifest.xml
+data_from_local_system ../data/apk_decompiled/baseline_2/AndroidManifest.xml
+call_log ../data/apk_decompiled/baseline_2/AndroidManifest.xml
+contacts ../data/apk_decompiled/baseline_2/AndroidManifest.xml
+sms_messages ../data/apk_decompiled/baseline_2/AndroidManifest.xml
+video_capture ../data/apk_decompiled/baseline_2/AndroidManifest.xml
+call_control ../data/apk_decompiled/baseline_2/AndroidManifest.xml
