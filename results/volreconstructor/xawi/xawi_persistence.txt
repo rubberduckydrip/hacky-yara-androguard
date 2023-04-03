@@ -1,0 +1,16 @@
+foreground_persistence ../data/volreconstructor/xawi/4__dynamic-code.odex_0xca852000.bin
+foreground_persistence ../data/volreconstructor/xawi/7__dynamic-code.odex_0xcab9d000.bin
+foreground_persistence ../data/volreconstructor/xawi/xawi/7__dynamic-code.odex_0xcab9d000.bin
+foreground_persistence ../data/volreconstructor/xawi/xawi/4__dynamic-code.odex_0xca852000.bin
+foreground_persistence ../data/volreconstructor/xawi/8__dynamic-code.odex_0xc7a51000.bin
+foreground_persistence ../data/volreconstructor/xawi/3__base/classes.dex
+event_triggered_execution_broadcast_receivers ../data/volreconstructor/xawi/xawi/0__base/AndroidManifest.xml
+event_triggered_execution_broadcast_receivers ../data/volreconstructor/xawi/xawi/0__base/classes.dex
+foreground_persistence ../data/volreconstructor/xawi/xawi/3__base/classes.dex
+foreground_persistence ../data/volreconstructor/xawi/xawi/8__dynamic-code.odex_0xc7a51000.bin
+foreground_persistence ../data/volreconstructor/xawi/xawi/5__dynamic-code.odex_0xc6d5f000.bin
+event_triggered_execution_broadcast_receivers ../data/volreconstructor/xawi/0__base/AndroidManifest.xml
+event_triggered_execution_broadcast_receivers ../data/volreconstructor/xawi/0__base/classes.dex
+foreground_persistence ../data/volreconstructor/xawi/5__dynamic-code.odex_0xc6d5f000.bin
+foreground_persistence ../data/volreconstructor/xawi/xawi/6__base/classes.dex
+foreground_persistence ../data/volreconstructor/xawi/6__base/classes.dex

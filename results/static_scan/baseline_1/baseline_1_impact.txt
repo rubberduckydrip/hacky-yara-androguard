@@ -1,0 +1,3 @@
+sms_control ../data/apk_decompiled/baseline_1/AndroidManifest.xml
+call_control ../data/apk_decompiled/baseline_1/AndroidManifest.xml
+sms_control ../data/apk_decompiled/baseline_1/classes.dex

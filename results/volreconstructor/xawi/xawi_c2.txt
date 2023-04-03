@@ -1,0 +1,4 @@
+call_control ../data/volreconstructor/xawi/xawi/0__base/AndroidManifest.xml
+call_control ../data/volreconstructor/xawi/xawi/6__base/AndroidManifest.xml
+call_control ../data/volreconstructor/xawi/0__base/AndroidManifest.xml
+call_control ../data/volreconstructor/xawi/6__base/AndroidManifest.xml

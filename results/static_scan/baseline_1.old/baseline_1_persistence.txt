@@ -1,0 +1,2 @@
+event_triggered_execution_broadcast_receivers ../data/apk_decompiled/baseline_1/AndroidManifest.xml
+foreground_persistence ../data/apk_decompiled/baseline_1/classes.dex

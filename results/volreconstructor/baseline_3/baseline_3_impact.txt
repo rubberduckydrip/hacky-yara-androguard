@@ -1,0 +1,4 @@
+sms_control ../data/volreconstructor/baseline_3/2__met.odex_0xd0803000.dump
+sms_control ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+call_control ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+sms_control ../data/volreconstructor/baseline_3/baseline_3/2__met.odex_0xd0803000.dump

@@ -1,0 +1,2 @@
+event_triggered_execution_broadcast_receivers ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+event_triggered_execution_broadcast_receivers ../data/volreconstructor/baseline_3/baseline_3/classes.dex

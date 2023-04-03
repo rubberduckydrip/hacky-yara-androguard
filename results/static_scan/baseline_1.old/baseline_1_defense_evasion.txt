@@ -1,0 +1,5 @@
+geofencing ../data/apk_decompiled/baseline_1/AndroidManifest.xml
+execution_guardrails ../data/apk_decompiled/baseline_1/classes.dex
+geofencing ../data/apk_decompiled/baseline_1/classes.dex
+suppress_application ../data/apk_decompiled/baseline_1/classes.dex
+user_evasion ../data/apk_decompiled/baseline_1/classes.dex

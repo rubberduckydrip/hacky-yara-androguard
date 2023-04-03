@@ -1,0 +1,8 @@
+sms_control ../data/volreconstructor/xawi/2__met.odex_0xcd4cd000.dump
+sms_control ../data/volreconstructor/xawi/3__base/AndroidManifest.xml
+sms_control ../data/volreconstructor/xawi/xawi/2__met.odex_0xcd4cd000.dump
+sms_control ../data/volreconstructor/xawi/xawi/3__base/AndroidManifest.xml
+call_control ../data/volreconstructor/xawi/xawi/0__base/AndroidManifest.xml
+call_control ../data/volreconstructor/xawi/xawi/6__base/AndroidManifest.xml
+call_control ../data/volreconstructor/xawi/0__base/AndroidManifest.xml
+call_control ../data/volreconstructor/xawi/6__base/AndroidManifest.xml

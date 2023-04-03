@@ -1,0 +1,7 @@
+audio_capture ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+data_from_local_system ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+call_log ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+contacts ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+sms_messages ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+video_capture ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+call_control ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml

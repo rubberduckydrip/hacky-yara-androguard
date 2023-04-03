@@ -1,7 +1,6 @@
-gui_input_capture ../data/apk_decompiled/baseline_1/AndroidManifest.xml
 audio_capture ../data/apk_decompiled/baseline_1/AndroidManifest.xml
 data_from_local_system ../data/apk_decompiled/baseline_1/AndroidManifest.xml
-call_log ../data/apk_decompiled/baseline_1/AndroidManifest.xml
+contacts ../data/apk_decompiled/baseline_1/AndroidManifest.xml
 sms_messages ../data/apk_decompiled/baseline_1/AndroidManifest.xml
 video_capture ../data/apk_decompiled/baseline_1/AndroidManifest.xml
-screen_capture ../data/apk_decompiled/baseline_1/classes.dex
+call_control ../data/apk_decompiled/baseline_1/AndroidManifest.xml

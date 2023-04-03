@@ -1,0 +1,5 @@
+geofencing ../data/volreconstructor/baseline_3/baseline_3/AndroidManifest.xml
+dynamic_code_loading ../data/volreconstructor/baseline_3/1__puc82b.odex_0xd1304000.dump
+dynamic_code_loading ../data/volreconstructor/baseline_3/baseline_3/1__puc82b.odex_0xd1304000.dump
+dynamic_code_loading ../data/volreconstructor/baseline_3/baseline_3/classes.dex
+geofencing ../data/volreconstructor/baseline_3/baseline_3/classes.dex

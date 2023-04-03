@@ -1,0 +1,1 @@
+call_control ../data/volreconstructor/baseline_2/baseline_2/AndroidManifest.xml
